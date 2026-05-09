@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-title" content="Hosoo 지표" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/icon.svg" />
-    <link rel="stylesheet" href="/styles.css?v=summary-column-align2" />
+    <link rel="stylesheet" href="/styles.css?v=summary-dates1" />
   </head>
   <body>
     <div class="app-shell">
@@ -78,6 +78,7 @@
                 <div>
                   <h3>직영점 예약 확정</h3>
                 </div>
+                <span id="summaryConfirmedDate" class="summary-date">-</span>
               </div>
               <div id="summaryConfirmedReservations" class="summary-table"></div>
             </article>
@@ -87,6 +88,7 @@
                 <div>
                   <h3>직영점 오늘 이용</h3>
                 </div>
+                <span id="summaryUsedDate" class="summary-date">-</span>
               </div>
               <div id="summaryUsedReservations" class="summary-table"></div>
             </article>
@@ -96,6 +98,7 @@
                 <div>
                   <h3>당사 지점별 리뷰</h3>
                 </div>
+                <span id="summaryOurDate" class="summary-date">-</span>
               </div>
               <div id="summaryOurStores" class="summary-table"></div>
             </article>
@@ -105,6 +108,7 @@
                 <div>
                   <h3>경쟁사 상위 리뷰</h3>
                 </div>
+                <span id="summaryCompetitorDate" class="summary-date">-</span>
               </div>
               <div id="summaryCompetitors" class="summary-table"></div>
             </article>
@@ -114,6 +118,7 @@
                 <div>
                   <h3>가맹점 상위 리뷰</h3>
                 </div>
+                <span id="summaryFranchiseDate" class="summary-date">-</span>
               </div>
               <div id="summaryFranchiseStores" class="summary-table"></div>
             </article>
@@ -123,6 +128,7 @@
                 <div>
                   <h3>주요 리뷰 키워드</h3>
                 </div>
+                <span id="summaryKeywordDate" class="summary-date">-</span>
               </div>
               <div id="summaryKeywords" class="keyword-list compact-keywords"></div>
             </article>
@@ -252,6 +258,6 @@
         </section>
       </main>
     </div>
-    <script src="/app.js?v=summary-column-align2"></script>
+    <script src="/app.js?v=summary-dates1"></script>
   </body>
 </html>

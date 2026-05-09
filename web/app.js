@@ -152,11 +152,23 @@ function renderMetrics(payload) {
 }
 
 function renderSummary(payload) {
+  renderSummaryDates(payload);
   renderSummaryReservations(payload.reservations);
   renderSummaryOurStores(payload.reviews.ourPlaces || []);
   renderSummaryCompetitors((payload.reviews.competitorPlaces || []).slice(0, 6));
   renderSummaryFranchiseStores(payload.reviews.franchisePlaces || []);
   renderSummaryKeywords(payload.reviews.keywords || []);
+}
+
+function renderSummaryDates(payload) {
+  const reservationDate = payload.reservationDate || payload.date || "-";
+  const reviewDate = payload.reviewDate || "-";
+  setText("summaryConfirmedDate", reservationDate);
+  setText("summaryUsedDate", reservationDate);
+  setText("summaryOurDate", reviewDate);
+  setText("summaryCompetitorDate", reviewDate);
+  setText("summaryFranchiseDate", reviewDate);
+  setText("summaryKeywordDate", reviewDate);
 }
 
 function renderSummaryReservations(reservations) {
