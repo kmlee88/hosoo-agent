@@ -309,6 +309,11 @@ select {
   font-size: 14px;
 }
 
+.summary-table-head span:first-child,
+.summary-table-row span:first-child {
+  padding-left: 4px;
+}
+
 .summary-table-row strong {
   font-size: 18px;
   font-variant-numeric: tabular-nums;
