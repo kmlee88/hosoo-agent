@@ -120,6 +120,7 @@ def fetch_visitor_reviews(
     session: NaverSession,
     place_id: str,
     display: int = 50,
+    page: int = 1,
 ) -> tuple[list[dict[str, Any]], int]:
     payload = [
         {
@@ -128,7 +129,7 @@ def fetch_visitor_reviews(
                 "input": {
                     "businessId": place_id,
                     "businessType": "place",
-                    "page": 1,
+                    "page": page,
                     "display": display,
                     "isPhotoUsed": False,
                     "item": "0",
@@ -170,17 +171,74 @@ def fetch_visitor_reviews(
     return data["items"], int(data["total"])
 
 
+def detect_latest_review_date(places: list[Place], display: int = 5) -> date:
+    session = create_naver_session()
+    errors: list[str] = []
+    for place in places:
+        try:
+            items, _ = fetch_visitor_reviews(session, place.id, display=display, page=1)
+        except Exception as exc:
+            errors.append(f"{place.name}: {exc}")
+            continue
+
+        for item in items:
+            parsed = parse_naver_review_date(item.get("created", ""))
+            if parsed:
+                return date.fromisoformat(parsed)
+
+    detail = "; ".join(errors[:3])
+    raise RuntimeError(f"Could not detect latest Naver review date. {detail}")
+
+
 def collect_place_snapshot(
     session: NaverSession,
     place: Place,
     target_date: date,
     display: int = 50,
+    max_pages: int = 5,
 ) -> PlaceReviewSnapshot:
+    target_date_value = target_date.isoformat()
+    details: list[ReviewDetail] = []
+    seen_ids: set[str] = set()
+    total: int | None = None
+
     try:
-        items, total = fetch_visitor_reviews(session, place.id, display=display)
+        for page in range(1, max_pages + 1):
+            items, page_total = fetch_visitor_reviews(session, place.id, display=display, page=page)
+            if total is None:
+                total = page_total
+            if not items:
+                break
+
+            reached_older_reviews = False
+            for item in items:
+                review_id = item.get("id", "")
+                if review_id in seen_ids:
+                    continue
+                seen_ids.add(review_id)
+
+                review_date = parse_naver_review_date(item.get("created", ""), base_year=target_date.year)
+                if review_date == target_date_value:
+                    details.append(
+                        ReviewDetail(
+                            review_id=review_id,
+                            created=item.get("created", ""),
+                            visited=item.get("visited", ""),
+                            author=item.get("author", {}).get("nickname", ""),
+                            rating=str(item.get("rating", "")),
+                            body=item.get("body", "") or "",
+                            tags=item.get("tags", []) or [],
+                            origin_type=item.get("originType", "") or "",
+                        )
+                    )
+                elif review_date and review_date < target_date_value:
+                    reached_older_reviews = True
+
+            if reached_older_reviews:
+                break
     except Exception as exc:
         return PlaceReviewSnapshot(
-            collected_date=target_date.isoformat(),
+            collected_date=target_date_value,
             place_id=place.id,
             name=place.name,
             type=place.type,
@@ -191,34 +249,9 @@ def collect_place_snapshot(
             error=str(exc),
         )
 
-    details: list[ReviewDetail] = []
-    seen_ids: set[str] = set()
-    for item in items:
-        review_id = item.get("id", "")
-        if review_id in seen_ids:
-            continue
-        seen_ids.add(review_id)
-
-        review_date = parse_naver_review_date(item.get("created", ""), base_year=target_date.year)
-        if review_date != target_date.isoformat():
-            continue
-
-        details.append(
-            ReviewDetail(
-                review_id=review_id,
-                created=item.get("created", ""),
-                visited=item.get("visited", ""),
-                author=item.get("author", {}).get("nickname", ""),
-                rating=str(item.get("rating", "")),
-                body=item.get("body", "") or "",
-                tags=item.get("tags", []) or [],
-                origin_type=item.get("originType", "") or "",
-            )
-        )
-
     receipt_count = sum(1 for detail in details if detail.origin_type == "영수증")
     return PlaceReviewSnapshot(
-        collected_date=target_date.isoformat(),
+        collected_date=target_date_value,
         place_id=place.id,
         name=place.name,
         type=place.type,
@@ -233,6 +266,7 @@ def collect_review_snapshots(
     places: list[Place],
     target_date: date | None = None,
     display: int = 50,
+    max_pages: int = 5,
     delay_seconds: float = 1.0,
 ) -> list[PlaceReviewSnapshot]:
     run_date = target_date or date.today()
@@ -256,7 +290,15 @@ def collect_review_snapshots(
 
     snapshots: list[PlaceReviewSnapshot] = []
     for index, place in enumerate(places):
-        snapshots.append(collect_place_snapshot(session, place, run_date, display=display))
+        snapshots.append(
+            collect_place_snapshot(
+                session,
+                place,
+                run_date,
+                display=display,
+                max_pages=max_pages,
+            )
+        )
         if index < len(places) - 1 and delay_seconds > 0:
             time.sleep(delay_seconds)
     return snapshots

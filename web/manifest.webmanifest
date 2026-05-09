@@ -1,0 +1,17 @@
+{
+  "name": "Atelier Hosoo 운영 대시보드",
+  "short_name": "Hosoo 지표",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f8f6",
+  "theme_color": "#254f7a",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

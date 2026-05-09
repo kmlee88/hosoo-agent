@@ -1,0 +1,5040 @@
+[
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1638682001",
+    "name": "아뜰리에호수 잠실",
+    "type": "당사",
+    "total_reviews": 11347,
+    "daily_reviews": 19,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff10ffb5d786904e103a66",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jiw****",
+        "rating": "None",
+        "body": "일단 너무 친절하시고 너무 깔끔 하고 이뻐요 \n완전완전 추천입니다아",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff11a0dd9bd624c1222508",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "CiaoSeojun",
+        "rating": "None",
+        "body": "매장도 깔끔하고 직원분 너무 친절하셔요!! 강추 드립니다~",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0fc980d2f77e127d7c87",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "정3389",
+        "rating": "None",
+        "body": "너무이뻐요!!! 좋은추억으로가지구갑니다~!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0f6b3fba74e95ed82df9",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "으루루루루루루루루루룰",
+        "rating": "None",
+        "body": "반지 너무너무 예쁘게 잘 만들었습니다 감사랍니당",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff108369d335b6e84e0c77",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "yongin503",
+        "rating": "None",
+        "body": "재밌었습니다~~",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0f3bd8a3eec41780375a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "장동권5",
+        "rating": "None",
+        "body": "여자친구랑 처음으로 반지 만들어봤는데 선생님께서 친절하게 알려주셔서 알차고 즐거운 데이트였습니다 감사합니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0c0569ddee050dc70110",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "23city",
+        "rating": "None",
+        "body": "굉장히 친절하게 잘 알려주셔서 쉽게 할 수 만들 수 있었어욥~~~",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff121c53886030493b1593",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "k_nu****",
+        "rating": "None",
+        "body": "우선 시설은 들어가자마자 너무 분위기 있고 깨끗해서 좋았어요~ 여러 팀이서 하지만 각자 집중할 수 있어서 편하게 할 수 있었어요!!\n\n직원분도 정말 섬세하게 하나하나 다 확인해주시고 도와주셔서 예쁘게 잘 만들고 갑니다💕",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0c2f3c61373f7895b091",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "테라코타84",
+        "rating": "None",
+        "body": "친절하고 알기 쉽게 잘 가르쳐주셔서 덕분에 좋은 추억 만들고 갑니다~ 반지도 아주 마음에 드네요😊",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff011c31eff2813f3c4c82",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "맛집 보면 짓는 개",
+        "rating": "None",
+        "body": "디자인도 깔끔하고 마음에 들어요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefecbc2b93d56daf10b4a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "qks****",
+        "rating": "None",
+        "body": "잘 쓰겠습니다 ^^ 재밌는 추억 만들고 가용",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0640ed38e58d02888f52",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "az0****",
+        "rating": "None",
+        "body": "친철하세요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefcc4780147ca486aed6d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "이승우646",
+        "rating": "None",
+        "body": "날 좋은 날 방문해 커플끼리 좋은 추억으로 반지 만들고 반지 나오는 거 기다리는 동안 주변 맛집 가도 되고, 석촌 호수 산책하고 와도 되고 좋네요. 친절하게 해주셔서 감사드립니다",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefc6627efdd830030a024",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Sim10",
+        "rating": "None",
+        "body": "분위기가 너무 좋구 직원분들이 너무 친절하게 알려주시고 여자친구가 너무 좋아했어요!! 너무 추천합니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff10995e92b53adf6637a7",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "서단90",
+        "rating": "None",
+        "body": "친절하게 잘 알려주시고 초보자도 쉽게 할 수 있어요\n디자인도 다양하고 예쁜거 많아서 강추!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feec20ffa605675194fd55",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "소윤9834",
+        "rating": "None",
+        "body": "직원분들 너무 친절하시고 좋아요 👍🏻👍🏻",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feeba9470fb4609f4c20b9",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "키티파티",
+        "rating": "None",
+        "body": "100일 기념으로 반지만들고 왔어요! 처음이라 걱정했는데 결과물이 생각보다 너무 이뻐서 엄청나게 만족합니다 기념일때 방문하기 좋을 것 같아요 추천합니다❤️",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fedd5b18eb80f1ea3e2bad",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "마싯는것만 먹음",
+        "rating": "None",
+        "body": "너무 이쁜 반지 감사합니다! 예쁜 추억 만들었어요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff02dd526ccfb0d40fd67c",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "노하라히로시",
+        "rating": "None",
+        "body": "잘모르는상황에서 친절히 설명해주셔서 좋은시간 만들었습니다 ! 재밌는 추억 만들어갑니다 !",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1277453461",
+    "name": "아뜰리에호수 홍대",
+    "type": "당사",
+    "total_reviews": 9929,
+    "daily_reviews": 12,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff18108fa6eb468821bbd2",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "k_y****",
+        "rating": "None",
+        "body": "오늘 남자친구랑 반지 만들고 왔는데 분위기도 좋고 너무 재밌었어요 :)\n처음이라 걱정했는데 설명도 엄청 친절하게 해주시고 하나하나 도와주셔서 예쁘게 완성됐어요!\n직접 만든 반지라 더 의미 있고 좋은 추억 된 것 같아요. 데이트 코스로 완전 추천합니다 🤍",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff16f3ebb57faee25e1b12",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "hwan2yo",
+        "rating": "None",
+        "body": "공방이 처음이였는데 직원분들이 친절하게 설명도 해주시고 도와주셔서 금방 쉽게 만들 수 있었어요!\n생각했던것보다 예쁘게 나와서 너무 뿌듯합니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0ff9de56d4326ca5e513",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "서누5154",
+        "rating": "None",
+        "body": "인스타보고 반지들이 너무 이뻐서 여자친구랑 같이 만들었는데 너무 만족스럽게 나온 거 같고\n직원분들고 친절하셔서 만족스러웠습니다\n꼭 요기로 오세요~",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff10a18efdc83fd168a165",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "한그링99",
+        "rating": "None",
+        "body": "여자친구와 기념일에 와서 같이 커플링 만들었는데 매우 깔끔하고 초보자인 저에게도 친절하게 잘 가르쳐주셨습니다~! 다른분들께 추천드려요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef45f4327ebf909049e3a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "faut",
+        "rating": "None",
+        "body": "좋아요 재밌어요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff091283bbcfcb047db8a8",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "hap****",
+        "rating": "None",
+        "body": "기념일에 예약하고 다녀왔는데 너무 친절하게 잘 알려주셨어요 디자인도 다양해서 좋았고 재밌게 했던거 같아요 추천합니닷!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff05e872518715d0c80b4b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "김죠1166",
+        "rating": "None",
+        "body": "처음인데 친절하게 알려주셔서 좋았어용",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee417b5934e152f5c538f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "yer****",
+        "rating": "None",
+        "body": "새로운 경험이었어요!! 신기하고 재밌네요 데이트코스로 추천합니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feea34fcabeff361070b9a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "bab****",
+        "rating": "None",
+        "body": "기념일에 오기 좋습니다.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee898986542025047a52e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "psa****",
+        "rating": "None",
+        "body": "너므예빠요!! 또올거가타여!🥺✨",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee2f55cbfa0657d5ca53c",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "myislove",
+        "rating": "None",
+        "body": "홍대입구랑 가깝고 친절하셔서 빠르게 만들 수 있었습니다! 반지도 너무 이뻐요! 감사합니다~",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fedb29c239d1323b503076",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "cod****",
+        "rating": "None",
+        "body": "직접 커플링 만들어 본 건 처음인데 너무 의미있고 좋은 것 같아요!! 퀄리티도 좋고 예뻐용ㅎㅎ 친절하게 알려주셔서 기분도 좋고 어렵지 않아요👍🏻😚 추천합니당",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1477059571",
+    "name": "아뜰리에호수 혜화",
+    "type": "당사",
+    "total_reviews": 4470,
+    "daily_reviews": 16,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff068b0d349acfafe5405f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "지수75",
+        "rating": "None",
+        "body": "남자친구랑 1주년 기념으로 반지 만들러 왔어요 \n친절하게 알려주셔서 이런거 처음 해보는데 쉽게 따라할 수 있었어요 예쁘게 잘 끼고 다니겠습니다 감사합니다🤍",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff05c000ba00801acbcc99",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "heos****",
+        "rating": "None",
+        "body": "남자친구랑 반지 맞췄는데 너무 마음에 들어요💍💙",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff03fdefd98244c33624c8",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "와인84",
+        "rating": "None",
+        "body": "쉽고 친절하게 도와주셔서 재밌게 만들었어요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef8767600a30373933d81",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "shd****",
+        "rating": "None",
+        "body": "너무 이쁘고 친절하게 해주셧어요!! 반지 이뻐요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee7f5d2ce6c3cf056e747",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "isolyu",
+        "rating": "None",
+        "body": "여자친구랑 첫 커플링 맞추러 왔는데 반지 가공하기도 쉽고 직원분이 친절히 알려줬습니다~!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0cb2b019ca7a05c5465e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "최윤서764",
+        "rating": "None",
+        "body": "",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefc2c1c9661ea3ce83ea5",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "bla****",
+        "rating": "None",
+        "body": "반지가 만들어져가는 과정을 중간에 체험을 해볼수있는부분이 좋았고 나온반지의 퀄리티도 너무 만족스럽습니다! 여자친구와 기념반지로 충분한 퀄리티 좋습니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef281b798654ea72d5378",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jac****",
+        "rating": "None",
+        "body": "처음 반지만들어 보는데 잘 알려주시고 부족한 부분 있으면 알려주셔서 이쁘게 반지 나왔습니다! 다음에 또 올게요~ 감사합니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed764e7d92c64d7f3b223",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "yooonseul",
+        "rating": "None",
+        "body": "첫 커플링을 맞추려는데 의미있게 만들고싶어서 찾아보다 아뜰리에 호수가 좋았어용!\n분점들이 많아서 가까운 곳으로 예약할수있어서 좋았구\n직원분들도 친절하게 안내해주셔서 어렵지않고 재밌었어요!\n반지도 넘 예뻐용 데이트나 기념일에강추합니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feeefe85b960cb34ec95aa",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "hw1****",
+        "rating": "None",
+        "body": "여자친구랑 맞추려고 와봤는데 반지들이 너무 예뻐서 좋았어요🙂🙂 친절하게 알려주세요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feff3973cc2412d38e6fea",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "페리0035",
+        "rating": "None",
+        "body": "반지 너무 예쁘고 만드는법도 간단했어요! 같이 반지를 만들 수 있어서 좋은 추억 만들고 갑니다😚",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef0918331530cb6cf5d8f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "woa****",
+        "rating": "None",
+        "body": "여자친구랑 이쁜 커플링 만들 기회 주셔서 감사합니다 !\n너무 이쁜 반지 만들었어요🥳 이쁘게 잘 착용하겠습니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69febffa193a674ecb467935",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "오늘도맛깔나게",
+        "rating": "None",
+        "body": "연인이 아닌 남동생과 ㅋㅋㅋ 그래도 재밌고 즐거운 추억으로 만들고 갑니다! 재밌었어요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feba5031eff2813fe96184",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "pei****",
+        "rating": "None",
+        "body": "분위기 정말 미쳤어요!!! 친구랑 우정반지 만들어 왔는데 디자인도 다양하고 너무 선택하기 어렵더라고요ㅜㅜ 직원분도 핀절하게 설명해주셔서 손쉽게 만들수 있었던거 같아요. 연인과 같이 와도 좋을 것 같아요. 강추강추!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed5c845ece041900a3534",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "단28",
+        "rating": "None",
+        "body": "남자친구랑 반지 만들었는데 친절하시고 엄청 잘 알려주세요!! 감사함니다 :-D",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69febee6ebb57faee2fce12e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ado****",
+        "rating": "None",
+        "body": "사장님이 친절하시고 도구 사용법도 자세히 알려주셔서 좋았습니다. \n솔직히 들어가기 전에는 잘못하면 어쩌지하고 걱정했었는데, 주기적으로 검사해주셔서 안심하고 만들 수 있었습니다. \n반지 사이즈도 직접 착용해보고 확인할 수 있고 무엇보다도 만드는 과정이 재밌었기 때문에 반지 맞추실 생각이 있으시다면 추천드립니다.",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1954256012",
+    "name": "아뜰리에호수 성수",
+    "type": "당사",
+    "total_reviews": 4454,
+    "daily_reviews": 14,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff12184990d8b1992edba8",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "xyxxniii",
+        "rating": "None",
+        "body": "첫 커플링이라 반지공방에서 맞추려고 방문했는데\n기억에 남는 추억이 되었습니댜\n추천이용! 🫶🏻",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff101f64b4a0761f041c56",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "하영593",
+        "rating": "None",
+        "body": "",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff107eed60456685d58ee5",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "kjk****",
+        "rating": "None",
+        "body": "친절하게 알려주시고 초보자도 어렵지 않게 만들 수 있어요!! 연인과 함께 데이트 강추!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff082b53d17c5178c4f55d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "sum****",
+        "rating": "None",
+        "body": "남자친구랑 1일 기념으로 커플링 만들러왔는데 너무 예쁘게 잘 만들고갑니당 🥰",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0918bc44072a4e5253cf",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "김지은61732",
+        "rating": "None",
+        "body": "반지 깔끔하고 디자인 많고 예뻐요! 짝꿍과 와서 천천히 이야기 나누며 만들기 좋아요 ㅎㅎ",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefeda824e9e04c87fbbc6",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "shi****",
+        "rating": "None",
+        "body": "친절하시구 똥손도 충분히 만들 수 있게 해주세요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef9202ff1986729a7b1a3",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "정길영29",
+        "rating": "None",
+        "body": "여자친구와 첫 반지를 공방에서 맞춰봤는데 만드는 과정에서 친절하게 알려주시고 꼼꼼하게 봐주셔서 너무 좋게 반지를 맞춘거 같아요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fedd6b337ff58d96a967bd",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "남재혁10",
+        "rating": "None",
+        "body": "데이트 코스로 좋아요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef4cd54a614e55f7e3fa3",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "김은영7026",
+        "rating": "None",
+        "body": "처음 해보는 반지 공방이였는데 쉽고 재미있게 만든거 같아요!\n다음에는 다른 디자인으로 또 와서 만들고 싶을정도ㅎㅎ\n우정링 매우 만족!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef0a3188f81f02eac12cf",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "문정은16",
+        "rating": "None",
+        "body": "인스타로 찾다가 직접 체험해보고싶어서 왔는데 다들 설명도 친절하게 해주시고 만들기 너무 쉬웠어요~!\n서로 직접 만든 반지로 낄 수 있다는게 의미깊었답니다 추천드려요 🖤",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef0882ea88d856b469976",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "조현호6545",
+        "rating": "None",
+        "body": "여자친구랑 커플링 맞추기 좋아요! 반지가 이쁘고 매장이 깔끔하고 친절하셔요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee4071f9733a08ae14403",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "땡칠이랑께",
+        "rating": "None",
+        "body": "친절하게 알려주셔서 쉽게 만들 수 있고 무엇보다 퀄리티가 너무 좋아서 대만족입니다☺️",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69febde4451b26d5b6929f26",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "선화1021",
+        "rating": "None",
+        "body": "남자친구와 기념일 반지 맞추러 방문했습니다!\n공방은 처음인데 차근차근 알려주시고 공간도 깔끔하고 아늑해서 재밌게 만들었습니다 ㅎㅎ\n기념일 반지 만들기에 너무 좋은 공간이에요🩷",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feaa5b0d349acfaf7c12e9",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "dbd****",
+        "rating": "None",
+        "body": "여자친구와 서로 만들어주며 반지와 좋은추억을 함께 만들었습니다. 커플링 하러 오실분들은 반지공방에서 직접 만들고 가세요!",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "2009283871",
+    "name": "아뜰리에호수 성수연무장",
+    "type": "당사",
+    "total_reviews": 516,
+    "daily_reviews": 3,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69fed8db53a4199f4d810424",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "이현지0",
+        "rating": "None",
+        "body": "직접 다듬는 작업이 재미있었습니다! 친절하시고, 편안한 분위기라 좋은 추억 만들 후 있었습니다ㅎㅎ",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed18d32cff68489672e62",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "정현철90",
+        "rating": "None",
+        "body": "시설이 너무깔끔하고 사장님도 친절히 알려주셨습니다! 반지도 상당히 예쁘게 나온거 같아서 너무 만족했습니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed1dc4f0098218a95036c",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ny97",
+        "rating": "None",
+        "body": "남자친구랑 100일 기념으로 커플링 만들었는데 같이 만들어서 의미있고 좋은 시간이었어요!",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "2009084766",
+    "name": "아뜰리에호수 제주",
+    "type": "당사",
+    "total_reviews": 904,
+    "daily_reviews": 3,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff064d887d54440f0be5f8",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "유병은15",
+        "rating": "None",
+        "body": "사장님이 너무 차절 하시고 디자인도 예쁜데다가 중간중간 수업 알려주실때도 자세하게 알려주셔서 이해도 쏙쏙되구용 배경도 너무이뻐서 만들때마다 힐링도 꺅 너무 조았서요♡♡♡",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feec63c0f9a09f657c6e6a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "kys****",
+        "rating": "None",
+        "body": "처음으로 남자친구와 같이 반지 맞추러 먼 곳까지 와봤는데 생각보다 시설도 너무 좋고, 잘 알려주셔서 초보자인 저한테도 너무 좋았어요ㅠㅠ 반지 만드는데 너무 재밌었고 그 정성을 쏟은 만큼 그렇게 힘들지 않았어요!! 초보자 분들은 꼭 한번쯤 오셔서 만드시는거 강추드려요!! 반지공방인 만큼 단순히 반지를 사는게 아니라, 서로의 반지를 직접 만들어준 시간들이 저에겐 큰 선물이라고 와닿았어요.. 연인과 좋은 기억을 만들길 바랄게요!!💗",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed1eb37ac7380f2c1d753",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "zvuly",
+        "rating": "None",
+        "body": "사장님두 친절하시고 중간중간에 와서 꼼꼼하게\n확인해주셔서 넘 좋아써요 ♥",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1495489304",
+    "name": "아뜰리에호수 수원행궁",
+    "type": "가맹점",
+    "total_reviews": 5924,
+    "daily_reviews": 17,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff12de3c61373f789cd094",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "zim****",
+        "rating": "None",
+        "body": "반지 만들기는 처음이라서 어려울 줄 알았는데 직원분들이 정말 친절하게 알려주셔서 재밌게 만들었고 예쁜 반지 잘 만든 거 같아서 좋았어요! 추천해요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff137bce13cfffce56589e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "gyu****",
+        "rating": "None",
+        "body": "처음부터 잘 알려주시고 스타일 추천이나 적합한 사이즈를 추천 해주셔서 반지 예쁘게 잘 만들고 갑니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff029cfd4ab87408e92176",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "파주출퇴근러친구",
+        "rating": "None",
+        "body": "반지만들러왔어요!!\n선생님께서 친절하게 잘 설명해주셔서 초보자들도 여유롭고 쉽게 잘 따라가며 만들 수 있어요!\n부족한 부분은 보완해 주시니 걱정없이 잘 만들었습니당\n좋은 추억이 될 거 같아요! 반지 디자인도 너무 예뻐서 고르는데 고민 많이 했어요 ㅎㅎㅎ 추천해 주셔서 좋았구 완성될 반지도 정말 기대됩니당",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0e2300ba00801ad4d09e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "dml****",
+        "rating": "None",
+        "body": "너무너무 친절하시고 반지도 너무이뻐여!!!!\n공간도 잘꾸며 놓으셨어요!!!\n덕분에 좋은 추억 남기고 갑니다~~~~🌸",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0c12ba9225695b76f1e1",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "우리집 강아지 고민국",
+        "rating": "None",
+        "body": "만드는것도 어렵지 않고 중간중간마다 도와주셔서 어렵지 않게 잘 만들어서 좋아요!\n만든거 보니깐 너무 예쁘고 남자친구랑 좋은 경험해서 더 뜻깊은것 같아요 ㅎㅎ\n100일 기념으로 좋은 가격에 좋은 경험할수있어서 좋았습니다 감사합니당🫶🏻🥹🥹🥹",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feff4c195fb31815131da0",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "홍진의",
+        "rating": "None",
+        "body": "여자친구 생일 기념으로 커플링을 맞추러 왔습니다! 수업도 너무 친절하게 잘해주시고 잘 어울리는 반지 추천도 너무 잘해주셨습니다. 디자인도 너무 이쁘고 분위기도 아늑하고 좋아서 실내 데이트 하러 오면 좋을것같아요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef278965f8d4fb8d59fbb",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "히응44",
+        "rating": "None",
+        "body": "하나부터 열까지 친절하게 가르쳐주셔서 감사합니다 잘만들고갑니당",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefc40d4af8628bd446154",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "tto****",
+        "rating": "None",
+        "body": "생일기념으로 만들러왔는데 너무 예뻐요 !\n직원분들의 설명도 친절하고 좋았습니다 👍🏻👍🏻",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0761461bb02050c002a3",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "울랄랄랄ㄹ",
+        "rating": "None",
+        "body": "반지 공방은 처음인데 친절하게 잘 설명해주셔서 기분 좋게 반지 만들고갑니다!! 반지들두 다 예뻐서 고르기 힘들었어요ㅠㅠ 담에 친구랑 맞추러 오겠습니당🥹",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefc3c4990d8b1991b9685",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "사탕장수159",
+        "rating": "None",
+        "body": "초보자도 쉽게 할 수 있게 친절하게 안내해주시고 재미있어요.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefb6e8b787a75b797deca",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "wjsd****",
+        "rating": "None",
+        "body": "",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefab224b08de14131969e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "dar****",
+        "rating": "None",
+        "body": "반지 디자인 너무 예쁘고 맘에 들어용 애인이랑 데이트하기 최고의 코스~",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee3476781f2dd9274159d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "김씨76",
+        "rating": "None",
+        "body": "여자친구랑 1주년이라 커플링 맞추러 왔는데 직원분들이 너무 친절하시고 특히 시설이 깔끔해서 좋았습니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec59360d1761f6b62ea52",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "한대희24",
+        "rating": "None",
+        "body": "커플 데이트 코스로 너무 좋네요 \n반지 디자인도 많고 디자이너님들이 돌아가면서 봐주셔서 안심하고 만들었습니다\n무상 as까지 최고!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee9ce91fef394f6ca32bc",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "동동3765",
+        "rating": "None",
+        "body": "가성비 좋구 디자인도 엄청 다양하구  디자인정하는데 시간을 더쓴거같아요~~ 둘다 즐겁게 했어요 ㅎㅎ 디자인도 이쁩니다!  친절하게 잘 알려주십니다 추천추천 왕추천입니다 !",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee656c1243811a20dcaa4",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "tjd****",
+        "rating": "None",
+        "body": "선생님도 친절하시고 너무 재밌었어요!! 😊😊 1주년 커플링 너무 마음에 들어요 🩷",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fecbeb46e4c7ca3b173fb8",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "soh****",
+        "rating": "None",
+        "body": "선생님이 친절하게 설명해주셔서 처음만들어보는데도 어렵지 않게 만들수있엇어요 직접 만드는거라 더 의미있는거 같네요 커플분들 추천드려요😊",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1185206251",
+    "name": "아뜰리에호수 광안리",
+    "type": "가맹점",
+    "total_reviews": 3422,
+    "daily_reviews": 9,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff1ecd965f8d4fb806f967",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "선빈772",
+        "rating": "None",
+        "body": "남자친구랑 100일 기념으로 왔는데, 체험도 재미있었고, 반지도 너무 예뻐서 자꾸 보게 되네요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff182dadbbe31760818898",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "지야1004",
+        "rating": "None",
+        "body": "즐거운 시간 보냈습니다.\n직원분들이 친절하시고 초보자도 하기가 쉬워요^^\n광인리에 오시면 한번쯤 데이트 코스로 하기\n좋아용 강추!!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff09923c61373f7892ec81",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "wkd****",
+        "rating": "None",
+        "body": "광안대교 보이는 바다뷰에서 반지를 만들 수 있어서 좋았어요! 직원분들도 엄청 친절하셔서 재밌게 잘 만들었어요~ 디자인도 예뻐요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feee01a6d822b8053e6090",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "dong****",
+        "rating": "None",
+        "body": "넘넘 친절하시구 초보자도 만들기쉬웠어여!!! 강추드려여",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec6382fb5b5e663bb6a5d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "AshCastle05",
+        "rating": "None",
+        "body": "너무 친절하시고 좋았어요! 자세하게 설명해주시고 초보자도 쉽게쉽게 진도 뺄수있어어 좋았고, 반지 하나하나 다 디자인이 이뻤어요! 커플과 또는 친구끼리 반지하기 좋은곳 같습니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed4defefb7e4414b29f57",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "훈민12",
+        "rating": "None",
+        "body": "급하게 커플링 맞추려고 찾아온 곳인데\n같이 만드는 재미도 있고!\n친절하게 잘알려주셔서 즐거웠습니다~!\n결과물도 너무 이쁘구요! 👍👍👍",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feb9f8c693f7befeaabc94",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "나다그라그",
+        "rating": "None",
+        "body": "",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feb6c035e1342bd87906d2",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "정민우우",
+        "rating": "None",
+        "body": "직원분들 정말 친절하시고 마감작업도 빨리해주셔서 바로 받을 수 있었어요 연인끼리 강추에요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feb059c915094cf2a4ae1f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "날카로웅",
+        "rating": "None",
+        "body": "친절히 잘 가르쳐 줘서 재밌게 즐기다 갑니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "2039299427",
+    "name": "아뜰리에호수 광주",
+    "type": "가맹점",
+    "total_reviews": 2994,
+    "daily_reviews": 21,
+    "daily_receipt_reviews": 1,
+    "reviews": [
+      {
+        "review_id": "69ff1ad6a0698004f70751f7",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "양미이",
+        "rating": "None",
+        "body": "반지 처음 만들어봤는데 굉장히 친절하게 잘 알려주셨고 덕분에 예쁜 반지 잘 만들었고 특별한 추억 만들어가서 너무너무 좋았어요, 감사합니다😆",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff188083e9ae880410585d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "gya****",
+        "rating": "None",
+        "body": "이런 공방 처음 오는데 추억 쌓기도 좋고 정성 들여서 만들어서 더 좋고 친절하세욤 감사합니다💗",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff16e2adecdc682098803f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "gks****",
+        "rating": "None",
+        "body": "너무 너무 이쁘게 만들어 주셔서 감사합니당",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff05091269cf48f977d7c7",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "신소연48",
+        "rating": "None",
+        "body": "반지공방 체험 잘 하고 갑니다! \n선생님들이 너무 친절해요~",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff12727fb156dce8ae1e84",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "yej****",
+        "rating": "None",
+        "body": "커플링 처음 맞춰보는데 인테리어도 너무 깔끔하고 설명을 너무 잘해주셨어요! 반지 디자인도 다 너무 이뻐요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff100ae35ca7e8f44f1eec",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Hezekiya",
+        "rating": "None",
+        "body": "여자친구와 결혼하기 전 행복한 추억을 만들기 위해 왔어요 ! 짧은 시간이었지만 정말 좋은 시간을 보냈고 무엇보다 각자가 만든 반지를 보며 그때의 시간을 기억할 수 있을 것 같아 정말 좋았습니다 :) 다음에 또 기회가 있으면 올게요😊",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0f32b1048d77751630c9",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "정석준52",
+        "rating": "None",
+        "body": "여자친구랑 커플링 맞추려고 예약했습니다! 예약 시간보다 30분 늦어버려서 주문제작밖에 하진 못했지만, 정말 예쁘게 만들어 주셔서 만족스러워요! 감사합니당",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0fb6b6796fb742d61ad2",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ehf****",
+        "rating": "None",
+        "body": "반지도 이쁜 디자인 많아서 좋았고 같이 반지 만들면서 추억 쌓을수 있어서 좋았어요ㅎㅎ\n여자친구가 실물이 더 이쁘다고 너무 좋아하네요🥰 1주년 기념으로 왔는데 너무 만족하고 갑니다~~~😆",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff06ab25e34adf51c98bb2",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "rlg****",
+        "rating": "None",
+        "body": "중간중간 확인해주면서 수업 받는 느낌 좋았습니다.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0384d6b415a7fdbc0339",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jkc****",
+        "rating": "None",
+        "body": "수업도 잘 해주시고 반지도 예뻐요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff095f1e5f3cd5f3351ea2",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "chs****",
+        "rating": "None",
+        "body": "300일 기념으로 뭐하지 하다 인스타보고 방문했어요 목포에서 광주까지 와서 처음엔 서로 하는둥 마는둥 이었지만 중간에 너무 친절하게 알려주셔서 저희 둘다 불이 붙어 열심히 참여했습니다 ㅎㅎ 😄😄 목포에서 광주까지 왔는데도 아깝지 않은 시간이었어요 너무 감사해요 방문하실지 고민하시면  적극적으로 찬성입니다 !!!😗😗",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feff4f1be768c573e54085",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ch0****",
+        "rating": "None",
+        "body": "1주년 기념으로 반지 만들러 왔는데 처음이라 서툴었지만 꼼꼼하게 봐주시고 친절하게 잘 설명해주셔서 성공적으로 잘 만들었습니다!! 정말 너무 예쁘고 좋아요😚❤️",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefd68b3ca64ef5eff2f7b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Pupple8929",
+        "rating": "None",
+        "body": "수업 너무 재밌고 집중하게 되는 시간이였습니다!\n반지도 너무 퀄리티 좋고 이뻐요\n잘 끼고 다니겠습니다!! 😁",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef58bb427ef3b9bacd1bd",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "이주현8244",
+        "rating": "None",
+        "body": "예쁜 반지가 너무 많아서 고르기 힘들었어요ㅜㅜ!! 좀 늦게 가서 직접 만들지는 못 했지만 고른 반지로 너무 예쁘게 제작해주시고 각인까지 해주셔서 잘 끼고 다닐 거 같아요 ㅎㅎ 너무 마음에 들어요!! ♥️💍",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef432a799d2bdfabab5f4",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "rla****",
+        "rating": "None",
+        "body": "예쁜 디자인이 너무 많아서 고르는 재미가 있어요. 옆에서 친절하게 가르쳐 주셔서 너무 즐겁게 체험했어요. 여자친구랑 데이트 코스로도 너무 좋아요. 만들면서 서로 잘하고 있는지 비교해 보기도 하고 재밌었어요.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feec963d14c0e939d07888",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "류준49",
+        "rating": "None",
+        "body": "여자친구와 커플링을 고민하던 중에 알게 되어서 와보았는데, 너무 친절하시고 초보자들도 쉽게 할 수 있게 해주셔서 좋았습니다. 손재주가 없더라도 설명만 잘 들으시고 추억을 만든다는 생각으로 오신다면 충분히 재밌게 즐기실 수 있을거 같고 반지 디자인도 충분히 예뻐서 잘 하고 다닐 수 있을거 같습니다. 시간도 그렇게 오래 걸리지 않아서 부담스럽지 않게 데이트 코스로도 좋을거 같고 커플링, 추억을 만들고 싶은 분들에게 정말 추천하는 곳입니다.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef66dad8d3cb563d5811a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "par****",
+        "rating": "None",
+        "body": "늦둥이 동생이\n워낙 반짝거리고 예쁘고 악세서리같은걸 좋아하다보니 직접 손으로 만들고 경험하면 물건의 소중함이나\n가치가 다르게 느껴질것같아서 방문하게됐습니다🙂\n애기두 너무 좋아하고 만족 스러워해서 물건 수령전까지 언제 받을수있냐면서 궁금해하더라구요!\n또 기념삼아 올수있음 오고싶어요~\n반지 너무 예뻐요😆",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed6e878454f0c0b38f298",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "GAna",
+        "rating": "None",
+        "body": "💍디자인도 많고, 친절하시구\n알려주시는것도 쉬워서 수월하게 할수 있었어요!\n강추 드립니다✨️✨️🤍👍",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec176199ffeab0766ea41",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "oh09****",
+        "rating": "None",
+        "body": "초보자도 할 수 있게 쉽게 알려주시고 반지 디자인도 많아서 고르기 쉬웠어요! 반지 이뻐요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69febec1461bb020506e66e6",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ros****",
+        "rating": "None",
+        "body": "예약 없이 왔는데 다행히 바로 할수 있었어요\n반지 디자인도 많아서 보고 고를 수 있는것도 좋았고 다들 친절하시고 반지도 울퉁불퉁한 면이 있었는데 더 다듬어 주셔서 예쁘게 나와서 마음에 들어요🥰",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69febff5a468fc4439935f5b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "goe****",
+        "rating": "None",
+        "body": "다들 친절하게 알려주시고 반지 디자인도 여러개여서 고르는 재미도 있어요 감사합니다",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1471349447",
+    "name": "아뜰리에호수 부산",
+    "type": "가맹점",
+    "total_reviews": 2582,
+    "daily_reviews": 8,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff13fdc239d1323b839ef2",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "a87****",
+        "rating": "None",
+        "body": "부모님 결혼기념일에 의미있는 선물하고싶어서 다녀왔는데 깔끔하고 친절하시고 너무 좋았어요\n어려울것같다고 싫다고하시다가 막상하니까 생각보다 어렵지않고 재밌게 만드셔서 좋았습니다~반지도 예쁘고 좋네요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee564dd85a4879456f3a9",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jiwon89",
+        "rating": "None",
+        "body": "공방은 처음 와봐서 어색했지만 친절하게 잘 알려주셔서 어렵지않게 만들수있었어요 \n\n같이 만든 반지라 더 의미있고 재밌는 시간이 된거같아요\n \n디자인이 다양하고 이쁘고 마음에드는건 많았지만 손이 못생겨서 어울리는 반지를 찾기가 힘들었어용T-T\n\n그리고 당일 수령이 가능해서 넘 좋아요 \n얼른 받고 싶어요 !! 이쁜반지 감사합니다 <3",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feddece3d0dc1691f3f266",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "약돌이18",
+        "rating": "None",
+        "body": "여자친구랑 처음으로 커플링을 하러 왔는데 안에는 깔끔하고 시원해서 좋아요 그리고 직원분도 친절하셔서 더 기분 좋게 만들었어요🥺",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed927ac3caada89b8aa98",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "nar****",
+        "rating": "None",
+        "body": "설명도 잘해주시고 친절하게 알려주셔서 편안하게 작업했습니다 ㅎㅎ",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed914f55bee2d743e99dc",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "gihyuk",
+        "rating": "None",
+        "body": "부모님과 추억을 만들고자 아뜰리에 호수에 방문했는데 똥손인 저도 쉽게 따라할수있도록 설명을 잘 해주셔서 너무 좋았어요.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec8a8ed60456685839590",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "han****",
+        "rating": "None",
+        "body": "처음 반지 만들어 봤는데 시설도 깔끔하고 직접 시범 먼저 보여주셔서 쉽게 재밌게 만들었어요!! 추천 드립니다😊😊",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feaf22ca2e0fba9ffb0b95",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "dbsworud",
+        "rating": "None",
+        "body": "친절히 설명해주시면서 안내해주시고\n어려운거같은데 하나도 어렵지않게 알려주셔서 데이트로 오기 매우 좋습니다!!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feaa0475865b8948641643",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jcw****",
+        "rating": "None",
+        "body": "기념반지 만들러 왔어요! 디자인 예쁜거 많아서 다음에 또 오고싶어요ㅎㅎㅎ",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1004375114",
+    "name": "아뜰리에호수 분당",
+    "type": "가맹점",
+    "total_reviews": 2357,
+    "daily_reviews": 8,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff341d579571c488d551b2",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "성지유",
+        "rating": "None",
+        "body": "처음으로 맞춰본 반지였는데 넘 만족스러운 결과여서 기분이 좋아요~~ 설명도 넘넘 친절하시구 난이도도 쉬워서 기념일때 반지 맞추러 오면 좋을 것 같아요 ㅎㅎ 추천합니다😃",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff1a6eef263c6aefe53a15",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ASVSDS",
+        "rating": "None",
+        "body": "너무 잘 나왔어요 ㅠㅠㅜ!! 이쁘게 끼고 다닐게요☺️",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff1a0a4990d8b19935d984",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "dk37",
+        "rating": "None",
+        "body": "매장이 굉장히 깔끔하고 접근성도 좋아서 편하게 방문했어요!! 그리고 한 번도 안해봐서 걱정이 많았는데 친절하게 하나하나 설명해주시면서 칭찬해주시니 자신감있게 잘 만든 것 같아요!! 그리고 서로가 만든 반지라서 더 특별하고 빨리나와서 더 만족스러웠던 것 같습니다!!\n굉장히 많이 추천해요!!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0ee6d1b8da4ae9734006",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "욘닝",
+        "rating": "None",
+        "body": "초보자인 저희들도 쉽게 만들수있어요! 친절하게 설명해주시고 결과물도 너무 만족스럽습니다:)",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef3b87fb156dce88c4f8d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jiy****",
+        "rating": "None",
+        "body": "직원분이 너무 친절하시고 설명도 너무 잘 해주셔서 남자친구랑 즐겁게 커플링만들었어요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0b807034e164b6eb6fab",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ekf****",
+        "rating": "None",
+        "body": "남자친구랑 기념일이여서 반지만들러 왔는데 설명을 친절하게 잘해주셔서 열심히 집중해서 이쁘게 만들고왔습니다 너무 행복해요 오기잘했다고 100번 칭찬중입니다\n반지공방 생각하고계신다면 여기루가보세용! ❤️",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed421fb187a091282d209",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "cjs****",
+        "rating": "None",
+        "body": "반지 종류가 다양하고 너무 이뻣어요! 만드는 방법도 간단하고 시간도 오래 안걸렸어요. 반지 만드실분들 강추해요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed08d188f81f02e8c9ecc",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "해바라기15",
+        "rating": "None",
+        "body": "남자친구랑 반지 맞추러왔는데 디자인 종류가 다 고급지고 다양해서 좋아요☺️\n반지 세공 과정도 어렵지 않고 옆에서 잘 알려주셔서 똥손도 어렵지 않게 할수 있었습니당☺️☺️",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1243647430",
+    "name": "아뜰리에호수 수원인계",
+    "type": "가맹점",
+    "total_reviews": 2233,
+    "daily_reviews": 13,
+    "daily_receipt_reviews": 2,
+    "reviews": [
+      {
+        "review_id": "69ff1efef1991be9676045a2",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "qkr****",
+        "rating": "None",
+        "body": "디자인이 다양하고, 이뻐서 좋았어요! 직원분들이 첫 안내부터 디자인 마무리까지 친절하게 설명해주셔서 수월하게 했습니당 내부 분위기나 시설도 깔끔해서 추천합니다~!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0e346781f2dd929dfd10",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "siy****",
+        "rating": "None",
+        "body": "엄청 친절하게 잘 알려주셨어요\n남자친구랑 갔는데  좋은 추억 될 거 같아요\n기념일때 한번 가보세여",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff21636caf887735e052b4",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "엄수진15",
+        "rating": "None",
+        "body": "친절하신 선생님들 덕분에 예쁜반지 만들었어요~\n반지 만들 시간도 충분하고 잘 알려주셔서 예쁜 반지 만들고 갑니다~😊💕💕💍💍💍",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefdfb0706afb9f01513a6",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "MIMI geunho",
+        "rating": "None",
+        "body": "세상 친절하시고 반지 너무 이쁘네요 너무너무 감사합니다!!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fefe7a9ba34e86fd4f4975",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "hyna****",
+        "rating": "None",
+        "body": "사장님도 너무 착하시고 알아듣기쉽게 잘 설명해주셔서 이쁘게 잘 만들 수 있었어요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefe0fa799d2bdfac6a4ea",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "로이키미",
+        "rating": "None",
+        "body": "예약시간을 변경했는데도 친절하게 대해주시고\n설명이 아주그냥 상냥하셔서 감사했습니다 :)\n초보자인 저희도 반지 만드는게 하나도 어렵지 않았습니다.\n반지가 너무너무 예뻐요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0d1ddf8232782ac43308",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Maybe 김민채",
+        "rating": "None",
+        "body": "사장님이 친절하게 직접 시범도 보여주시고 설명도 잘해주셨어요! 프라이빗하고 공간도 너무 예뻐서 만드는 데 기분이 좋았습니다💖 반지도 너무 마음에 들어서 또 방문할 것 같습니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefca1dafcb75629466c07",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "누리250",
+        "rating": "None",
+        "body": "반지 만들때 너무 친절하게 잘 알려주시고 합리적인 가격에 이쁜반지 만들수있어서 너무 좋습니당👍\n만들때 중간중간 체크도 해주시고 방법도 잘 알려주셔서 감사했어요💖",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee1c151297f7557331e20",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "kis****",
+        "rating": "None",
+        "body": "인생 첫 반지공방 이예요^^♡ \n직원분들 대빵 친절하구요^^ \n처음이라 서툰대도 자세히 설명해주시고 \n너무 감사했어요 ^^",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee66b0da0f80e5cd4d61d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "쿠키굽는토끼",
+        "rating": "None",
+        "body": "엄청 예쁘게 나왔어요👍 디자인도 다양하구 수업도 친절하게 잘 알려주시고 똥손인 제가 이런 퀄리티 대박인 반지를 만들었습니다😍 커플링 처음 맞춰보는데 의미있구 너무 좋은 시간이었어요!! 추천드려요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee657422850dd166290ee",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "곰7332",
+        "rating": "None",
+        "body": "반지 디자인도 진짜 이쁘고 소중한 추억이랑 반지를 직접 만들 수 있어서 좋아요!!!!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69feb7a4b8e09c83f8700308",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "횬종54",
+        "rating": "None",
+        "body": "같이 만드니까 의미있고 더 뜻 깊은 반지를 만들 수 있었어요! 사이즈도 꼼꼼하게 체크해 주시고 쉽고 재밌게 만들 수 있었습니다.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feb4222996f726036bd66e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "김냉주",
+        "rating": "None",
+        "body": "우리만의 온기가 담긴 세상에 하나뿐인 반지 친절한 설명 덕분에 초보자도 완성도 있게 만들었어요✨\"\n​",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1136153186",
+    "name": "아뜰리에호수 부천",
+    "type": "가맹점",
+    "total_reviews": 2076,
+    "daily_reviews": 3,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff00ca83e9ae8804f69bb3",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jm1****",
+        "rating": "None",
+        "body": "너무 친절하시고 분위기가 좋았습니다.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefd91b5934e152f76dfaa",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "하선쪙",
+        "rating": "None",
+        "body": "다음에도 올것 같아요 너무 이쁘네여 !! 괜찮은 것 같아요 ㅎㅎ 기념일 로 와도 될것 같습니담♥︎",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fe9f9bb3ca64ef5ea231ab",
+        "created": "5.9.토",
+        "visited": "4.25.토",
+        "author": "레아1645",
+        "rating": "None",
+        "body": "주말 오후시간에 다녀왔습니다 !\n직원분들 다 너무 친절하셔서 낯가림이 심한 편인데도 힘들지 않았어요☺\n하나하나 꼼꼼하게 봐주시고 도와주셔서 예쁘게 완성 할 수 있었어요 !\n백금도금까지 해서 4/25 토요일 제작 후 5/5 배송받앗습니당 !\n예쁘게 잘 낄게요❤",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1503457565",
+    "name": "아뜰리에호수 안양",
+    "type": "가맹점",
+    "total_reviews": 1799,
+    "daily_reviews": 5,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff0d76337ff58d96d9f49e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "gy****",
+        "rating": "None",
+        "body": "너무 이뻐요 반지 ㅜㅜ 친절하게 알려주셔서 쉽게 만들었아요 ㅎㅎ 남자친구랑 오래갈게요!!! 감사합니다.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0d3c8b787a75b7ab0068",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "sla****",
+        "rating": "None",
+        "body": "공방도 너무 깔끔하고 사장님도 너무 친절하셔서\n처음 만들어보는 반지 이쁘게 잘 만들 수 있었어요.\n이쁜 반지 만들러 방문해보세요~",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0a6ba5e71313729530bf",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "njb****",
+        "rating": "None",
+        "body": "예쁜 디자인도 많고 처음하시는 분들도 어렵지않게 체험 하실 수 있을 것 같습니당!!!\n기다리는 시간도 오래 안걸려서 좋아요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff08edc98455bd3034e5d8",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "joo****",
+        "rating": "None",
+        "body": "남자친구랑 처음 반지 만들러와 봤는데 설명도 친절하게 잘해주시고 만들기도 정말 쉬워서 좋은것 같습니다!!!💗 결과물도 너무 예뻐서 커플링 잘 끼고 다닐것같아요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fedecd3744bbd4df83c07a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "포도8366",
+        "rating": "None",
+        "body": "저희가 종로로 반지를 알아보려 했는데 아뜰리에 호수에서 \n추억을만들며 반지를맞추니 너무잘했다 생각이 드네요\n디자인도 대만족이구 남자친구와 잊지못할 추억까지 ㅎㅎ\n감사합니다",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "2059571688",
+    "name": "아뜰리에호수 전주한옥마을",
+    "type": "가맹점",
+    "total_reviews": 1925,
+    "daily_reviews": 14,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff09c70cf29cc73fe633e6",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "새로123",
+        "rating": "None",
+        "body": "전주한옥마을에서 원데이클래스로 반지 만들고 왔어요 💍✨\n처음 해봤는데 직원분이 친절하게 하나하나 알려주셔서 어렵지 않았어요!\n\n직접 만들어서 더 의미 있고, 완성된 반지도 퀄리티 좋아서 만족했습니다 🫶\n사진 찍기도 예쁘고 전주 여행 기념으로 딱 좋아요 📸\n\n커플, 친구, 가족끼리 가기 좋은 체험 공방 추천합니다 🤍\n\n#전주한옥마을 #전주공방 #반지공방 #아뜰리에호수 #전주원데이클래스 #전주데이트 #커플링만들기",
+        "tags": [],
+        "origin_type": "결제내역"
+      },
+      {
+        "review_id": "69fefca24f0098218ac5b2ab",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "서희6743",
+        "rating": "None",
+        "body": "직접 만들어보고 결과물도 예뻐서 너무 좋아요 ㅜ\n쵝오👍",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefd0d453d3d6fe683e496",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "슬기콩05",
+        "rating": "None",
+        "body": "시설도 깨끗하고 반지 만들때 자세하게 설명도 잘해주셔서 재미있게 오늘 만든것같아요 ! 다음에도 반지는 여기서 해야할것같아요 ! 너무너무 맘에 들어용 ! 🩷",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefcddc72064aad99a1490",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Bellenefia",
+        "rating": "None",
+        "body": "서로에 대한 애정을 담아 열심히 만든반지에요ㅎㅎ 수업도 완전 친절하게 진행해주시고, 무엇보다 디자인이랑 각인이 정말 예쁘고 깔끔해요😉 이색데이트를 원하신다면 전주한옥마을 아뜰리에호수를 꼭 방문해주세요!!🙃❣️",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0351a835d0cca5ecb80c",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "wkd****",
+        "rating": "None",
+        "body": "여지친구랑 처음 와봤는데 클래스 너무 친절하게 잘 가르쳐주셔서 반지 이쁘게 만들고갑니다.👍🏻 이색데이트하기 너무 좋습니다💍",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefd1d3fa0c2621bc02a51",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "최지웅05",
+        "rating": "None",
+        "body": "친절하시고 매장이 깨끗해요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef39b69ddee050dab89a6",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "핑퐁딩동당동",
+        "rating": "None",
+        "body": "첫 커플링 평이 좋아서 주문제작으로 구매했는데 대만족이에요!! 👍🏻👍🏻진짜 너무 예쁘고 홈페이지에서 다양한 디자인보시고 구매할 수 있어서 더 좋은 거 같습니다! 완젼 추천합니다!🥰",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff056af644cd8095c16b45",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "김민주70",
+        "rating": "None",
+        "body": "너무 예뻐요ㅎㅎ",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee7bcf3ba9621f549a7b5",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "glr****",
+        "rating": "None",
+        "body": "직원분들이 친절하게 잘 안내해주시고, 똥손이라도 잘 다듬어서 주셔서 걱정하지 않으셔도됩니다~~\n예쁜 디자인도 많아서 선택지가 많고 만드는 과정도 재밌었어요! 추천합니다ㅎㅎㅎ",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed9339e3159a5a69395cd",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "hahahoho0000",
+        "rating": "None",
+        "body": "남자친구랑 처음으로 맞추는 커플링인데 방문해보니까\n시설도 깨끗하니 좋고 커플링 종류가 많은데 직원분께서 추천도 잘해주시고 만드는 과정에서 하나하나 잘 알려주셨어요 만족스러웠습니다☺️☺️ 커플들 완전 추천 !!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feeda77669d1def8f60800",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "이양누",
+        "rating": "None",
+        "body": "예쁜 디자인이 너무 많아서 고르는데 고민 정말 많이 했어요ㅠㅠㅠㅠ반지공방에 이렇게 다양하고 예쁜 디자인이 있다니!\n또 체험하는 내내 정말 친절하게 해주셨어요. 분위기도 정말 편안하고 창밖의 잔잔한 나무와 한옥 풍경이 예술이에요!\n저희의 첫 커플링을 아뜰리에호수에서 맞출 수 있어서 행복했습니다ᰔ",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed1f0203aaf672d9e3b6d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "만수르사냥",
+        "rating": "None",
+        "body": "여자친구와 첫 전주 여행! 너무 즐겁게 반지 만들고 갑니다! 제가 이런 결과물을 만들줄 꿈에도 몰랐네요 재밌기 보내고 갑니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feaaa3b3ca64ef5ead7037",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "JxXxN",
+        "rating": "None",
+        "body": "전주 아뜰리에 호수에서 반지 만들고 왔는데 정말 대만족입니다! \n\n처음 해보는 거라 걱정했는데, 사장님이 너무 친절하시고 단계별로 하나하나 차근차근 알려주셔서 초보자도 어렵지 않게 완성할 수 있었어요.\n\n무엇보다 공방 분위기가 너무 감성적이고 예뻐서 작업하는 내내 힐링하는 기분이었고, 결과물인 반지 디자인도 기대했던 것보다 훨씬 세련되고 예뻐서 계속 손만 쳐다보게 되네요. \n\n전주에서 특별한 추억 만들고 싶으신 분들께 진심으로 추천드려요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef2c53b4d31f8b222df35",
+        "created": "5.9.토",
+        "visited": "5.5.화",
+        "author": "기하와 벡터",
+        "rating": "None",
+        "body": "친절하게 설명해주시고, 반지 디자인도 다양하고 이뻐요! 반지 만들기 처음해보는데도 상세하게 잘 가르쳐주셔서 쉽고 재밌게 따라갈 수 있었습니다🥰",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1081666418",
+    "name": "아뜰리에호수 의정부",
+    "type": "가맹점",
+    "total_reviews": 1682,
+    "daily_reviews": 8,
+    "daily_receipt_reviews": 4,
+    "reviews": [
+      {
+        "review_id": "69fefb1a335c0ea128949337",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "khayeon",
+        "rating": "None",
+        "body": "너무 친절하시고 시설이 깨끗해서 좋아요~ 설명도 잘해주세요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefb2f8416326226236b7c",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ham****",
+        "rating": "None",
+        "body": "너무 친절해서 잘 다녀갔어요",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69feddaaed02105a70debacb",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "이승아cuchi",
+        "rating": "None",
+        "body": "반지 이쁘고 친절하게 알려주셔서 감사합니다 너무만족해요😊",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fed35fb365af67d741519d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Dnd",
+        "rating": "None",
+        "body": "너무 친절하고 유쾌하게 잘 알려주시고 오랜 시간 있어도 편안해요 그리고 너무 쾌적 깔끔 합니다.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fecd5d3280991b4baf31fc",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "mem****",
+        "rating": "None",
+        "body": "갑작스럽게 방문해서 진행여부 체크한뒤에 방뮨한 아뜰리에 호수 ❤️ 일단 눈에 보이는 내부 인테리어가 딱 틔이게 잘되어 있고 담당해주신 선생님이 친절하시고 칭찬을 진짜 아낌 없이 해주셔서 좋았던 경험이였던거 같아요 첫 공방체험인데 다른 공방도 가서 체험해봐도 좋은 추억이 될꺼같다는 생각을 준 첫 도전 반지 공방이였습니당",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fecca7c2b93d56dab7e283",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "nic****",
+        "rating": "None",
+        "body": "반지종류들이 많아 고르기가 수월했어요ㅎㅎ\n그리고 가르쳐주시는 선생님이 너무 친절해서\n제작간 큰 어려움이 없었어요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feb103d5338242d22b88f1",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "쟨공듀",
+        "rating": "None",
+        "body": "매장이 깔끔하고 반지도 예쁘게 나왔어요 ㅎㅎ 분위기도 좋아서 데이트코스로도 너무 좋네요 !!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feb20707b52cc42929d2de",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "프로필410",
+        "rating": "None",
+        "body": "반지가 너무 좋고 시설이 깨끗해요",
+        "tags": [],
+        "origin_type": "영수증"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "2092542966",
+    "name": "아뜰리에호수 송도트리플",
+    "type": "가맹점",
+    "total_reviews": 1728,
+    "daily_reviews": 5,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff008ba375e09d620e942f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "par****",
+        "rating": "None",
+        "body": "설명도 잘 해주시고 친절하게 웃으시면서 대해주세요!! 반지 디자인도 많고 엄청 이뻐용ㅎㅎ 마니오세영ㅎㅎㅎ",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feeabfdd06a04b6d2bdfd7",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "오드아이46",
+        "rating": "None",
+        "body": "여자친구랑 같이 첫 커플링 맞추러 왔는데 너무 재밌네요~~!\n디자인도 심플하고 이쁜게 많아서 결정하기 힘들었지만🤣\n처음 만들어보는데 친절하게 알려주셔서 재미있게 하고 갑니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fedfe3b0c232ae310deaed",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "룩셈14",
+        "rating": "None",
+        "body": "친절하게 알려주셔서 여자친구와 차근차근 차분하게 체험했습니다.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fecb4b8ec809b5c2d453ad",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "gkg****",
+        "rating": "None",
+        "body": "",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fea61d0b50c1431f48485b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "HuiYeong",
+        "rating": "None",
+        "body": "와이프와 4주년을 기념해서 찾아서 온곳!\n친절히 설명도 해주시고 결과물도 이쁘고\n연인이나 가족 친구, 모두 와서 추억을 만들수있는 곳이네요!\n작업도 쉽고 초보들도 가능합니다♡",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "2087413784",
+    "name": "아뜰리에호수 대구",
+    "type": "가맹점",
+    "total_reviews": 1208,
+    "daily_reviews": 10,
+    "daily_receipt_reviews": 1,
+    "reviews": [
+      {
+        "review_id": "69ff070bb153df14881bb142",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "도잉잉",
+        "rating": "None",
+        "body": "남자친구랑 기념일이라 커플링 맞추러왔는데 디자인이 예뻐서 마음에 들어요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef35a9792186ae19fe692",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "tld****",
+        "rating": "None",
+        "body": "직원분이 친절하고 자세하게 만드는 방법 알려주셔서 너무 좋았습니다. 반지 만드시려면 여기 와서 체험해보세요!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69ff01aa1f56f67899cacd44",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "뽀으니당",
+        "rating": "None",
+        "body": "반지 넘 예뻐용 ♥ ♥",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee167ca2e0fba9f351402",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "als****",
+        "rating": "None",
+        "body": "시중브랜드에서 볼 수 없는 유니크한 디자인들을 직접 구경하고 고를 수 있어서 좋았어요. 시설도 깔끔하고 쾌적해서 좋았습니다.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee036b153df1488ed86c0",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "seungbin40",
+        "rating": "None",
+        "body": "분위기와 시설도 깔끔하고 직원분 너무 친절하세요!!\n반지 디자인도 다양해서 취향에 잘 맞게 고를 수 있었어요! 반지 너무 예쁘고 마음에 듭니다! 커플링 맞추실 분들 아뜰리에호수 대구 추천합니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed3c6835d8b198ffa4093",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "sun****",
+        "rating": "None",
+        "body": "이번에 100일 기념으로 커플링 맞추러왔는데 시설도 깔끔하고 직원분도 친절하시고 반지 디자인도 다양해서 고르는 재미가 있었던 것 같아요ㅎㅎ 반지 호수도 잘 몰랐는데 앞에서 직접 사이즈도 골라주시고 덕분에 좋은 추억 만들고가요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed054a0698004f7b43df7",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "아뵤6878",
+        "rating": "None",
+        "body": "기념으로 남자친구와 첫반지 너무 예쁘게 잘 맞췄습니다 매장도 예쁘고 깔끔해요💗",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed0a9ad8d3cb563aa421b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "욱임111",
+        "rating": "None",
+        "body": "반지 디자인도 다양하고 예쁘고, 체험하는 동안 친절하고 쉽게 잘 설명해주셔서 좋았습니다!!😀😀",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69febb77cfaf777d2ba952fc",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "민지307",
+        "rating": "None",
+        "body": "날이 좋아서 남자친구랑 반지 맞추러 왔어요😀\n처음인데도 하나하나 친절하게 설명해주셨어요!!\n오래오래 잘 끼고 다닐게요💍",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feb64faf09c816f2e33fd6",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "혬토링",
+        "rating": "None",
+        "body": "대구반지공방 처음으로 원데이클래스 들어봤는데 넘 재밌어요 ㅠㅠ 딱 초보자가 할 수 있는 정도의 수준이고 내 손으로 만드는 재미가 있더라구요!! 동성로 데이트로 자주 오시는지 저 말고는 다들 커플분이셨어요 ^^,,, 넘나 부러웠고요 ㅠㅋㅋ 반지 디자인도 진짜 많아서 고르는데 10분 걸렸어요 ㅠ 게다가 당일제작이라 아침에 만들고 점심 먹고 찾으러 왔는데 광택이고 패키지고 넘 예뻐서 기절슨,,, 넘 좋은 체험이었어요!",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "2098577277",
+    "name": "아뜰리에호수 대전",
+    "type": "가맹점",
+    "total_reviews": 1820,
+    "daily_reviews": 11,
+    "daily_receipt_reviews": 1,
+    "reviews": [
+      {
+        "review_id": "69ff0a0471b6130fb716458b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "aes****",
+        "rating": "None",
+        "body": "디자인도 예쁘고 직원 분들이 너무 친절해요!!! 잘 못해도 옆에서 항상 도와주세요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feff64fdf9a58c6999f3dd",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "che****",
+        "rating": "None",
+        "body": "선생님이 계속 와주셔서 점검 해주셔서 너무 좋고 반지디자인도 이쁜게 많아요 그리고 선생님이 잘 알려주셔서 똥손도 완전 이쁘게 만들수있어요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feee72e9a5135a940efd9f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "박한별39",
+        "rating": "None",
+        "body": "남자친구와 소중한 추억을 만들기 너무너무 조앗어요 ㅎㅎ💕💕 반지 예쁘게 끼겟습니다\n그리고 너무 친절하세염",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefb751fdf1d33898b2e9d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "yeeun8837",
+        "rating": "None",
+        "body": "처음 반지 만들어보는데 너무 친절하게 잘 알랴주시고 예쁜 결과물이 나와사 넘 좋아요오",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef0b90c495cfbf573008b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "예서4840",
+        "rating": "None",
+        "body": "설명도 너무 친절하게 해주시고 걱정했던 것 보다 쉽게 할 수 있어서 너무 좋아요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feefae887d54440ff55d66",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Jin71",
+        "rating": "None",
+        "body": "남친이랑 처음 왔는데 쉽게 직원분이 잘 설명해주셨어요 그리고 생각보다 훨씬 재밌고 퀄리티도 좋은것같아요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee47a69d335b6e81c9b7a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "귤규리잉",
+        "rating": "None",
+        "body": "남자친구랑 기념일 맞이해서 같이 맞추러 왔는데\n분위기도 너무 좋구 직원 분들도 너무 친절하세요ㅠ🥺🤍🤍 전부터 호수 좋다 그래서 와 보고 싶었는데 역시 넘 좋았어요ㅎㅎㅎ 담에 또 기회 되면 오고 싶어요! 예쁜 반지 감사합니다♥",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fede0e40dad0c9dd4a2e1e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "hap****",
+        "rating": "None",
+        "body": "처음 방문했는데 다들 친절하시고 반지 종류도 많고\n디자인도 다 이뻤어요 인테리어도 굿!\n방문하기도 멀지 않아서 좋았어요 \n좋은 추억 만들었습니다\n감사합니다-!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef5c0c1243811a21ff4b1",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jij****",
+        "rating": "None",
+        "body": "",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69feca064f0098218a8c9096",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "DORA39",
+        "rating": "None",
+        "body": "여자친구랑 같이 처음으로 커플 반지 맞추러 왔는데 친절하게 잘 알려주시고 결과물도 너무 이쁘게 받은 것 같아요😁 감사합니다😊",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec71db6796fb7428f8450",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ch4****",
+        "rating": "None",
+        "body": "분위기도 좋았고 친절하게 설명해주셔서\n반지 예쁘게 만들었습니다 ㅎㅎ",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "2039033136",
+    "name": "아뜰리에호수 부평",
+    "type": "가맹점",
+    "total_reviews": 817,
+    "daily_reviews": 8,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff0c160ff66bb65880d8aa",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "TRUTHGOD",
+        "rating": "None",
+        "body": "부평으로 오랜만에 놀러온 김에 색다른 거 할 거 없나 하다가 왔는데 너무 좋은 시간이였던 것 같아요! 이색데이트로 완전 추천입니다❤️ 디자인들도 다 예뻐서 고르는데만 오래걸렸어용 ㅠㅠ 완전 강추입니당 🫶🏻😁",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef4123c5503c62fba4f5e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Black맨",
+        "rating": "None",
+        "body": "오늘 반지공방 다녀왔는데 너무 만족했어요 💍\n처음이라 조금 긴장했는데 하나하나 친절하게 설명해주셔서 어렵지 않게 만들 수 있었어요! 디자인 고르는 과정부터 직접 반지 다듬고 너무 재밌고 특별한 시간이었어요✨\n직접 만든 반지라 그런지 더 의미 있고 \n애정이 가는 것 같아요. \n분위기도 좋아서 데이트 코스로 정말 추천합니다🤍\n완성된 반지도 기대 이상으로 \n예뻐서 기분 좋아욧!!!\n소중한 추억 만들고 싶다면 꼭 한 번 방문해보세요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff001c18445eac8142e184",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "65****",
+        "rating": "None",
+        "body": "처음 만들어보는 반지였는데 하나하나 친절하게 알려주셔서 재밌게 만들었어요! 완성된 반지도 너무 만족합니다 😊",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee8589bda09bc5f680643",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "김호성55",
+        "rating": "None",
+        "body": "반지 만드는 공방 많이 가봤는데 여기만큼 디자인 다양하고 고급진데는 없었던것같아요!\n친절하게 만드는 방법 설명해주셔서 금방금방 만들었어요!\n반지제작 하실 생각 있으시면 완전 강추입니다!!!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee5d0fb187a0912968597",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "did****",
+        "rating": "None",
+        "body": "좋습니다",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed84bb5934e152f5090bd",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "GodJH999",
+        "rating": "None",
+        "body": "좋은 사람과 좋은 시간 보냇습니당 감사해요\nAS 받으러 오겟습니다",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feaa9e85b960cb349cd902",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "장난감나라의공주",
+        "rating": "None",
+        "body": "남자친구와 곧 6주년이어서 방문했어요 🥰💝\n디자인도 다양하고 이쁜게 많아서 고르기 너무 힘들었어요! 😭😂 친절히 설명도 잘해주시고 좋은 추억 만들어간거같아요 💖🎁",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec31f5553df7625bdec92",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "dlt****",
+        "rating": "None",
+        "body": "너무예쁘고 친철해요 초보자도 강추",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "2078938684",
+    "name": "아뜰리에호수 울산",
+    "type": "가맹점",
+    "total_reviews": 524,
+    "daily_reviews": 2,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff1161abacde800a76394e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "tjd****",
+        "rating": "None",
+        "body": "저희 둘 다 손재주가 없어서 걱정이었는데 선생님이 잘 가르쳐주셨습니다",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee90f3dddbfd6af1e6700",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "stellaming",
+        "rating": "None",
+        "body": "너무 친절하게 잘 알려주셔서 좋았어요\n기념일 데이트로 강추입니당 ❤️",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "2032776425",
+    "name": "아뜰리에호수 안산",
+    "type": "가맹점",
+    "total_reviews": 612,
+    "daily_reviews": 2,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff045729707a6933ffe3b9",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jap****",
+        "rating": "None",
+        "body": "처음 공방 이였음에도 직원분이 너무 친절하게 잘 알려주시고 난이도 자체도 어렵지 않아서 이색데이트나 기념일로 반지를 맞출려고 생각 중인 커플이 있다면 추천 드립니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee12d0c495cfbf5646798",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ehd****",
+        "rating": "None",
+        "body": "디자인 종류가 많아서 고르는 재미도 있었고 공방도 너무 깔끔하게 잘 되어있어서 너무 편하게 잘 만들었습니다! \n설명도 친절하게 해주시고 아낌없는 칭찬도 해주셔요 ㅎㅎ 덕분에 예쁜 커플링 만들어 갑니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "2032078247",
+    "name": "아뜰리에호수 천안",
+    "type": "가맹점",
+    "total_reviews": 358,
+    "daily_reviews": 7,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff2793935d17509688c19f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "빵담S2",
+        "rating": "None",
+        "body": "사장님이 너무 친절하시고 디자인도 많아서 고르는 재미도 있었고 결혼식전에 반지 맞춰서 하고 싶어서 찾다가 방문했는데 매장도 너무 깨긋하고 친절하게 설명도 잘해주세요!! 반지 너무 이쁘게 나와서 잘 끼고 다닐꺼같아요!! 감사합니다 ㅎㅎ 앞으로 반지 추천은 여기에요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff1c1ca263e6164f55b321",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "soo****",
+        "rating": "None",
+        "body": "행복한 시간이었습니다.\n감사합니다.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff02b5422850dd167ce603",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "수세미437",
+        "rating": "None",
+        "body": "제가 낯을 많이 가리는 편이라 우물쭈물했는데 더더욱 친절하게 설명해주셨어요 칭찬도 많이 해주시구 유치원생 된 듯한 기분이었습니다❤️❤️ 반지도 예쁘고 따뜻한 추억 만들었어요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee90fe6caaf4ae83732b8",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "햄쥐콩쥐",
+        "rating": "None",
+        "body": "디자인이 많아서 걱정이었는데 천천히 하나하나 다 착용해봐도 된다고하셔서 좋았어요🙂 설명도 엄청 친절하게 잘 해주시고, 마무리도 이쁘게 잘 해주셔서 결과물도 만족스럽게 나왔습니당😄",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feec449a133f2c91fdbde3",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "gam****",
+        "rating": "None",
+        "body": "여자친구랑 1주년이라 기념으로 방문했는데 반지디자인도 예쁜게 너무 많고 고르느라 힘들었습니다ㅎㅎ 반지 만드는것도 직원분이 자세하고 친절하게 알려주셔서 좋은 추억 만들고 갑니다~!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feecc19792186ae198199e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "시발8",
+        "rating": "None",
+        "body": "사장님,직원분들도 다 착하시고 반지도 여러 종류와 모양이 있어 좋았고 반지 세공을 직접 체험할 수 있어 재미있었어요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feb7a6594433e25efb0179",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Haruofday",
+        "rating": "None",
+        "body": "시설 굉장히 깔끔하고 직원분들도 친절하세요!\n반지도 이쁘구 완전 만족입니당!",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "35272134",
+    "name": "홍대반지카페",
+    "type": "경쟁사",
+    "total_reviews": 8115,
+    "daily_reviews": 6,
+    "daily_receipt_reviews": 5,
+    "reviews": [
+      {
+        "review_id": "69fefc79de2b4200f081037b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "해삐해삐볼아",
+        "rating": "None",
+        "body": "아이와 다녀왔어요.\n처음 만드는거라 잘 모르지만\n잘 알려주신 덕분에 예쁜 반지을 만들었습니다.\n아이들과 소중한 추억으로 남을 것 같아요^^",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fedad38cff5c2d960724a0",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ell****",
+        "rating": "None",
+        "body": "",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fedc0cdd06a04b6d1aa96e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "poi****",
+        "rating": "None",
+        "body": "오랜만에 만난 친구랑 같이 왔는데 정말 재밌었어요. 설명도 잘해주시고 어렵지 않아서 둘다 즐겁게 작업할 수 있었습니다! 결과도 이쁘게 잘 나오고 디자인도 많아서 한번쯤 꼭 와보시면 좋겠어요! 재방문 의사 있음! 너무 재밌게 만들었습니다!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fede5907b52cc4295cab01",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "kdh****",
+        "rating": "None",
+        "body": "여친이랑 100일 기념으로 반지 맞추러 왔어요 거리도 역이랑 가까워서 편하고 너무 친절하세요~ 좋은 추억 남기고 가요~!!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69feddf18b787a75b775a180",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ange****",
+        "rating": "None",
+        "body": "처음으로 반지 공방에서 직접 반지를 맞췄는데 너무너무 친절하시고 생각보다 만들기도 쉬웠어요!!\n디자인도 많고 재밌어용 한번쯤 와보시면 좋을 것 같아용☺️☺️",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69febf4c90ce9b4513b12157",
+        "created": "5.9.토",
+        "visited": "5.8.금",
+        "author": "KSB10",
+        "rating": "None",
+        "body": "홍대 갈 일이 있어서 요즘 핫하다는 반지 만들기 체험을 미리 예약하고 다녀왔어요😊 예약하고 가니까 기다림 없이 여유롭게 체험할 수 있었고, 매장 분위기도 감성적이라 너무 좋더라구요. 처음엔 어려울 줄 알았는데 초보자도 쉽게 할 수 있게 하나하나 친절하게 알려주셔서 금방 완성했어요! 직접 망치질도 하고 모양 잡는 과정이 생각보다 재밌어서 시간 가는 줄 몰랐네요✨ 마지막에 이니셜 각인과 탄생석까지 넣을 수 있어서 더 특별했고, 여름에 잘 어울리는 실버링이 완성돼서 너무 만족했어요💍 데이트나 친구랑 추억 만들기로 추천합니다🤍",
+        "tags": [],
+        "origin_type": "영수증"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "35928996",
+    "name": "반지공방 8그램",
+    "type": "경쟁사",
+    "total_reviews": 3633,
+    "daily_reviews": 3,
+    "daily_receipt_reviews": 1,
+    "reviews": [
+      {
+        "review_id": "69fef9cf106f23d1b13b6e3f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "iswear7787",
+        "rating": "None",
+        "body": "운좋게 예약없이 바로 이용가능하고 초등학생도 쉽게 체험할수있어 좋았어요. 좋은 경험되었네요. 또 방문할께요~~",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef47bb7cc2fcf13179384",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "여름이1219",
+        "rating": "None",
+        "body": "예쁜 반지 디자인이 많아요 ! 서로 이야기 하면서 만들 수 있어서 데이트로 최고였어요 \n직원 분들도 친절하셔서 행복한 시간이었어요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fedc928460891e4587dbd8",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "kys****",
+        "rating": "None",
+        "body": "남자친구랑 기념일이라서 반지 맞추러 왔는데\n친절하시고 잘 알려주세요\n디자인도 많아서 좋아용 최고!! 👍👍",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "35221983",
+    "name": "위에트 혜화",
+    "type": "경쟁사",
+    "total_reviews": 3615,
+    "daily_reviews": 14,
+    "daily_receipt_reviews": 14,
+    "reviews": [
+      {
+        "review_id": "69fefde8cf8049f0baaab3fc",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "wlg****",
+        "rating": "None",
+        "body": "",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69ff009d781b35a67be7872b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "냐옹이72",
+        "rating": "None",
+        "body": "똥손이라 걱정했는데 친절히 알려주셔서 반지 예쁘게 만들고 가요! 감사합니다👍",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fee85ac42bf4e83d0a5810",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "khm7****",
+        "rating": "None",
+        "body": "처음인데도 엄청 잘 만드러써욤😆🤍🤍\n디자인도 엄청 예뿌고 분위기도 조아서 기념일에 오기 좋아욤🙌🏻🤍🤍",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fede45fdb7757db787bae0",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "투슬리스베어",
+        "rating": "None",
+        "body": "친절한 직원과 매우 깨끗한 시설에서 성공적으로 만들었습니다 ㅎㅎ 아예 똥손이여도 직원분들이 잘 도와주셔서 이쁜 반지를 얻게되어 좋아요!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fedca1ab89ddf4158374ea",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "송돌맹",
+        "rating": "None",
+        "body": "직원분들 너무 친절하시고 내부가 깨끗하고 모던해서 넘 좋았어요! 반지 디자인도 너무 예쁘고 잘 착용하고 다닐거 같아용!!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fed63b035fa8d723ebf84c",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "lee****",
+        "rating": "None",
+        "body": "너무 예쁘고 좋은 추억이 되었습니다!❤️",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fed6b9d8a3eec4173ed6df",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "890****",
+        "rating": "None",
+        "body": "반지공방 시설이 매우 깔금하고 좋습니다.\n설명도 잘해주셔서 금방 끝났어요",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fece695ccdbcd02447d04e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "d0425jr",
+        "rating": "None",
+        "body": "남자친구랑 커플링 만들러 왔는데 너무 재밌어여\n직원분도 친절하시고 반지도 예뻐여 🫶💍",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fecb8fc1fcb4a35df877f0",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "zze****",
+        "rating": "None",
+        "body": "",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fec15a684be5824ab8adc6",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "seongminii",
+        "rating": "None",
+        "body": "남자친구랑 기념으로 반지 만들어왔어요😽 처음 만드는거라 걱정했었는대 진짜 쉽구 간단해서 누구나 다 예쁜 반지 만들 수 있을꺼 같아요! 데이트 코스 추천!!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69febf3a5880d79914f37240",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "psh****",
+        "rating": "None",
+        "body": "1주년 기념으로 반지 맞추러 왔는데 만드는 재미도 있고 완성본 맘에 찰떡이에요!!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69feba90ba9225695b26dd38",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "오리는 꽥꽦",
+        "rating": "None",
+        "body": "조금 늦게 왔는데도 빠르게 진행해서 이쁜 반지 잘 만들었습니다 🩵 남자친구랑 이쁘게 잘 끼겠습니다 감사합니다",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69feb892d680462520a8bbdc",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "이런763",
+        "rating": "None",
+        "body": "넘무좋아용",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fe9bb59cc35a0d691c808b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "토깽이4890",
+        "rating": "None",
+        "body": "1:1로 친절하게 알려주시고, 생각보다 빠른 시간에 예쁜 반지 만들 수 있게 도와주셔서 너무 좋았습니다!!\n감사합니다ㅎㅎ",
+        "tags": [],
+        "origin_type": "영수증"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1065036509",
+    "name": "모어 성수",
+    "type": "경쟁사",
+    "total_reviews": 3777,
+    "daily_reviews": 5,
+    "daily_receipt_reviews": 3,
+    "reviews": [
+      {
+        "review_id": "69feff82cfaf777d2bf62cc7",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "k10****",
+        "rating": "None",
+        "body": "너무 친절하시고 착해요. 쉽게 알려주셔서 쉽게 만들었어요.\n반지도 너무 예뻐요.\n성수 데이트 하시는분들 꼭 여기로 오세요.",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69feff9ec14af331e610bd92",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "hah****",
+        "rating": "None",
+        "body": "남자친구랑 커플링 맞추러 왔어요! 디자인도 다양하고 추가할 수 있는 옵션도 다양해서 원하는 반지 만들 수 있었어요! 🫶🏻사장님도 너무 친절하시고 1대1일로 진행되는 수업인만큼 편하게 만들 수 있어서 좋았고 매장 분위기도 너무 예뻐요 🥹🥹 남자친구랑 좋은 추억 쌓구 갑니다💕💕🫰🏻",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef55cd84501798d43c5fe",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "sur****",
+        "rating": "None",
+        "body": "2주년 커플링 맞췄는데 선생님도 친절하시고 반지가 너무 이쁘네요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef5868c4be35bc09ab530",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "wsc****",
+        "rating": "None",
+        "body": "2주년 커플링 맞추러 왔어용 수업도 잘 설명해주셨고 친절했고 반지도 이쁘게 나와서 기분이 좋습니당",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fedaafa794efa76e00b03f",
+        "created": "5.9.토",
+        "visited": "5.8.금",
+        "author": "als****",
+        "rating": "None",
+        "body": "모어성수에서 직접 만들었던 소중한 반지를 잃어버려서 너무 속상했는데, 문의드리니 똑같이 다시 제작해 주셔서 정말 다행이었어요!\n다시 만드는 거라 예전 느낌이 안 날까 봐 내심 걱정했지만, 처음 만들었던 그 디테일 그대로 완벽하게 복원해 주셔서 감동했습니다.",
+        "tags": [],
+        "origin_type": "영수증"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "33874345",
+    "name": "루소주얼리 홍대본점",
+    "type": "경쟁사",
+    "total_reviews": 3094,
+    "daily_reviews": 11,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff0dcf3b4d31f8b240c88a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "지혀닝88",
+        "rating": "None",
+        "body": "인스타 보고 왔는데 사장님께서 너무 친절하시고 저희 손가락에 맞는 반지도 예쁜 반지도 찾아주시고, 궁금한 거 물어보면 친절하게 성심성의껏 대답해 주셔서 너무 감사했습니다 ❤️ 사장님 너무 잘생겼어요 ✨",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0d29c62a16f8e23ecb6e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "도현도오현",
+        "rating": "None",
+        "body": "저희 둘다 처음으로 반지 만들어보는 걸 신청해서 걱정이 많았는데 사장님께서 정말 친절히 잘 알려주셔서 좋았어요 😊 덕분에 재미있고 정성스럽게 서로의 것을 만들어줄 수 있었던 것 같아요 다음에도 또 방문할게요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefc82a468fc4439c962af",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "LETO",
+        "rating": "None",
+        "body": "너무 친절하게 대응 해주셔서 감사했습니다. \n이쁜 커플링 맞추고 갑니다🫶",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0883326f251c6e3b15c2",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ygw****",
+        "rating": "None",
+        "body": "여자친구랑 백일 반지 어디서 맞출지 찾아보다가 가성비도 좋아보이고 디자인도 이뻐보이는 루소주얼리 홍대점을 찾았어요! 반지 한번도 만든 적이 없었는데 잘 가르쳐주셔서 예쁘게 만들 수 있었어요! 좋은 추억 만들어주셔서 감사합니다! 반지 여자친구랑 예쁘게 잘 끼고 다닐게요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefb0edc3e3303fcd8969e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "오수민17",
+        "rating": "None",
+        "body": "남자친구랑 커플링 하러 왔어용!! 가격대도 만족스럽고 디자인이 정말 너무 예뻐서 좋았습니다! 예쁜 디자인 정말 많아서 고민했는데 이거로 하길 너무 잘한거 같아요! 반지 만들기 참여했는데 망칠까봐 걱정했는데 생각보다 잘되서 즐겁게 했던거 같습니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feffadb007421125ffb2d0",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "김병혁81",
+        "rating": "None",
+        "body": "너무 잘 알려주시고 분위기 반지 디자인 전부 완벽합니다 무슨반지할지 예쁜게 너무많아 여자친구가 고르는데 40분 지난건 안비밀할게요 그만큼 예쁜게 많아요! 추천해요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feed12a3497bfd777b5701",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "김녜빈",
+        "rating": "None",
+        "body": "디자인도 예쁘고 직원분도 친절하세요!\n예쁜 반지 만들어 주셔서 감사합니다~!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef8063121cca4fe36e50b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "SeYeon0",
+        "rating": "None",
+        "body": "여자친구랑 처음으로 반지 공방에 왔는데 사장님이 재밌으시고 친절하셨어요 결혼반지도 여기서 맞추고 싶네요🥰",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef73f36ee78e83ad827d8",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "yye****",
+        "rating": "None",
+        "body": "처음 방문해봤는데 친절하시고 시설도 좋았어요!\n다음에 또 방문할게요 감사합니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef3a4ae095f1590d27fea",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "cho****",
+        "rating": "None",
+        "body": "선생님분께서 돌아다니면서 잘 알려주시고 설명도 잘해주세요 예를 들어서 관리하는법같은거요 그리고 유머가 있으셔서 처음온 곳인데도 낯설지않고 만들고싶픈 반지를 만들수있어요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fedcf409612430f7020632",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "오예7679",
+        "rating": "None",
+        "body": "너무너무 친절하시고 수업도 알기 쉽게 잘 가르쳐주셔서 너무 즐거웠어요 퀄리티도 정말 너무 좋고 다음 번에도 여유된다면 재방문 의사 무조건 있습니다~!! ㅠㅠㅠ 번창하세요...",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1822443981",
+    "name": "얼루브 반지공방 성수",
+    "type": "경쟁사",
+    "total_reviews": 3084,
+    "daily_reviews": 14,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff0c39efd98244c33ed0ea",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "cha****",
+        "rating": "None",
+        "body": "반지 처음 만들어보는데 설명도 잘해주시고 너무 친절하게 알려주셔서 쉽게 만들 수 있었어요 방문 10분 전에 예약해서 온 건데 정말 마음에 드는 공방이었어요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0bb1a263e6164f478df3",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "imno****",
+        "rating": "None",
+        "body": "엄청 친절하세요!! 만들기도 쉬웠구 디자인 다양해서 좋았습니당 ㅎㅎㅎ",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff10ee37ce5a0b4746a56f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "넌지금",
+        "rating": "None",
+        "body": "너무 친절하시고 반지도 이뻐요!! 포장도 해주시고 너무 친절한 곳입니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0064cbc5ecafe8043a9d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "khs3126",
+        "rating": "None",
+        "body": "여자친구랑 기념일에 반지 만들러 왔는데 직원분들 너무 친절하시고 잘 도와주셔서 좋은 추억 만들고 가요 :) 성수로 반지 만들러 오시는 분들 꼭 여기로 오세요 강추",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef181715739a11d2827b7",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "woo****",
+        "rating": "None",
+        "body": "반지가 예쁘고 직원분들이 정말 친절해요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef332887d54440ff90193",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "yur****",
+        "rating": "None",
+        "body": "친절하게 설명해주셔서 초보자도 쉽게 만들 수 있고 디자인도 예뻐요:)",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef002093fb4c351f8c90e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "guener",
+        "rating": "None",
+        "body": "반지 처음 만들러 와봤는데 잘 알려주셔서 만드는 것도 쉽고 너무 예쁘게 됐어요~~>< 연인 기념일 반지 추천!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefa1a935d175096567575",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "kim****",
+        "rating": "None",
+        "body": "반지 디자인들도 이쁘고 선생님들이 다 친절하셔서 재밌게 그리고 기쁘게 만들 수 있었습니다! 나머지 후처리도 다 잘해주셔서 너무 만족스럽습니다.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee49182f8692f666ab83c",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "syr****",
+        "rating": "None",
+        "body": "직원분들이 친절하게 설명해주시고 반지가 예뻐요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee66464b4a0761fddaed5",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "lim****",
+        "rating": "None",
+        "body": "너무 친절하시고 너무너무 좋아요! \n커플끼리 오기 너무 추천합니다아 💗",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee537a263e6164f24896d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jihyun3232",
+        "rating": "None",
+        "body": "직원분도 너무 설명을 잘 해주시고 어렵지 않게 잘 도와주셨습니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fecaae457a218175655f8a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "vkd****",
+        "rating": "None",
+        "body": "반지 디자인 완전 맘에 들어요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0d3ad2ce6c3cf0811cd7",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Ghh",
+        "rating": "None",
+        "body": "처음 만들어봤는데 설명도 자세히 해주시고 너무 친절하게 대해주셔서 감사했어요 !!🩷🩷",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feafc12996f7260367adc7",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "dam****",
+        "rating": "None",
+        "body": "기념일이여서 첫 커플링 맞추러 방문했는데 너무 친절히 응대해주시고 수업도 꼼꼼하고 만족스러운 결과물을 얻었어요!첫 기념일인데 너무 좋은 추억이 됐습니다!!😳🩷",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1138361213",
+    "name": "위에트 연남",
+    "type": "경쟁사",
+    "total_reviews": 2935,
+    "daily_reviews": 7,
+    "daily_receipt_reviews": 7,
+    "reviews": [
+      {
+        "review_id": "69fef7d92996f72603a94612",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jw0****",
+        "rating": "None",
+        "body": "초보자인데도 직원분들이 친절하게 잘 알려주셔서 하기 편했고, 덕분에 너무 재밌는 시간 보냈습니다!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef6fe9a133f2c910af3c0",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "dow****",
+        "rating": "None",
+        "body": "연인이랑 기념일 데이트를 왔는데 초보자가 하기에도 적합하고 완전 친절하게 추천, 안내해주셨어요 장서 분위기도 완전 아늑하고 느낌있어요 무엇보다 반지 디자인이 되게 많고 이뻐요",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef1eb887d54440ff7b069",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "bsa****",
+        "rating": "None",
+        "body": "반지 공방 처음왔는데 정말 자세하고 친절하게 알려주셔서 너무 좋았습니다 강추입니다👍👍",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fee98fa95a9040ea6837db",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ssy9910",
+        "rating": "None",
+        "body": "반지 처음 만들어봤는데 초보자도 쉽게 따라할 수 있게 설명도 자세히 해주시고 너무 친절하셔서 좋았어용ㅎㅎ 기념일 반지 잘 만들고 갑니다!🩷",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fed8e6dec96bfac01edbe6",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "hse****",
+        "rating": "None",
+        "body": "생일 기념으로 남자친구랑 같이 반지 맞추러 처음 방문 하게 되었는데 행복한 시간 보낼 수 있어서 너무 좋았어요💍❤️",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fed0c8cbb6034e03ca2b87",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "gy****",
+        "rating": "None",
+        "body": "처음 반지공방에 방문했는데 기대 이상으로 너무 즐거운 시간이었어요! 처음이라 서툴렀는데 직원분께서 처음부터 끝까지 친절하게 설명해주시고 세심하게 도와주셔서 부담 없이 만들 수 있었어요! 직접 디자인하고 하나씩 다듬으면서 반지에 더 애정이 생겼고, 완성된 반지를 보니까 정말 뿌듯했어요! 공방 분위기도 아늑하고 편안해서 데이트나 특별한 추억 만들기에 정말 좋은 것 같아요!! 소중한 사람과 의미 있는 시간을 보내고 싶은 분들께 꼭 추천하고 싶어요!😊😊",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fece2458ca54fb48745c78",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "and****",
+        "rating": "None",
+        "body": "제 생일과 100일 기념으로 왔는데 분위기도 너무 좋고 잘 알려주셔서 너무 재밌는 추억 만들고 가는 것 같아요!! 감사합니당 1000일에 또 놀러올게요~",
+        "tags": [],
+        "origin_type": "영수증"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "2062561875",
+    "name": "로벤타 성수",
+    "type": "경쟁사",
+    "total_reviews": 2927,
+    "daily_reviews": 29,
+    "daily_receipt_reviews": 15,
+    "reviews": [
+      {
+        "review_id": "69ff09a2b458541fcacee5f2",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "솨21",
+        "rating": "None",
+        "body": "설명이 친절하시고 디자인이 예뻐요 !",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69ff0f6ded38e58d029263a4",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "이예림7569",
+        "rating": "None",
+        "body": "처음 해보는 반지 만들기였는데 설명도 친절하게 해주셔서 너무좋았어요",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69ff0f60f3ba9621f5766916",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "kam****",
+        "rating": "None",
+        "body": "만들기 쉽고 중간중간에 잘 챙겨주셔서 하기 좋았어요\n만드는 과정 설명도 잘해주셔서 열심히 만드는 계기가 된거같아요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff09c978454f0c0b72c879",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "h1****",
+        "rating": "None",
+        "body": "시설 깔끔하고 친절한 설명 덕분에 재밌게 만들었습니다:)",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69ff09ce457a2181759e1ab3",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Ireland1999",
+        "rating": "None",
+        "body": "반지만들려고 알아보는중에 방문했는데 직원분들 친절하시고 반지 디자인도 이쁘네요! 반지 만드실분 추천드립니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0976e57c1de289f0155a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "soo****",
+        "rating": "None",
+        "body": "완전 잘 알려주시고 분위기로 좋아서 좋은 날이였습니다 \n반지도 이뿌고 다들 착하시고 이쁘셔서 행복한 날입미댱 !! 추천:)",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0d780706afb9f022a60d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "hos****",
+        "rating": "None",
+        "body": "반지를 잘 못만들까봐 걱정했는데 친절히 도와주고 완전 예쁩니다!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69ff0dc7781b35a67bf38baa",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "허셜372",
+        "rating": "None",
+        "body": "초보자가 하기에 너무 좋았고\n직원분이 정말 친절하셔서 만족스러웠습니다.\n\n디자인도 확실히 예쁘고 퀄리티도 좋았어요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feff7608b418c90b85f313",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "wls****",
+        "rating": "None",
+        "body": "반지공방을 처음 해봤는데, 사장님이 설명도 쉽게 친절히 잘 해주셨고 반지 디자인이 많아 여자친구도 만족을 많이 했습니다!!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69ff0019824e9e04c880f4f8",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "wls****",
+        "rating": "None",
+        "body": "주말에 직접 반지를 만들어보고 싶어서 예약하고 방문했는데, 역이랑 위치도 가깝고 안내해주시는 직원분들도 친절했습니다. 반지의 종류도 많아서 다양하게 고를수 있어서 좋습니다.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff002a3f5cd9dcb2104049",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "은박이30",
+        "rating": "None",
+        "body": "체험도 재밌고 사진도 찍어주셔서 좋았어요!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef9eb951cb6eddeb52b4b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "tjr****",
+        "rating": "None",
+        "body": "반지 처음 만드는데 설명 잘해주셔서 잘 만들었습니다",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef4dfba9225695b6076ff",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "cjc****",
+        "rating": "None",
+        "body": "딸래미랑 성수동로벤타에서 추억한장 만들다~^^",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef0135d52bb74d3848c59",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jh****",
+        "rating": "None",
+        "body": "반지 디자인들도 이쁜거 많고 다들 친절하게 잘 알려주셔서 넘 좋았습니다",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef502fefb7e4414cfbc98",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "원현설리",
+        "rating": "None",
+        "body": "엄마랑 성수 놀러와서 추억쌓고 예쁜반지 만들고가요~\n예약없이 방문했지만 바로 수업 가능했어요~\n추천합니다☺️",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feef9cc23b1e043f88589a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "이나43672",
+        "rating": "None",
+        "body": "시설도 너무 깔끔하고 초보자가 가기에도 아주 좋은 곳이에요! 친절하게 알려주셔서 너무 좋았어요 ㅎㅅㅎ",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feec9f40dad0c9dd5b81ba",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "매우진행시켜",
+        "rating": "None",
+        "body": "직접 만들면서 웃고 떠들다 보니 시간이 진짜 순식간에 갔어요 :)\n디자인 고민하는 순간부터 완성까지 하나하나 추억이라 더 의미 있었던 것 같아요.\n완성된 반지도 너무 예쁘고 직원분들도 친절해서 만족했습니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fedaf0dd06a04b6d19692e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "유하6891",
+        "rating": "None",
+        "body": "공방이 넓고 쾌적해서 답답하지 않고 자유롭게 만들 수 있었어요! 직원분들 다들 친절하셔서 기분좋게 체험했습니다:) 반지 너무 이뻐요☺️",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69ff096b461bb02050c217b7",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "박세준8314",
+        "rating": "None",
+        "body": "깔끔허고 좋습니다",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefa0b69ddee050db34161",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "alsk6449",
+        "rating": "None",
+        "body": "반지 이쁘고 맘에 듭니당!\n반지공방 처음인데 재밌어요🫶",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feda55f9da1f65979d6b65",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "rlaehgml1209",
+        "rating": "None",
+        "body": "반지를 직접 만드는 체험을 해서 더 추억이남는 기억이 됬어요. 직원분들도 친절하고 잘 설명해주셔서 맘편히와도될것같습니다",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed7576d268a5b55863410",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "kik****",
+        "rating": "None",
+        "body": "깔끔하고 좋습니당!!! 추천이요",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fed72b89a22596c16050d6",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "정미961",
+        "rating": "None",
+        "body": "커플링 처음 와서 걱정 많이 했는데 잘 알려주셔서 이쁘세 먼들고 갑니다",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fec6ba1f45d9b9ec5c2f0f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "dudupuru",
+        "rating": "None",
+        "body": "디자인이 이쁜 게 많아서 좋았습니다",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fec139dee66b3d3ca9ac33",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "마르카1",
+        "rating": "None",
+        "body": "데이트로 방문했는데 진짜 만족했어요! 서로 반지 만들어주면서 웃고 떠드는 시간 자체가 너무 재밌었고, 선생님도 친절하게 도와주셔서 초보인데도 예쁘게 완성할 수 있었어요. 기념일 데이트로 완전 추천합니다!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69feb84e71b6130fb7b7c7d7",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Jimean",
+        "rating": "None",
+        "body": "짧은 시간을 알차게 보냈어요. 반지 완성도 빨리 돼서 좋았어요",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fec6fa9114b3e0d08641f3",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "st****",
+        "rating": "None",
+        "body": "너무 즐겁고 재밌었어요 반지도 이뻐요 ㅎㅎ",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec18f35e1342bd8859ced",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "awe****",
+        "rating": "None",
+        "body": "시설 깔끔하고 설명도 친절해서 편하게 체험했어요 반지도 예쁘게 잘 나와서 만족합니다. 특별한 추억 만들기 좋은 곳이에요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feb8200db3f62cd74d7a09",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "외괴읜",
+        "rating": "None",
+        "body": "남자친구랑 반지 맞추러 왔는데 설명도 친절하게 잘 해주시고 디자인도 이쁜게 너무 많아용",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "35629726",
+    "name": "반지대학 홍대본점",
+    "type": "경쟁사",
+    "total_reviews": 1357,
+    "daily_reviews": 5,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69fee100dd94b464dedf5f0b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "김승주48",
+        "rating": "None",
+        "body": "선생님들이 자세히 알려주시면서 친절하셔서 좋은 추억 하나 만들고 갑니다~",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fedd789d71ccedd4b1623f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "김다운749",
+        "rating": "None",
+        "body": "짱 조아용",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec691b153df1488d0726b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "yes****",
+        "rating": "None",
+        "body": "100일 기념으로 커플링 만들러 왔는데 너무 맘에 들어용!!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feabb7a7765140c3f7ea26",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ae****",
+        "rating": "None",
+        "body": "친구들과 함께 우정반지 만들고 난 후 나만의 반지 만들고 싶어 반지대학 다시 방문했어요.조금 난이도 있는 디자인였지만 선생님들의 세심한 설명과 도움으로 완성된 반지입니다.다음에는 팔찌 도전~~~",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee99bd52ca4bd4e355ff1",
+        "created": "5.9.토",
+        "visited": "5.3.일",
+        "author": "0112jm",
+        "rating": "None",
+        "body": "즐겁고 재밌는 경험이었습니다~",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1105995522",
+    "name": "위에트 성수",
+    "type": "경쟁사",
+    "total_reviews": 2760,
+    "daily_reviews": 10,
+    "daily_receipt_reviews": 10,
+    "reviews": [
+      {
+        "review_id": "69fefd48df8232782ab2aab4",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "min****",
+        "rating": "None",
+        "body": "100일 기념으로 반지 만들러왔는데 친절하게 알려주셔서 쉽게 만들 수 있었어요!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef58cc1c287ea05aa378c",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "김새봄77",
+        "rating": "None",
+        "body": "주말 원데이클래스로 딱이에요 ~! \n빠르게 진행되서 1시간 만에 결과물을 만들어요~!\n제일 좋았던 건 앉아서 보이는 서울숲 뷰에요🌳",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef10843d2811c55f46af5",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "앙기모띠주는나무779",
+        "rating": "None",
+        "body": "직원분이 친절하게 설명해주셔서 만들기 쉽고 좋았어요",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fee515a2871e41a01349c1",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "김윤아34",
+        "rating": "None",
+        "body": "친절하고 이쁜 반지 많았어요!!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fee3ca7669d1def8ea735f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "chs****",
+        "rating": "None",
+        "body": "남자친구랑 200일 기념으로 반지 만들러와봤어요! 서울숲뷰도 넘예쁘고 어렵지않게 알려주셔서 재밌게 했어요~",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fec35ad333336b7e92f89b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "혜니2440",
+        "rating": "None",
+        "body": "디자인도 다양하고 재미있어요 :)\n만들어주시는 직원분들도 친절해요!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fec78a07b52cc429430a3b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ymk****",
+        "rating": "None",
+        "body": "친절하게 잘 알려주시고 재밌게 만들었어요!\n어려울까봐 걱정했는데 하나하나 세심하게\n다 알려주셔서 어렵지 않게 만들었습니다🫶🏻💍",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fec181c31c2ffb89e55624",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "cho****",
+        "rating": "None",
+        "body": "디자인이 다양해서 반지를 선택하는 폭이 넓어요!\n서울숲 뷰를 보면서 반지를 만들 수 있어서 좋았어요!\n직원 분들도 차근차근 설명해주셔서 어렵지 않고 만들 수 있어요!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69feaa1e714fa33f5d34079b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "김소영8532",
+        "rating": "None",
+        "body": "생전 처음 해보는 반지만들기였지만\n과정과정마다 모두 설명해주셔서 쉽게 따라할수 있었어요!!\n디자인이 다양해서 미리 정해놓고 왔지만 실제로보니 결국 다른 디자인을;;;;\n다들 너무 친절하시고 반지를 만드는동안 앞 풍경도 너무 예뻤습니당",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fea35940d2d6e240333a86",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ckd****",
+        "rating": "None",
+        "body": "",
+        "tags": [],
+        "origin_type": "영수증"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1759997615",
+    "name": "캄앤슬로 잠실",
+    "type": "경쟁사",
+    "total_reviews": 2792,
+    "daily_reviews": 17,
+    "daily_receipt_reviews": 8,
+    "reviews": [
+      {
+        "review_id": "69ff11dec044a2ba859bd9d8",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "dlt****",
+        "rating": "None",
+        "body": "예쁜 디자인도 많고 친절하게 잘 알려주셔서 만드는 내나 즐거웠습니다!! 덕분에 행복한 기념일 된 것 같아요 기회가 된다면 또 방문하겠습니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff075ab7cc2fcf132cc6a0",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "러버램",
+        "rating": "None",
+        "body": "기념일로 반지 만들러 왔는데!! 디자인도 너무맘에들고 \n처음부터 끝까지 하나하나 친절하게 설명도 해주시고 \n도와주셨어요!!! 시설도 깔끔하고 너무만족스러워요! \n빨리 나와서 착용 하고싶어요 \n특별한 추억 남길수 있어서 좋았어요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0752d4af8628bd50b9cf",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "까미12",
+        "rating": "None",
+        "body": "연인과 함께 반지 만들어보는 재미도 있고 직접 은반지를 깎고 다듬고 파는 재미도 있어요\n그리고 서로 반지 만들어주면서 의미도 있었고요~\n나머지 다듬는 부분들은 전문적으로 해서 택배나 방문으로 전달해주십니다!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69feffb63b4d31f8b231d9f2",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "탁2673",
+        "rating": "None",
+        "body": "커플링 처음 맞춰봤는데 처음인데도 불구하고 차근차근 설명해주시고 칭찬도 많이 해주셔서 기분 좋게 만들고 가요~ 커플링 처음 만들어보시는 분들도 겁먹지 않고 잘 만들수 있으실거 같아서 추천드립니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feffb5719c88a0ebb6f8cc",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "쨈언니",
+        "rating": "None",
+        "body": "남자친구와 2주년을 맞아 뭘 할까 생각하다가 의미있게 직접 반지를 만들어보자는 남자친구의 제안에 따라 반지공방에 왔는데 정말 좋은 선택이었습니다. 처음 하는 반지만들기였는데도 선생님께서 너무 자세하게 잘 알려주셔서 예쁜 반지가 완성되었네요~\n기념일을 의미있게 보내고 싶으신분들 강추합니다~",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69feef3704ee2f4005bdccf3",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "53wook",
+        "rating": "None",
+        "body": "친절한 설명 덕분에 재미있게 반지를 만들 수 있었습니다. 꼼꼼하게 도와주셔서 좋아요.\n반지를 생각 중이시라면 한번 방문해봐도 좋을 것 같아요.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feeed048f58042e54683ea",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "당근싫어효",
+        "rating": "None",
+        "body": "처음 만들어 보는 것이라 걱정 많이 했는데, 시간 여유도 있고 친절하게 알려주시며 중간중간 체크해주셔서 재밌게 만들고 왔습니다 ㅎㅎ",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fefbb2193a674ecb8a29fb",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "and****",
+        "rating": "None",
+        "body": "직원 분들도 너무 친절하시고 하나하나 친절하고 자세하게 설명해주셔서 재미있게 즐겼다 가요!!! 그리고 결과물도 마무리작업을 따로 해주셔서 예쁘게 나왔어요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefb9d786d157b131afc1f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "dahlia59",
+        "rating": "None",
+        "body": "기념일 맞이해서 반지 맞추러 왔어요 직원분들께서 너무 친절하게 알려주셔서 똥손도 이렇게나 예쁜 반지를 만들 수 있었습니다~ 절대 잃어버리지 않고 예쁘게 착용하고 다닐게요 감사합니다🥰",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fed934cfaf777d2bca2393",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "min****",
+        "rating": "None",
+        "body": "이쁘 디자인들도 많고\n설명도 친철하게 해주셔서 전혀 어렵지 않았어요~\n잠실 데이트코스로 추천합니다~~",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fed869017b84f5181a9a91",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "냠냠1551",
+        "rating": "None",
+        "body": "어렵지않고 금방 만들수 있었어요!\n직접 만드니\n더 이쁘고 뿌듯하네용❣️",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed2e64f2b7dab6123ea25",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "포뇨퐉",
+        "rating": "None",
+        "body": "친절한 설명 덕분에 어렵지 않게 반지를 완성할 수 있었어요.\n디자인 선택 폭도 넓고 꼼꼼하게 도와주셔서 좋아요.\n정성이 들어간 의미 있는 반지룰 고민 중이라면 한번 방문해봐도 좋을 것 같아요.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed27dad0a20c242a0a1a4",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "한성원8696",
+        "rating": "None",
+        "body": "생각보다 만드는 과정이 어렵지 않고 정말 즐거웠어요!\n커플끼리 좋은 추억 만들기 딱 좋은 곳 같습니다.\n사진도 예쁘게 찍을 수 있어서 더 좋았어요 📸",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef995504433fc13bb1ccf",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "eun****",
+        "rating": "None",
+        "body": "",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef98b0706afb9f010ff65",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ifyabms",
+        "rating": "None",
+        "body": "여자친구랑 커플링 맞추는데 재밌고 시간도 금방 갔어요!\n다른 커플들에게 추천하기 너무 좋을것같아여",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec8e9684be5824abf85ed",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "조영준06",
+        "rating": "None",
+        "body": "처음 반지공방 왔는데 자세하게 알려주시고 꼼꼼하게 봐주셔서 이쁘게 잘 만들고 왔어요! 너무 맘에 드네여",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fec91b0d2f888f4ab82823",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "kim****",
+        "rating": "None",
+        "body": "직원분들이 너무 친절하시고 조금만 잘해도 칭찬을 해주셔서 기분이 너무 좋았어요 ㅎㅎ 핸드폰 거치대도 준비가 되어있어서 영상 찍기에도 너무 좋았고 하나하나 잘 가르쳐주셔서 처음만들어보는데도 너무 쉽고 재밌었습니다!!!",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1907170448",
+    "name": "은파은파 연남점",
+    "type": "경쟁사",
+    "total_reviews": 2470,
+    "daily_reviews": 4,
+    "daily_receipt_reviews": 2,
+    "reviews": [
+      {
+        "review_id": "69ff10d3e5d050695ed4a0b9",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "율동이96",
+        "rating": "None",
+        "body": "직원분들이 너무너무 친절하고 재미있으셔서 재미있는 시간 이였습니다 재료와 하는 방법등을 자세하고 편하게 알려주셔서 초보자인 저도 쉽게 따라할 수 있었습니다.\n연인끼리 오시면 충분히 재미있고 유익한 시간 일겁니다 추천합니다!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fee82dae095f1590c4f038",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "you****",
+        "rating": "None",
+        "body": "애인이랑 커플 반지 맞추러 왔어용 친절하게 설명해주시고 도와주셔서 똥손인데도 잘 만들어서 이쁜 반지를 맞추게 되었습니다! 모양두 이쁘고 광도 이쁘구 선생님들도 굉장히 친절하셔들요 다들 반지 공방 찾고 계신다면 이곳 적극 추천드립니다 다들 오셔서 좋은 추억 만들고가세용!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefd43786d157b131c8166",
+        "created": "5.9.토",
+        "visited": "5.8.금",
+        "author": "flaWkddl",
+        "rating": "None",
+        "body": "친구들이랑 우정링 만들러 왔어요! 디자인이 다양해서 고르는 재미가 있었습니다🩵 완성본이 너무 예뻐서 대만족이었습니다!! 직원분들이 매우매우 친절하시고 잘 알려주셔서 금손이 아니시더라도 잘 만드실 수 있어요><",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fedaf9cf8049f0ba872f5b",
+        "created": "5.9.토",
+        "visited": "5.4.월",
+        "author": "sssora00",
+        "rating": "None",
+        "body": "실물 디자인 샘플 직접 보고 고르려고 방문했는데, 디자인 결정만 거의 30분 걸릴 정도로 고민했는데도 끝까지 친절하게 상담 도와주셨어요🥹\n손재주가 없는 편이라 걱정했는데 만드는 과정도 하나하나 잘 알려주시고, 중간중간 편하게 장난도 받아주셔서 사장님이랑 티키타카 하는 재미까지 있었네요ㅋㅋ\n\n공간도 전체적으로 깔끔하고 쾌적했고 테이블 간격도 넓은 편이라 다른 팀이랑 안 부딪히고 편하게 집중할 수 있었어요!\n특히 블랙도금 진짜 너무 예뻐서 남자분들 반지로 강추합니다🖤\n\n커플끼리 색다른 데이트 찾는 분들한테 완전 추천이에요. 즐거운 추억 만들고 갑니다 :)",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1012334884",
+    "name": "위에트 홍대",
+    "type": "경쟁사",
+    "total_reviews": 2430,
+    "daily_reviews": 13,
+    "daily_receipt_reviews": 13,
+    "reviews": [
+      {
+        "review_id": "69fefb7c2ecc10417f01e728",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "cnc****",
+        "rating": "None",
+        "body": "반지만들어 처음와봤는데 너무 간단해서 초보자도 쉽게 할수있을거같아요 직원분들도 친절하시고 반지도 다양해서 한번쯤 경험해보기 좋을거 같네요! 만족하고 갑니다!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef5bade2b4200f07a1c9a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "가빈635",
+        "rating": "None",
+        "body": "남자친구랑 기념일 맞아서 커플링 맞추러 왓는데 친절하게 설명해 주시고 초보자한테도 너무 좋앗어요!! 소중한 시간 보내구 갑니다 😍",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fee96fc1c287ea059d7c55",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "영감224",
+        "rating": "None",
+        "body": "500일 기념으로 커플링 만들러 방문했는데 진짜 너무 만족했어요🤍\n추천 받아서 오게 된 곳인데 처음 반지 만드는 거라 걱정했는데 하나하나 친절하게 설명해주시고 작업도 빠르게 도와주셔서 편하게 만들 수 있었어요! 덕분에 첫 반지 만들기 성공✨ 좋은 추억 남기고 갑니다🥹",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fee4d57600a303737c4b1d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "soy****",
+        "rating": "None",
+        "body": "만들기 쉽게 잘 설명해주시고 재밌어용\n디자인도 많아서 좋았어요!!\n생각보다 쉽고 재밌어서 추천드립니다!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fee4f1461bb02050988460",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Luzern24",
+        "rating": "None",
+        "body": "기념일로 연인과 커플링 맞추러 왔는데, 사포질부터 광택을 내는 것 까지 잘 도와주셔서 재미있게 하고 왔습니다! 디자인도 다양하고 예쁜 것들이 많아서 만족스러웠고, 결과물 또한 너무 맘에 들었어요!!☺️",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fed4503a9a5b9e05b35e63",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "윤채린4633",
+        "rating": "None",
+        "body": "반지를 만든다는 경험 자체가 너무 특별하게 다가온거 같아요..!!🥹 \n처음엔 어렵지 않을까 걱정했는데 설명도 친절하게 해주시고 분위기도 좋아서 시간 가는 줄 모르게 진행한 것 같아용\n세상에 한 쌍 뿐인 반지를 직접 완성하니까 더 의미 있고 추억도 오래 남을 것만 같아요💍",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69feca9762a5eecccae95f11",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "lyd****",
+        "rating": "None",
+        "body": "1주년 기념으로 반지 맞추러 왔어요 생각보다 좀 어렵지만 잘 도와주셔요 직접 껴보고 디자인 정할 수 있어서 좋아요!!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fec51351297f755713b731",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jae****",
+        "rating": "None",
+        "body": "친절하시고 초보자인데도 잘 가이드해주셔서 반지 이쁘게 잘 만들고 갑니다!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fec118935d175096140f8a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "나롱92",
+        "rating": "None",
+        "body": "커플링 만들러왔어요!\n예쁜 디자인이 많아 방문햇습니다 ㅎㅎ\n뷰도 이쁘고 결과물도 너무너무 만족스러워요!\n친절한 설명도 감사합니당!!\n다들 기념일에 체험두하구 반지도 겟하세용!!!🩷",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69feac66a2871e41a0d441fd",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "미스터앤트58",
+        "rating": "None",
+        "body": "반지를 만드는 내내 친절하게 설명해주셔서 재밌게 만들수 있었어요 디자인도 예쁜게 많아서 좋았어요 즐거운 시간이었습니다",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fea8e40deeecf15c669760",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "평아98",
+        "rating": "None",
+        "body": "처음 만들어봤는데 초보자도 쉽게 따라 할 수 있어서 좋았어요!\n디자인도 예쁘고 기념일 선물로 만들기 딱 좋아서 만족스러웠어요.",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fea5c6de2b4200f02a6346",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "아네스6142",
+        "rating": "None",
+        "body": "처음으로 만들어봤는데 초보자도 수월하게 만들 수 있었어요!! 디자인도 예쁘고 기념일에 만들어서 기분이 좋아요",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fea5e4ed2742a54fbcc134",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "빈9297",
+        "rating": "None",
+        "body": "반지 제작 처음 해봤는데 친절하게 설명해주시고 제작 시간도 여유롭게 해주셔서 예쁘게 잘 만들었습니다!\n잘 착용하겠습니다!!",
+        "tags": [],
+        "origin_type": "영수증"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1459322907",
+    "name": "아테로스",
+    "type": "경쟁사",
+    "total_reviews": 2089,
+    "daily_reviews": 7,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff3ce66c1ce671188bf571",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "윤시형92",
+        "rating": "None",
+        "body": "진짜이보다친절하시고다정하셔서편안했어요너무재밌게했어요감사합니다진짜로요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff05370db3f62cd7a44a1f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "sow****",
+        "rating": "None",
+        "body": "디자인이 예뻐서 방문했어요.\n직접 보니 예쁜 반지가 너무 많네요.\n차근차근 설명해주시고 잘 못해도 도와주셔서 예쁜 반지 완성할 수 있었어요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefb1865a6cc42edc33550",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "오영환41",
+        "rating": "None",
+        "body": "반지 만들기 쉽게 설명해주셔서 좋았어요!! 디자인도 정말 이뻐요 감사합니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feebf07fb156dce883053f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "이민지8125",
+        "rating": "None",
+        "body": "반지 공방 찾으시고 계신 분들 그냥 오십쇼 미쳤습니다",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed9b10d2f888f4acad197",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "gid****",
+        "rating": "None",
+        "body": "직원분들이 모두 친절하시고 예쁜 반지도 많아서 고민하느라 애썼었요 분위기도 너무 좋고 음료도 재공해줘서 너무 편하게 만들었습니다",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed3cbaf99f55e07828c28",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "먹깅",
+        "rating": "None",
+        "body": "아테로스에서 남자친구랑 커플링 만들고 왔어요!\n디자인도 예쁘고, 컬러도 여러 색으로 고를 수 있어서 좋았습니다.\n가르쳐주시는 선생님들도 엄청 친절하셨어요☺️\n즐거운 경험이 되었습니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec7a9b8ae2443968b6d5e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "bae****",
+        "rating": "None",
+        "body": "만드는데 많이 어렵지 않고 사장님이나 직원분들 모두가 너무너무 친절하셔서 만드는동안 정말 재미있었습니다!!\n시설도 너무 깔끔하고 쾌적해서 좋았습니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1985202825",
+    "name": "위에트 서촌",
+    "type": "경쟁사",
+    "total_reviews": 1513,
+    "daily_reviews": 10,
+    "daily_receipt_reviews": 10,
+    "reviews": [
+      {
+        "review_id": "69fef0a1af09c816f224b432",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "산은토끼산토끼",
+        "rating": "None",
+        "body": "남자친구랑 같이 반지 만들러왔는데 직접 만드니까 의미도 있고 더 좋은 것 같아요!\n혹시 이상하게 되면 어쩌지 걱정도 했는데 부족한 부분은 선생님께서 도와주시기도 해서 예쁘게 잘 만들었습니다🤍",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fee8f7786d157b13096871",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Place0097",
+        "rating": "None",
+        "body": "남자친구가 미국에서 잠깐 한국에 들어와 함께 방문했는데, 같이 직접 반지를 만들 수 있어서 행복했어요 :) 처음이라 서툴렀지만 만드는 과정이 너무 재밌었어요! 친절하게 알려주셔서 감사합니다🤍",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fee1964b933890bed28555",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "zitten sjh",
+        "rating": "None",
+        "body": "장소도 깨끗하고 카페처럼 되어있어서 좋았어요 차분한공간에서 연인과 커플링만들면서 행복한 시간이었습니다",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fedc4e54cbc4250391c0ad",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "hj1****",
+        "rating": "None",
+        "body": "내부가 깔끔하고 너무 예뻐요! 분위기도 좋고 아늑해서 재미있게 만들고 갑니다😊 반지 디자인도 예뻐서 만족합니다",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fece8875865b89488ec3b7",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "dudwl3026",
+        "rating": "None",
+        "body": "생일을 맞아 남자친구가 손수 검색해 예약하고 찾아온 웨에트 서촌점😁\n커플링 노래를 부르던 나를 위해 조금 더 좋은 곳으로 가고싶었다며 찾아오게 되었는데 분위기도 너무 좋고 창가 너머로 날씨도 너무 좋아서 만드는 동안 너무 재밌고 좋았어요! \n만드는데 어렵지 않고 설명을 자세히 해주셔서 좋았어요!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fecf7d3834cddaa90917e4",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Yerendipity",
+        "rating": "None",
+        "body": "100일 기념으로 반지 맞추러 예약 후에 방문했는데 시설도 깔끔하고 사진으로 봤던 것보다 실물이 더 예뻐서 좋았어요! 유리 창문이 넓어서 밖에 풍경도 잘 보여서 더 좋았어요! 처음 접해보는 공방인데도 친절하고 자세히 알려주셔서 편하게 만들 수 있었어요! :) 좋은 추억 만들고 갑니다!♥",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fec08755df9d2fe74db19e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "rla****",
+        "rating": "None",
+        "body": "여자친구와 반지 공방은 처음인데 너무 만족스럽게 하고 갑니다!\n선생님께서 하나하나 친절하게 알려주시고, 사이즈나 디자인 추천도 잘해주셔서 편하게 만들고 가요 ㅎㅎ \n만드는 곳 뷰도 너무 좋았습니다",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fec70c835d8b198fef2397",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "Jangs51",
+        "rating": "None",
+        "body": "커플링을 알아보던 중 위에트라는 곳을 알게되어 방문하게 되었습니다. 반지 디자인도 다양하고 수업 전에 하나하나 착용할 수 있어 둘의 분위기에 더 잘 맞는 디자인을 고르고 서로 상대방의 반지를 제작할 수 있어 더 깊은 의미를 느낄 수 있었습니다.",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69feab6e7adf1c1a244cb678",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "lvyrself",
+        "rating": "None",
+        "body": "남친이랑 1주년 기념으로 왔어요! 친절하시고 반지 디자인도 참 아쁜 게 많았습니당! 서로 반지를 바꿔서 제작하는 점이 참 좋았고 반지 제작 과정도 어렵지 않고 초보자도 충분히 따라갈 수 있었습니다. 반지 나온 것도 딱 깔끔하니 이쁘네요! 좋은 추억 만들고 갑니다!!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fea261b8e09c83f856592d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "두부만도",
+        "rating": "None",
+        "body": "선생님이 친절하고 반지가 멋있어요!! 잘 가르쳐주셔서 재미있게 체험했습니다~~ 남자친구랑 좋은 데이트를 했어요 데이트 장소로 추천드립니다!!",
+        "tags": [],
+        "origin_type": "영수증"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1903400253",
+    "name": "반지만드는남자",
+    "type": "경쟁사",
+    "total_reviews": 1156,
+    "daily_reviews": 0,
+    "daily_receipt_reviews": 0,
+    "reviews": [],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "2042596449",
+    "name": "홍대반지만들기 공방",
+    "type": "경쟁사",
+    "total_reviews": 1229,
+    "daily_reviews": 3,
+    "daily_receipt_reviews": 1,
+    "reviews": [
+      {
+        "review_id": "69ff0bce19d2d370240d9256",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "하재희07",
+        "rating": "None",
+        "body": "우정링 맞추러 왔는데 너무 귀엽고 진짜잃어버리면 너무슬퍼서죽을만큼 소중해요… ㅠ…ㅠ 너무 귀엽습니다 링맞추기에 최고에용 완전 친절하십니당",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0be9a375e09d6218f919",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "lov****",
+        "rating": "None",
+        "body": "반지 처음 만들어봤는데 너무 친절하게 알려주시고,반지 디자인 직접 고를수 있어서 좋았고,폰트도 직접 고를수 있어서 좋았어요 !",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fedcb6f5ae135eae8735d7",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "hon****",
+        "rating": "None",
+        "body": "\"여자친구와 함께 특별한 기념일을 맞아 방문했는데, 기대보다 훨씬 행복한 시간이었습니다. 서로의 반지를 직접 두드리고 다듬으며 만드는 과정이 정말 의미 있었어요. 처음이라 서툴렀는데 선생님께서 친절하고 세심하게 도와주신 덕분에 완성도 높은 결과물이 나왔습니다. 디자인도 세련되고 착용감도 너무 좋네요. 볼 때마다 이때의 즐거웠던 기억이 떠오를 것 같아요!\"",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "2033728532",
+    "name": "유니유링스 잠실점",
+    "type": "경쟁사",
+    "total_reviews": 1281,
+    "daily_reviews": 18,
+    "daily_receipt_reviews": 1,
+    "reviews": [
+      {
+        "review_id": "69ff27d116bb361d454440df",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "엄쎄",
+        "rating": "None",
+        "body": "반지 만드는 거 말고도 다양한 것들을 해서 시간 가는 줄 몰랐어요 분위기가 좋고 친절하셔서 편안한 분위기 속에서 예쁘게 만들었어요!👍🏻💖",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff27f33b175377ce6b2030",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "tls****",
+        "rating": "None",
+        "body": "친절하시고 이벤트도 다양하고 재밌어요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0c5737f44c0eb661646b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "co****",
+        "rating": "None",
+        "body": "남자친구랑 기념일을 맞아 \n반지 만들러 왔어요!! 디자인도 다양하고\n설명도 쏙쏙 이해되게 잘 해주셔서 \n시간가는 줄 모르고 즐기고 왔습니다 ㅎㅎ\n단순히 클래스만이 아닌 좋은 의미를 담아 시간 보낼 수 있게 진행해주시는 점이 인상 깊었습니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0b531a513d07c0f08fab",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "man****",
+        "rating": "None",
+        "body": "",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefb31514a080902b25bd6",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "일리일리콩",
+        "rating": "None",
+        "body": "실버반지 만들기 처음 해봤는데요 너무 재밌고, 알려주신대로 수다떨면서 하니까 시간가는줄 몰랐네용! 반짝반짝 반지가 너무 예뻐요! 또 오고싶어용❣️👍",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef2c3a835d0cca5d91187",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "봉구1859",
+        "rating": "None",
+        "body": "즐거운 시간을 보내서 좋았습니다",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fefb70ab89ddf415a25d24",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "은블리0",
+        "rating": "None",
+        "body": "예쁜반지가 많아서 취향에 맞는 반지 만들수있어요. 중간중간 사진/키링만들기도 하면서 추억만들기도 좋아요!\n\n본 리뷰는 체험권을 제공받아 솔직하게 작성했습니다.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee8b11fdf1d33897998f0",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jul****",
+        "rating": "None",
+        "body": "공간도 아늑하고 반지 만들기 말고도 편지도 쓸 수 있고 키링도 만들 수 있어서 너무 좋았어요!! 반지 디자인도 너무 맘에 들고요! 소중한 추억 만들고 갑니다!!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fedf14457a218175772d76",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "tae****",
+        "rating": "None",
+        "body": "아이들과 특별한 활동하기 위해 방문했는데 초등아이들도 즐겁게 만들었어요 반지도 이쁘고 친절히알려주셔서 감사합니다 공간도 이쁘고 아늑해요!!☺️",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feeb94a6d822b8053c1618",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "펭누니",
+        "rating": "None",
+        "body": "반지뿐아니라 편지쓰기, 슈링클 등 다양한 체함이 있어서 \n시간가는줄 몰랐던 이색 반지공방인것같아요!!!!\n서로를 위한 반지를 만들고 사진과 슈링클키링 등 기념할수있는 아이템이 많아서 더 재미있었던것같아요!! 💕\n각인 문구추천도 잘 되어있고 다양한 폰트도 있어서 고를수있는 산택지가 많아서 좋았어요!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fedc93a97b41bb3d48d8df",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "박지환10",
+        "rating": "None",
+        "body": "커플링 만들러 다녀왔습니다.\n공방 특유의 느낌보다는 좀 더 캐쥬얼한 느낌의 공방이였어요.\n머리 싸메고 눈 크게뜨고 집중해서 하는 그런 힘든 느낌의 곰방보다는 다양한 컨텐츠들이 준비되어있는 체험학습 공간 같은 느낌이였습니다.\n꼭 커플링와 같은 쥬얼리 목적이 아니더라도 은 장식품이 어떻게 만들어지는지 교육 및 놀이로도 좋은것 같아요!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee867a7765140c33c6047",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "rhk****",
+        "rating": "None",
+        "body": "너무 친절하시고 좋은추억 남기고 갑니다👍👍",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed5c29e30108688ea5c05",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "yun778",
+        "rating": "None",
+        "body": "남자친구랑 커플링 맞추러 왔어요 ! \n다들 너무 친절하시고 재밌으셔서 힐링 데이트였어용 ㅎㅎ 반지도 너무 예뻐용!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fedb81d1b8da4ae9393360",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "mggr",
+        "rating": "None",
+        "body": "진짜 맘에 들어요 ^_^ 남자친구랑 주말데이트 뭐할지 고민하다가 왔는데 반지 디자인도 많고 너무 예쁘네요♡ 예쁘게 잘 만들고갑니당 좋은추억이 됐어요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec74f32aabbf0f3aee6dc",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "오장현62",
+        "rating": "None",
+        "body": "처음으로 직접 커플링을 만드는거라 걱정 많이 했는데 수업도 너무 재밌고 선생님이 친절하셔서 시간 가는 줄 몰랐어요 ㅎㅎ\n반지 디자인도 다양해서 좋았는데 결과물을 보니 너무 만족스러웠어요!!! 반지공방 추천드려요~~~",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed5de0c0ee2f0882604f4",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "lim****",
+        "rating": "None",
+        "body": "수업도 알차고 친절하게 잘 알려주세요!!\n너무너무 재밌었고 분위기도 짱입니다\n반지도 이쁘게 잘나오구 내가 만드는데 일조해서 더 이뻐보이는거같아용\n커플끼리 데이트하기도 좋은장소인거같아요\n강추합니다!!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec75e2e6666661d2d9d0d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "배쮸29",
+        "rating": "None",
+        "body": "사내연애커플이라 커플링 할까말까만 100번 고민하다가 잘 못 끼고 다닐거같아서 의미있게 직접 만들어보자하고 방문했는데 선생님도 넘넘 친절하시고 시안도 많아서 너무 만족스러웠습니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff20c6deed9b3d4dcad85d",
+        "created": "5.9.토",
+        "visited": "5.8.금",
+        "author": "호호빠빠",
+        "rating": "None",
+        "body": "결혼 10주년 기념으로 방문한 잠실 반지공방 STUDIO925. 처음에는 단순히 커플링 만들기 체험 정도로 생각했는데 직접 만들어보니 정말 특별한 추억이 되었어요. 다양한 디자인을 직접 착용해보고 서로 취향에 맞게 다른 스타일로 선택할 수 있어서 더 좋았습니다. 사장님께서 반지 호수 측정부터 사포 사용법, 힘 조절까지 하나하나 친절하게 설명해주셔서 처음 방문해도 부담 없이 체험할 수 있었어요. 무엇보다 직접 만든 반지를 완성해가는 과정이 정말 재미있었습니다. 추가로 아이들 영어 이름으로 키링까지 만들었는데 집에 가져가니 아이들이 정말 좋아하더라고요. 잠실 실내데이트나 기념일 데이트 장소 찾는 분들에게 정말 추천하고 싶은 송리단길 반지공방입니다.",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1979119368",
+    "name": "허스프",
+    "type": "경쟁사",
+    "total_reviews": 978,
+    "daily_reviews": 3,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff01db2e2b6535b0f03f51",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "kongdaniel31",
+        "rating": "None",
+        "body": "너무 재미있게 반지 만들다 갑니다~!!\n친절하게 알려주셔서 감사합니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feaa881651996bce51656d",
+        "created": "5.9.토",
+        "visited": "5.3.일",
+        "author": "un5231",
+        "rating": "None",
+        "body": "작업실도 예쁘게 꾸며놔서 너무 멋있습니다.\n설명도 친절하시고, 잘 모르는 부분에 대해서 헤매지 않도록 잘 도와주셨어요.\n여자친구도 좋아하구, 선생님도 넘 좋으신 분입니다.\n반지 맞추러 갔는데 만드는것도 어렵지않고 재미를 느낄수있게끔 잘 안내해주십니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec6f6584b1ebff7dc39e5",
+        "created": "5.9.토",
+        "visited": "5.2.토",
+        "author": "dydy0214",
+        "rating": "None",
+        "body": "친절하시고 디자인도 예뻐요!❤️",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "35787720",
+    "name": "반지공방 커반 반지만들기",
+    "type": "경쟁사",
+    "total_reviews": 6696,
+    "daily_reviews": 5,
+    "daily_receipt_reviews": 2,
+    "reviews": [
+      {
+        "review_id": "69ff112ec1fcb4a35d4603d9",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "또로롱도로로",
+        "rating": "None",
+        "body": "현장방문 했는데 다행히도 바로 할 수 있어서 우정반지 만들었어요 1시간반정도 소요됐고 하나하나 친절하게 알려주시고 얘기도 많이 해주셔서 시간이 빨리가고 정말 즐거운 시간이였어요! 다음엔 다른 친구 데리고 또 올게요!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef9c1a967de4bf5d7daca",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "421588",
+        "rating": "None",
+        "body": "아무 계획없이 친구랑 홍대왔다가 너무 즉흥으로 당일 예약하고 왔어요 앞에 두팀이나 있었는데도 불구하고 오랜대기 없이 바로 잘 봐주셨고 생각한거 이상으로 너무 재밌었어요 반지 종류도 많고 동성친구랑 우정링 맞추러 오는 것도 나쁘지 않은 거 같아요 그리고 사장님이 너무 친절하시고 부담없이 스몰토크도 해주셔서 재밌어요~",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef5f385b960cb34f5263d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "jilijljlkjlijlkj",
+        "rating": "None",
+        "body": "재미있구 심심할 틈이 없엇어여 주인 선샡님도 너무 유쾌하시고 기다릴 때는 연애고사 문제집을 주셔서 이거 풀고 웃느라 시간 가는 줄도 몰랏네용 ㅎㅎ 스티커사진도 찍게 해 주셧어요 감사합니다유ㅠ 반지도 넘 예뻐야",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef308adeedf380d00e8af",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "wlg****",
+        "rating": "None",
+        "body": "사장님이 친절하시고 무엇보다 심심할 틈 없이 반지 제작에 힘 써주십니다 !\n\n데이트 및 반지 제작으로 강추 ~~ 주차는 홍대 정문 지하 주차장으로 가면 돼요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feb93d7086011121dbadf8",
+        "created": "5.9.토",
+        "visited": "5.5.화",
+        "author": "Jjjjjjjjjjjjjjjjjjja",
+        "rating": "None",
+        "body": "되게 친절하시고 친근하게 알려주셔서 쉽고 재밌게 잘 할 수 있었습니다!\n반지만드신다면 강추드립니당!!",
+        "tags": [],
+        "origin_type": "영수증"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1704065847",
+    "name": "유니유 성수",
+    "type": "경쟁사",
+    "total_reviews": 5045,
+    "daily_reviews": 25,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff0d82dc5e68c29219b2d1",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "마법사7412",
+        "rating": "None",
+        "body": "동생과조카 딸아이까지 함께 넘 색다르고 즐거운추억을 만들었네요\n감사합니다",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0d80e7d92c64d73093e3",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "skyfly040143",
+        "rating": "None",
+        "body": "딸과 함께 방문해서 반지 만들기 했어요~\n친절한 설명에 차근차근 잘 만들었어요^^\n깔끔한 매장 분위기도 좋네요~\n귀여운 키링 만들기도 기분 좋아요^^",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0d32d52ca4bd4e56dc1c",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "rn****",
+        "rating": "None",
+        "body": "친절하고 반지가 너뮤 예뻐용",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff05d25cbfa0657d7c89d5",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "sun****",
+        "rating": "None",
+        "body": "아주아주 재밌습니다 처음이었는데도 정말 친절하게 알러주셔서 재미있게 체험해볼 수 있었습니다 끝나고 키링도 만들었는데 너무너무 귀여워서 만족합니다 여자친구랑 반지 만들고 싶으신 분들에게 강추드립니다 짱짱맨!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff0250cebf688a5ca0fbeb",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "nic****",
+        "rating": "None",
+        "body": "모든 클래스가 당일수령 가능해서 좋아요\n사진 이벤트도 있어서 편지도 쓰고 추억 남기기 좋아요\n편한 분위기에서 부담없이 재밌게 수업했어요\n직원분들이 친절하고 매장이 청결해요\n다음에 또 오고 싶어요\n반지 공방을 찾으신다면 유니유를 적극 추천합니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef9cc4b5edb697ce628eb",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "sie****",
+        "rating": "None",
+        "body": "",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff05de3a9a5b9e05e47327",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "재유우운",
+        "rating": "None",
+        "body": "남자친구랑 방문했는데 다들 너무 친절하시고 만드는데도 어려움이 없었어요! 하나하나 세세하게 알려주시고 칭찬도 아끼지 않으셔서 기분 좋게 만들 수 있었답니당☺️☺️ 리뷰 이벤트로 키링도 만들었는데 너무 깜찍한거 같아요 ㅎㅎ",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69ff024fadeedf380d1316c4",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "박은서2647",
+        "rating": "None",
+        "body": "직원분들이 친절하게 세세하게 잘 가르쳐 주세요 모든 클레스가 당일수령 가능해서 좋아여 사진 이벤트로 서로 편지 쓸 기회도 있고 추억 남기기 아주 좋아요 \n반지 디자인이 다양해서 각자의 취향의 맞게 고를 수 있어서 적극 추천합니다",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee0c6962eb97a9c9d05f3",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "지수6170",
+        "rating": "None",
+        "body": "고를 수 있는 디자인이 정해져있어서 그 중에 고를 수 있어 편했습니다. 마무리도 따로 해주셔서 깔끔하고 좋아요.",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef9b8ca2e0fba9f528973",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "강두영27",
+        "rating": "None",
+        "body": "유니아 성수 다녀왔는데 성수 특유의 감성이랑 분위기를 제대로 느낄 수 있었던 공간이었어요.\n분위기도 예쁘고 깔끔해서 사진 찍는 재미까지 있었고, 데이트로 오기 정말 강추입니다\n특히 공간 분위기가 너무 시끄럽지 않아서 대화하면서 여유롭게 즐기기 좋았던 게 만족 포인트였습니다 :)\n성수에서 분위기 좋은 곳 찾는다면 좋은곳으로 추천합니다 ㅎㅎ",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feeadb203aaf672db6c372",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "sbs****",
+        "rating": "None",
+        "body": "기념일이여서 유니온 반지공방을 방문해서 반지를 맞추었는데, 만드는 과정에서 다 자세하게 설명해주셔서 너무 좋았구요 그리고 사진찍기나 키링 만들기 같은 추억으로 남을 이벤트도 있어서 좋았습니다 유니온 반지공방 덕분에 잊지못할 추억 많이 만들고 갑니당 감사합니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee2d169d335b6e81ab950",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "binzii",
+        "rating": "None",
+        "body": "모든 클래스가 당일수령 가능해서 좋아요! 반지 디자인도 다양해서 맘에 드는거 고르기 편했어요~!\n무엇보다 사진 이벤트도 있어서 편지도 쓰고 추억남기기 좋더라구요\n처음해보는거라 걱정 많았는데 직원분들이 다들 친절하게 알려주시고 응원?도 해주셔서 재밌게 만들었답니다!!\n재방문 의사 1000%입니당! 반지 공방 찾으시면 유니유 성수 완전 추천이용~~🤍",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee08f3a9a5b9e05bf0db9",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "soy****",
+        "rating": "None",
+        "body": "고민이 길어져도 충분히 기다려주시고 추천도 해주셔서 편하게 진행할 수 있어 좋았어요 당일 수령하기 좋아요 커플반지 추천드려요~",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feea0808394d6b52af3932",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "씬나모롤",
+        "rating": "None",
+        "body": "도대체 왜 키워드가 5개만 되는 거냐며ㅠㅠ\n작년 여름에 남친 만나고 한 달만에 여기서 반지를 맞췄는데 남친이 잃어버려서 새로 맞출 겸 다시 방문 했어요!!\n디자인은 똑같이 했고 제 반지 보시고 사연 들으시더니 재방문에 감사하다고 말씀해주시면서 키링 서비스로 해주셨습니다❤️ 한 번 했던 경험이 있어서 익숙했지만 곧 1년이라 새로운 마음으로 했습니다🤍❤️🖤\n1시간이 넘 알찼고 즐거웠어요💖\n막판에 로즈골드 도금 가능하다고 하셔서 진행했고 새로운 마음으로 끼려구요📍\n오늘 잘해주셔서 감사합니당☺️",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee2b46a4306fa71780abc",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "재욱23",
+        "rating": "None",
+        "body": "모든 클래스가 당일 수령 가능해서 좋아요 서진 이벤트도 있어서 편지도 쓰고 추억 남기기 좋아요 편한 분위기에서 부담없이 재미있게 수업했어요 반지 디자인이 다양해서 취향에 맞게 고를 수 있어요 직원분들이 친절하고 매장이 청결해요 재방문 의사 100%!!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed7c1fb4f8fb02502b939",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "cyu****",
+        "rating": "None",
+        "body": "항상 커플링 사기만 하다가 500일 기념으로 3번째 커플링을 맞추러 처음으로 반지공방에 왔는데 남자친구랑 좋은 추억 쌓은거 같아서 좋았어요! 직원 분들도 친절하시고 시설도 깨끗해서 다음에 또 재방문 할게요~",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fed737d56580a49e1b5746",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "hsu****",
+        "rating": "None",
+        "body": "여자친구랑 데이트하러 오기 딱 좋은거 같습니다\n직원 분들도 친절 하시고 만드는 법도 자세하게 잘 알려주십니다 반지공방 처음 와봤는데 좋은추억 만들고 갑니다! 😄",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec6f7dee66b3d3caf4699",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "냐니뉴녜냥",
+        "rating": "None",
+        "body": "남자친구랑 3주년 기념일 맞이해서 반지 맞추러 왔어요!! 디자인도 완전 다양하구 예뻐서 고르는 재미가 있어욥 초보자도 똥손도 완전 쉽게 만들 수 있어서 너무 좋구 직원분들도 너무너무 친절하셔서 좋은 추억 만들고가요!! ㅎㅎㅎ 향수 만들기도 너무 재밌어서 꼭 추천드립니당🌀🤤🩵",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec5ef4990d8b199e9eec1",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "nni****",
+        "rating": "None",
+        "body": "선생님분들이 엄청 친절하고 이해하기 쉽게 잘 얘기해주셔서 예쁜 반지와 향수 만들 수 있어서 행복했습니다 초보들도 잘 만들 수 있어서 좋은 것 같습니다",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec30954cbc42503794e53",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "혜선이92",
+        "rating": "None",
+        "body": "친절하게 설명주셔서 반지 이쁘게 잘 만들었습니다!\n사진 이벤트도 있어서 편지도 쓰고 샏다른 체험을 했네요😊\n반지 디자인도 다양하고 취향에 맞게 고를 수 있어서 좋았어요\n다음에 또 반지를 만들게된다면 또 여기로 오겠습니다!!🌸🫢",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec229a468fc4439954f63",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "als****",
+        "rating": "None",
+        "body": "너무 깔끔하고 친절하기 잘알려주시고 예뻐요🥳",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feb6e9cfda5043746f578d",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "훈제연어11",
+        "rating": "None",
+        "body": "너무 재밌게 반지 만들었습니다! 재밌어서 말도 안 하고 열중했더니 쌤이 이렇게 한마디도 안하고 반지 만드는 커플 첨봤다고ㅋㅋㅋㅋㅋ\n 글고 제작되는 동안 심심할까봐 서비스로 키링 만들기도 하게 해주셨어요 ㅋㅎㅋㅎ\n 여자친구가 열심히 찾아보고 온 곳인데 추천!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feb65d4990d8b199dbc75e",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "진76",
+        "rating": "None",
+        "body": "덕분에 커플링 예쁘게 잘 맞췄어요!\n설명도 너무 잘해주시고 친절하게 잘 안내해주세요\n이런거 처음 해보는데도 결과물이 예쁘게 잘 나왔어요\n안내도 너무 친절하게 잘 해주셨어요🫶🫶",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fea55e2d39ca23c395c56b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "junhyuk041",
+        "rating": "None",
+        "body": "원데이 클래스 처음 받아봤는데 설명을 알게 쉽게 해주시고 추천도 잘 해주셔서 편하게 만들었습니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fea5756bd71b39c32ab82f",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "꿍까8",
+        "rating": "None",
+        "body": "남자친구랑 100일 기념으로 반지 만들러왔어요!!\n반지가 처음이라, 넘 떨렸는데 정말 정말 친절하게 알려주셨어용💗 넘 감사합니다~~\n그 중간에 편지쓰는 것도 남자친구랑 소중한 추억이 될 거 같아요! \n예쁜 반지 오래오래 끼고 다닐게요!!",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1070278213",
+    "name": "반지공방 휘월루 잠실",
+    "type": "경쟁사",
+    "total_reviews": 3330,
+    "daily_reviews": 2,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69fedb832a0bc46645d8a393",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "ggu****",
+        "rating": "None",
+        "body": "처음이라 걱정했는데 사장님이 너무 친절하게 알려주시고 도와주셔서 잘 만들었습니다!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fee423e9e19917c50f4b29",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "lov****",
+        "rating": "None",
+        "body": "커플링 맞추기 좋았고, 사장님이 친절하셔서 초보자인 저희도 잘 이해하기 좋았습니다 ☺️",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "32528199",
+    "name": "반지만들기 대학로본점",
+    "type": "경쟁사",
+    "total_reviews": 2158,
+    "daily_reviews": 6,
+    "daily_receipt_reviews": 6,
+    "reviews": [
+      {
+        "review_id": "69ff20e74c5e9430baf42aec",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "koo****",
+        "rating": "None",
+        "body": "여자친구랑 1년 기념일로왔는데 장소도 너무 넓고 사장님도 너무 친절하시고 재밌었어요 !! 장난스럽게 말해도 잘 받아주시고 설명도 너무 잘해주시고 분위기도 좋았습니다!! 반지를 또 만들일이 또 있다면 올 것 같아요 사장님 덕분에 재밌게 예쁜반지 잘 만들고 갑니다!! 혜화에 반지공방 많은데 이곳 강추드릴게여 고민말고 이곳으로 레츠고 !!!!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fee706526ccfb0d4eef26c",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "HYUK19",
+        "rating": "None",
+        "body": "왁스카빙 만들기 했는데 자세히 하나하나 알려주시고 마무리 작업까지 도와주셔서 초보자도 만들기 좋았어요 감사합니다",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fee9bc935d175096426ee0",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "히익14",
+        "rating": "None",
+        "body": "마이너스의 손인 저에게 신세계를 보여준 공방입니다\n저같은 사람도 반짝반짝하게 만들 수 있는 반지라니...\n○◇○... 시간도 넉넉하고 정말 좋았어요!!!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fefa2ec044a2ba85822855",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "dkc****",
+        "rating": "None",
+        "body": "친절하게 잘 알려주셔서 예쁜 반지 만들고 가용\n애인이랑 꼭 같이 오세요",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef22fbd40449332140c83",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "kda****",
+        "rating": "None",
+        "body": "남자친구랑 커플링 만들러 왔어요! 예쁜 디자인이 많아서 고르기 힘들었어요ㅎㅎ 선생님들이 친절하게 잘 도와주셔서 만족스러운 반지 만들고 갑니당👍🏻💗 강추!!!",
+        "tags": [],
+        "origin_type": "영수증"
+      },
+      {
+        "review_id": "69fef148d680462520e88c3b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "응돌맹맹",
+        "rating": "None",
+        "body": "친절하게 잘 알려주셔서 너무 좋았구 유익한 시간이었어요 ㅠㅠㅠㅠ 재밌었어요!! 반지도 너무 예뻐서 마음에 들어요! 1000일 기념으로 왔는데 만족해요!",
+        "tags": [],
+        "origin_type": "영수증"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "682304977",
+    "name": "브리엣",
+    "type": "경쟁사",
+    "total_reviews": 1485,
+    "daily_reviews": 6,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69ff0b3260753ca96471879a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "3휘",
+        "rating": "None",
+        "body": "기념일 반지 이쁘게 만들고 왔어요\n너무 친절하게 잘 알려주시고 하나하나 신경써주세요ㅠㅠ 반지 광낼때 즈음 다시 들리겠습니다!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fef86c58ca54fb489ab53b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "o5****",
+        "rating": "None",
+        "body": "수업도 잘 해주시고 처음해도 쉽게 잘할수있어요 ! 반지너무이뻐요!!!",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feed925d52bb74d381825a",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "예감879",
+        "rating": "None",
+        "body": "너무 친절하세용 최고최고♡♡",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feebf47d3d8063ca45f783",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "boo****",
+        "rating": "None",
+        "body": "너무 어렵지도 않고 재밌게 체험할 수 있었어요!! 디자인도 마음에 들고 좋았습니당!! :)",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69feefb351297f7557434a7b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "lee****",
+        "rating": "None",
+        "body": "직원뷴들 사장님 다 너무 친절하시구 처음하는데도 문제없이 진행된거같아요!! 다음에 또올일이 없어야겠지만 다음에 또온다면 여기로올듯해요 ㅋ",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fea8dcb6796fb742715b81",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "빈45",
+        "rating": "None",
+        "body": "성수에서 데이트하면서 놀거리 찾다가 들어왔어요\n들어왔어요 당일 예약도 되고 조용해서 편안하게 체험하기 좋았어요 작업하는 것도 친절하게 천천히 가르쳐주셔서 어렵지 않았습니당 영상이나 사진 찍기 편하게 테이블마다 핸드폰 거치대가 있어서 추억 남기기에도 좋아요🤍 조금 못하더라도 사장님께서 예쁘게 다듬어주시니까 걱정 말고 즐거운 시간 보내시면 됩니다 사장님 감사해요 :)",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1451422729",
+    "name": "무드라르고 홍대",
+    "type": "경쟁사",
+    "total_reviews": 774,
+    "daily_reviews": 1,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69fea5681982471af614cf7b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "nana****",
+        "rating": "None",
+        "body": "오늘 방문 했는데요,넘 분위기도 좋고 작업에 집충 할 수 있어서 좋았어요!\n초보자에도 잘 알려주시기 때문에 잘 만들 수 있었고 둘이서 재밌게 작업 했습니다><\n많이 만족 했습니다!",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1123506495",
+    "name": "링포유 반지공방 대학로점",
+    "type": "경쟁사",
+    "total_reviews": 711,
+    "daily_reviews": 0,
+    "daily_receipt_reviews": 0,
+    "reviews": [],
+    "error": null
+  },
+  {
+    "collected_date": "2026-05-09",
+    "place_id": "1957620448",
+    "name": "반지야놀자 명동점",
+    "type": "경쟁사",
+    "total_reviews": 475,
+    "daily_reviews": 2,
+    "daily_receipt_reviews": 0,
+    "reviews": [
+      {
+        "review_id": "69fee184ae0b5610aaa42f8b",
+        "created": "5.9.토",
+        "visited": "5.9.토",
+        "author": "pkt****",
+        "rating": "None",
+        "body": "남자친구랑 백일 기념으로 반지 맞추러 왔습니다!\n사장님께서 처음부터 친절하게 반지만드는 과정을 설명해주셔서 어렵지 않게 만들 수 있었어요!\n다양한 예시 작품들도 있어서 참고하기 좋습니다 ㅎㅎ 또 방문할 의사있어요",
+        "tags": [],
+        "origin_type": "예약"
+      },
+      {
+        "review_id": "69fec26ff10374c89ee63e8b",
+        "created": "5.9.토",
+        "visited": "5.8.금",
+        "author": "FilpFlop",
+        "rating": "None",
+        "body": "👍마음에 드는 반지 디자인이 엄청 많았습니다!\n\n새롭게 디자인된 반지 디자인중 엄지에 들어가는 사이즈의 반지가 가장 베스트!\n\n사장님도 친절하시고 디테일을 잘 살려주셔서 만족스러웠고 꼭 커플링 말고도 패션반지 우정반지 만들기에도 좋을 것 같습니다 ㅎㅎ",
+        "tags": [],
+        "origin_type": "예약"
+      }
+    ],
+    "error": null
+  }
+]

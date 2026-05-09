@@ -1,0 +1,44 @@
+[
+  {
+    "place_id": "1638682001",
+    "booking_id": "786252",
+    "name": "아뜰리에호수 잠실",
+    "short_name": "잠실",
+    "type": "당사"
+  },
+  {
+    "place_id": "1277453461",
+    "booking_id": "977816",
+    "name": "아뜰리에호수 홍대",
+    "short_name": "홍대",
+    "type": "당사"
+  },
+  {
+    "place_id": "1477059571",
+    "booking_id": "1103452",
+    "name": "아뜰리에호수 혜화",
+    "short_name": "혜화",
+    "type": "당사"
+  },
+  {
+    "place_id": "1954256012",
+    "booking_id": "1202639",
+    "name": "아뜰리에호수 성수",
+    "short_name": "성수",
+    "type": "당사"
+  },
+  {
+    "place_id": "2009283871",
+    "booking_id": "1545610",
+    "name": "아뜰리에호수 성수연무장",
+    "short_name": "성수연무장",
+    "type": "당사"
+  },
+  {
+    "place_id": "2009084766",
+    "booking_id": "1493697",
+    "name": "아뜰리에호수 제주",
+    "short_name": "제주",
+    "type": "당사"
+  }
+]

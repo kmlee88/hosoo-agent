@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Atelier Hosoo Place Dashboard</title>
+    <meta name="theme-color" content="#f4f6f8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Hosoo 지표" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <link rel="stylesheet" href="/styles.css?v=historical-backfill1" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div>
+          <p class="eyebrow">Naver Place</p>
+          <h1>운영 대시보드</h1>
+        </div>
+        <nav class="side-tabs" aria-label="Dashboard pages">
+          <button class="tab-button active" type="button" data-page="summary">요약</button>
+          <button class="tab-button" type="button" data-page="reservations">예약확정</button>
+          <button class="tab-button" type="button" data-page="reviews">리뷰모니터링</button>
+          <button class="tab-button" type="button" data-page="analysis">리뷰 분석</button>
+        </nav>
+      </aside>
+
+      <main>
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Atelier Hosoo</p>
+            <h2>일별 플레이스 지표</h2>
+          </div>
+          <label class="date-control">
+            <span>기준일</span>
+            <select id="dateSelect"></select>
+          </label>
+        </header>
+
+        <section id="summaryPage" class="page active" data-page-panel="summary">
+          <section class="metric-grid" aria-label="Daily summary">
+            <article class="metric">
+              <span id="reservationMetricLabel">직영점 예약 확정</span>
+              <strong id="reservationTotal">-</strong>
+              <em id="reservationDelta" class="metric-delta neutral">-</em>
+            </article>
+            <article class="metric">
+              <span id="usedReservationMetricLabel">직영점 오늘 이용</span>
+              <strong id="usedReservationTotal">-</strong>
+              <em id="usedReservationDelta" class="metric-delta neutral">-</em>
+            </article>
+            <article class="metric">
+              <span>당사 신규 리뷰</span>
+              <strong id="ourReviews">-</strong>
+              <em id="ourReviewsDelta" class="metric-delta neutral">-</em>
+            </article>
+            <article class="metric">
+              <span>경쟁사 신규 리뷰</span>
+              <strong id="competitorReviews">-</strong>
+              <em id="competitorReviewsDelta" class="metric-delta neutral">-</em>
+            </article>
+            <article class="metric">
+              <span>가맹점 신규 리뷰</span>
+              <strong id="franchiseReviews">-</strong>
+              <em id="franchiseReviewsDelta" class="metric-delta neutral">-</em>
+            </article>
+            <article class="metric">
+              <span>당사 M/S</span>
+              <strong id="reviewMarketShare">-</strong>
+              <em id="reviewMarketShareDelta" class="metric-delta neutral">-</em>
+            </article>
+            <article class="metric">
+              <span>수집 오류</span>
+              <strong id="errorCount">-</strong>
+            </article>
+          </section>
+
+          <section class="summary-grid" aria-label="Summary highlights">
+            <article class="summary-panel summary-reservations">
+              <div class="section-title">
+                <div>
+                  <p class="eyebrow">Reservations</p>
+                  <h3>직영점 예약/이용</h3>
+                </div>
+                <p id="reservationUpdatedAt" class="muted"></p>
+              </div>
+              <div id="summaryReservations" class="summary-table"></div>
+            </article>
+
+            <article class="summary-panel summary-owned">
+              <div class="section-title">
+                <div>
+                  <p class="eyebrow">Owned Stores</p>
+                  <h3>당사 지점별 리뷰</h3>
+                </div>
+              </div>
+              <div id="summaryOurStores" class="summary-table"></div>
+            </article>
+
+            <article class="summary-panel summary-competitors">
+              <div class="section-title">
+                <div>
+                  <p class="eyebrow">Competitor Ranking</p>
+                  <h3>경쟁사 상위 리뷰</h3>
+                </div>
+              </div>
+              <div id="summaryCompetitors" class="summary-table"></div>
+            </article>
+
+            <article class="summary-panel summary-franchise">
+              <div class="section-title">
+                <div>
+                  <p class="eyebrow">Franchise Stores</p>
+                  <h3>가맹점 상위 리뷰</h3>
+                </div>
+              </div>
+              <div id="summaryFranchiseStores" class="summary-table"></div>
+            </article>
+
+            <article class="summary-panel summary-keywords">
+              <div class="section-title">
+                <div>
+                  <p class="eyebrow">Keywords</p>
+                  <h3>주요 리뷰 키워드</h3>
+                </div>
+              </div>
+              <div id="summaryKeywords" class="keyword-list compact-keywords"></div>
+            </article>
+          </section>
+        </section>
+
+        <section id="reservations" class="page panel" data-page-panel="reservations">
+          <div class="section-title">
+            <div>
+              <p class="eyebrow">Owned Stores</p>
+              <h3>직영점 일별 예약 확정/이용건수</h3>
+            </div>
+            <p id="reservationEmpty" class="muted"></p>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>지점</th>
+                  <th>확정건수</th>
+                  <th>오늘 이용</th>
+                  <th>전일비</th>
+                  <th>이용 전일비</th>
+                  <th>상태</th>
+                </tr>
+              </thead>
+              <tbody id="reservationRows"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="reviews" class="page panel" data-page-panel="reviews">
+          <div class="section-title">
+            <div>
+              <p class="eyebrow">Our / Competitors</p>
+              <h3>당사/경쟁사 일별 리뷰건수</h3>
+            </div>
+            <p id="comparisonNote" class="muted"></p>
+          </div>
+          <div class="review-groups">
+            <article class="review-board our-board">
+              <div class="board-head">
+                <div>
+                  <span class="board-label">당사</span>
+                  <strong id="ourBoardTotal">-</strong>
+                </div>
+                <span id="ourBoardDelta" class="delta neutral">-</span>
+              </div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>지점</th>
+                    <th>일별 실적</th>
+                    <th>전일비</th>
+                    <th>영수증</th>
+                    <th>누적</th>
+                  </tr>
+                </thead>
+                <tbody id="ourReviewRows"></tbody>
+              </table>
+            </article>
+
+            <article class="review-board franchise-board">
+              <div class="board-head">
+                <div>
+                  <span class="board-label">가맹점</span>
+                  <strong id="franchiseBoardTotal">-</strong>
+                </div>
+                <span id="franchiseBoardDelta" class="delta neutral">-</span>
+              </div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>지점</th>
+                    <th>일별 실적</th>
+                    <th>전일비</th>
+                    <th>영수증</th>
+                    <th>누적</th>
+                  </tr>
+                </thead>
+                <tbody id="franchiseReviewRows"></tbody>
+              </table>
+            </article>
+
+            <article class="review-board competitor-board">
+              <div class="board-head">
+                <div>
+                  <span class="board-label">경쟁사</span>
+                  <strong id="competitorBoardTotal">-</strong>
+                </div>
+                <span id="competitorBoardDelta" class="delta neutral">-</span>
+              </div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>순위</th>
+                    <th>플레이스</th>
+                    <th>일별 실적</th>
+                    <th>전일비</th>
+                    <th>영수증</th>
+                    <th>누적</th>
+                  </tr>
+                </thead>
+                <tbody id="competitorReviewRows"></tbody>
+              </table>
+            </article>
+          </div>
+        </section>
+
+        <section id="analysis" class="page panel" data-page-panel="analysis">
+          <div class="section-title">
+            <div>
+              <p class="eyebrow">Review Text</p>
+              <h3>리뷰내용 분석</h3>
+            </div>
+            <p class="muted">수집된 당일 리뷰 본문과 태그 기준</p>
+          </div>
+          <div id="keywords" class="keyword-list"></div>
+        </section>
+      </main>
+    </div>
+    <script src="/app.js?v=historical-backfill1"></script>
+  </body>
+</html>
