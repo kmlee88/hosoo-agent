@@ -186,7 +186,7 @@ function renderSummaryReservations(reservations) {
 function formatMetricWithPrefix(value, prefixValue) {
   const prefix = prefixValue === null || prefixValue === undefined
     ? ""
-    : `<small>(당월 누계 ${formatNumber(prefixValue)})</small>`;
+    : `<small>(누계 ${formatNumber(prefixValue)})</small>`;
   return `<strong class="${prefix ? "metric-with-prefix" : ""}">${prefix}${formatNumber(value)}</strong>`;
 }
 
