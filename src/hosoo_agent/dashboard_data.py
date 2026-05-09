@@ -4,7 +4,7 @@ import csv
 import json
 from collections import Counter, defaultdict
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -69,6 +69,20 @@ def list_snapshot_dates(snapshots_dir: Path, prefix: str) -> list[str]:
         if value:
             dates.append(value)
     return sorted(set(dates), reverse=True)
+
+
+def _shift_date(value: str, days: int) -> str:
+    return (datetime.strptime(value, "%Y-%m-%d").date() + timedelta(days=days)).isoformat()
+
+
+def list_report_dates(snapshots_dir: Path) -> list[str]:
+    reservation_dates = set(list_snapshot_dates(snapshots_dir, "reservations"))
+    review_report_dates = {
+        _shift_date(snapshot_date, 1)
+        for snapshot_date in list_snapshot_dates(snapshots_dir, "reviews")
+        if has_successful_review_data(load_review_snapshots(snapshots_dir, snapshot_date))
+    }
+    return sorted(reservation_dates | review_report_dates, reverse=True)
 
 
 def latest_snapshot_date(snapshots_dir: Path, prefix: str) -> str | None:
@@ -362,16 +376,17 @@ def summarize_reservations(
 
 def build_dashboard_payload(root_dir: Path, target_date: str | None = None) -> dict[str, Any]:
     snapshots_dir = root_dir / "snapshots"
-    selected_date = (
+    report_date = (
         target_date
-        or latest_successful_review_date(snapshots_dir)
-        or latest_snapshot_date(snapshots_dir, "reviews")
+        or latest_snapshot_date(snapshots_dir, "reservations")
+        or (_shift_date(latest_successful_review_date(snapshots_dir), 1) if latest_successful_review_date(snapshots_dir) else None)
         or date.today().isoformat()
     )
-    reviews = load_review_snapshots(snapshots_dir, selected_date)
-    previous_review_date = previous_successful_review_date(snapshots_dir, selected_date)
+    review_date = _shift_date(report_date, -1)
+    reviews = load_review_snapshots(snapshots_dir, review_date)
+    previous_review_date = previous_successful_review_date(snapshots_dir, review_date)
     previous_reviews = load_review_snapshots(snapshots_dir, previous_review_date) if previous_review_date else None
-    reservation_date = target_date or latest_snapshot_date(snapshots_dir, "reservations") or selected_date
+    reservation_date = report_date
     reservations = load_reservation_snapshots(snapshots_dir, reservation_date)
     month_reservations = load_month_reservation_snapshots(snapshots_dir, reservation_date)
     previous_reservation_snapshot_date = previous_reservation_date(snapshots_dir, reservation_date)
@@ -382,14 +397,12 @@ def build_dashboard_payload(root_dir: Path, target_date: str | None = None) -> d
     )
 
     return {
-        "date": selected_date,
+        "date": report_date,
+        "reviewDate": review_date,
         "previousReviewDate": previous_review_date,
         "reservationDate": reservation_date,
         "previousReservationDate": previous_reservation_snapshot_date,
-        "availableDates": sorted(
-            set(list_snapshot_dates(snapshots_dir, "reviews") + list_snapshot_dates(snapshots_dir, "reservations")),
-            reverse=True,
-        ),
+        "availableDates": list_report_dates(snapshots_dir),
         "reviews": summarize_reviews(reviews, previous_reviews),
         "reservations": summarize_reservations(reservations, previous_reservations, month_reservations),
         "dataStatus": {

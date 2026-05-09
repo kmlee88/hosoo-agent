@@ -1,5 +1,5 @@
-const CACHE_NAME = "hosoo-dashboard-v22";
-const APP_SHELL = ["/", "/styles.css?v=reservation-detail-totals1", "/app.js?v=reservation-detail-totals1", "/manifest.webmanifest", "/icon.svg"];
+const CACHE_NAME = "hosoo-dashboard-v23";
+const APP_SHELL = ["/", "/styles.css?v=report-date-basis1", "/app.js?v=report-date-basis1", "/manifest.webmanifest", "/icon.svg"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)));

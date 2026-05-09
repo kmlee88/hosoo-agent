@@ -77,6 +77,11 @@ function formatUsedReservationMetricLabel(payload) {
   return ["직영점 오늘 이용", dateLabel].filter(Boolean).join(" · ");
 }
 
+function formatReviewMetricLabel(label, payload) {
+  const dateLabel = formatDateWithWeekday(payload.reviewDate || payload.date, { short: true });
+  return [label, dateLabel].filter(Boolean).join(" · ");
+}
+
 function reviewMarketShare(payload) {
   if (payload.reviews.marketShare !== undefined && payload.reviews.marketShare !== null) {
     return payload.reviews.marketShare;
@@ -120,6 +125,9 @@ function renderDateSelect(payload) {
 function renderMetrics(payload) {
   setText("reservationMetricLabel", formatReservationMetricLabel(payload));
   setText("usedReservationMetricLabel", formatUsedReservationMetricLabel(payload));
+  setText("ourReviewsMetricLabel", formatReviewMetricLabel("당사 신규 리뷰", payload));
+  setText("competitorReviewsMetricLabel", formatReviewMetricLabel("경쟁사 신규 리뷰", payload));
+  setText("franchiseReviewsMetricLabel", formatReviewMetricLabel("가맹점 신규 리뷰", payload));
   setText("reservationTotal", formatNumber(payload.reservations.totalConfirmed));
   setText("usedReservationTotal", formatNumber(payload.reservations.totalUsed));
   setText("ourReviews", formatNumber(payload.reviews.totalsByType["당사"]));
@@ -312,8 +320,8 @@ function renderReservations(payload) {
 
 function renderComparisonNote(payload) {
   document.getElementById("comparisonNote").textContent = payload.previousReviewDate
-    ? `전일비 기준: ${payload.previousReviewDate}`
-    : "전일비 기준 데이터가 아직 없습니다.";
+    ? `리뷰 기준: ${payload.reviewDate} / 전일비 기준: ${payload.previousReviewDate}`
+    : `리뷰 기준: ${payload.reviewDate || "-"} / 전일비 기준 데이터가 아직 없습니다.`;
 }
 
 function renderTotalDelta(id, value) {
