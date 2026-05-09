@@ -194,8 +194,12 @@ function formatOptionalNumber(value) {
   return value === null || value === undefined ? "-" : formatNumber(value);
 }
 
-function formatSummaryCumulative(value) {
-  return value === null || value === undefined ? "-" : `(${formatNumber(value)})`;
+function formatSummaryCumulative(value, options = {}) {
+  if (value === null || value === undefined) {
+    return "-";
+  }
+  const label = options.label ? `${options.label} ` : "";
+  return `(${label}${formatNumber(value)})`;
 }
 
 function renderSummaryReservationMetric({
@@ -222,7 +226,7 @@ function renderSummaryReservationMetric({
         </div>
         <div class="summary-table-row summary-total-row ${hasPrefix ? "used-reservation-grid" : "reservation-metric-grid"}">
           <span>합계</span>
-          ${hasPrefix ? `<span class="summary-cumulative">${formatSummaryCumulative(totalPrefixValue)}</span>` : ""}
+          ${hasPrefix ? `<span class="summary-cumulative">${formatSummaryCumulative(totalPrefixValue, { label: "누계" })}</span>` : ""}
           <strong>${formatNumber(totalValue)}</strong>
           <em class="${deltaClass(totalDelta)}">${formatDelta(totalDelta)}</em>
         </div>
