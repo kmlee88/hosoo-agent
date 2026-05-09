@@ -216,18 +216,19 @@ function renderSummaryCompetitors(rows) {
     ? `
         <div class="summary-table-head competitor-summary-grid">
           <span>플레이스</span>
-          <span>리뷰</span>
+          <span>리뷰(영수증)</span>
           <span>전일비</span>
-          <span>영수증</span>
         </div>
         ${rows
         .map(
           (row) => `
             <div class="summary-table-row competitor-summary-grid">
               <span>${row.name}</span>
-              <strong>${formatNumber(row.dailyReviews)}</strong>
+              <strong class="review-with-receipt">
+                ${formatNumber(row.dailyReviews)}
+                <small>(${formatNumber(row.receiptReviews)})</small>
+              </strong>
               <em class="${deltaClass(row.dailyDelta)}">${formatDelta(row.dailyDelta)}</em>
-              <strong>${formatNumber(row.receiptReviews)}</strong>
             </div>
           `
         )

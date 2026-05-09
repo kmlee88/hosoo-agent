@@ -284,7 +284,7 @@ select {
 }
 
 .competitor-summary-grid {
-  grid-template-columns: minmax(130px, 1fr) 48px 64px 56px;
+  grid-template-columns: minmax(130px, 1fr) 92px 64px;
 }
 
 .summary-table-head {
@@ -307,6 +307,12 @@ select {
 .summary-table-row strong {
   font-size: 18px;
   font-variant-numeric: tabular-nums;
+}
+
+.review-with-receipt small {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .summary-table-row em {
@@ -639,7 +645,7 @@ th {
   }
 
   .competitor-summary-grid.summary-table-row {
-    grid-template-columns: minmax(0, 1fr) auto auto auto;
+    grid-template-columns: minmax(0, 1fr) auto auto;
   }
 
   .reservation-metric-grid.summary-table-row {
