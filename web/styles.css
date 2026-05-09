@@ -447,6 +447,11 @@ td {
   white-space: nowrap;
 }
 
+th:last-child,
+td:last-child {
+  padding-right: 22px;
+}
+
 th {
   color: var(--muted);
   font-size: 12px;
