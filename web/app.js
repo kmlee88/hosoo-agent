@@ -461,6 +461,8 @@ async function hydrateReservationMetadata(payload) {
       }
       payload.reservations.collectedAt = latest.collectedAt;
       payload.reservations.totalUsed = payload.reservations.totalUsed ?? latest.totalUsed;
+      payload.reservations.totalUsedMonthToDate =
+        latest.totalUsedMonthToDate ?? payload.reservations.totalUsedMonthToDate;
       if (Array.isArray(latest.stores)) {
         const latestByPlace = Object.fromEntries(latest.stores.map((row) => [row.place_id || row.placeId, row]));
         payload.reservations.stores = (payload.reservations.stores || []).map((row) => {
@@ -471,6 +473,7 @@ async function hydrateReservationMetadata(payload) {
           return {
             ...row,
             usedReservations: row.usedReservations ?? latestRow.used_reservations ?? latestRow.usedReservations,
+            usedMonthToDate: latestRow.used_month_to_date ?? latestRow.usedMonthToDate ?? row.usedMonthToDate,
           };
         });
       }

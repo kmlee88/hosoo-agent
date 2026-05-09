@@ -78,8 +78,9 @@ async def run() -> None:
                 snapshots.append(snapshot)
                 value = "-" if snapshot.confirmed_reservations is None else snapshot.confirmed_reservations
                 used_value = "-" if snapshot.used_reservations is None else snapshot.used_reservations
+                month_used_value = "-" if snapshot.used_month_to_date is None else snapshot.used_month_to_date
                 status = f"ERROR: {snapshot.error}" if snapshot.error else "OK"
-                print(f"- {place.short_name}: confirmed {value}, used {used_value} ({status})")
+                print(f"- {place.short_name}: confirmed {value}, used {used_value}, monthly used {month_used_value} ({status})")
             return snapshots
 
         snapshots = await collect_for_date(target_date, args.mode)
@@ -97,6 +98,7 @@ async def run() -> None:
 
     total = sum(snapshot.confirmed_reservations or 0 for snapshot in snapshots)
     total_used = sum(snapshot.used_reservations or 0 for snapshot in snapshots)
+    total_month_used = sum(snapshot.used_month_to_date or 0 for snapshot in snapshots)
     failures = [snapshot for snapshot in snapshots if snapshot.error]
     successes = [snapshot for snapshot in snapshots if snapshot.confirmed_reservations is not None and not snapshot.error]
     out_path = Path(args.out_dir) / f"reservations-{target_date.isoformat()}.json"
@@ -107,6 +109,7 @@ async def run() -> None:
             "collectedAt": collected_at,
             "totalConfirmed": total,
             "totalUsed": total_used,
+            "totalUsedMonthToDate": total_month_used,
             "stores": [snapshot.__dict__ for snapshot in snapshots],
         }
         Path(args.latest_web_file).write_text(
@@ -120,12 +123,14 @@ async def run() -> None:
     print(f"Appended history: {args.history_file}")
     print(f"Total confirmed reservations: {total}")
     print(f"Total used reservations: {total_used}")
+    print(f"Total monthly used reservations: {total_month_used}")
     if failures:
         print(f"Failures: {len(failures)}")
 
     if previous_snapshots is not None:
         previous_total = sum(snapshot.confirmed_reservations or 0 for snapshot in previous_snapshots)
         previous_total_used = sum(snapshot.used_reservations or 0 for snapshot in previous_snapshots)
+        previous_total_month_used = sum(snapshot.used_month_to_date or 0 for snapshot in previous_snapshots)
         previous_failures = [snapshot for snapshot in previous_snapshots if snapshot.error]
         previous_successes = [
             snapshot
@@ -140,6 +145,7 @@ async def run() -> None:
                 "collectedAt": collected_at,
                 "totalConfirmed": previous_total,
                 "totalUsed": previous_total_used,
+                "totalUsedMonthToDate": previous_total_month_used,
                 "stores": [snapshot.__dict__ for snapshot in previous_snapshots],
             }
             Path(args.previous_web_file).write_text(
@@ -151,6 +157,7 @@ async def run() -> None:
             print(f"Skipped previous JSON update because every place failed: {previous_path}")
         print(f"Previous confirmed reservations: {previous_total}")
         print(f"Previous used reservations: {previous_total_used}")
+        print(f"Previous monthly used reservations: {previous_total_month_used}")
         if previous_failures:
             print(f"Previous failures: {len(previous_failures)}")
 

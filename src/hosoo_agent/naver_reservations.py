@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+import calendar
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
@@ -31,6 +32,7 @@ class ReservationSnapshot:
     short_name: str
     confirmed_reservations: int | None
     used_reservations: int | None
+    used_month_to_date: int | None = None
     error: str | None = None
 
 
@@ -98,15 +100,47 @@ def parse_booking_list_count(text: str) -> int | None:
     return None
 
 
-def _booking_list_url(booking_id: str, target_date: date, date_filter: str, status_codes: list[str]) -> str:
+def _booking_list_range_url(
+    booking_id: str,
+    start_date: date,
+    end_date: date,
+    date_filter: str,
+    status_codes: list[str],
+) -> str:
     params = [
         *[f"bookingStatusCodes={status_code}" for status_code in status_codes],
         "dateDropdownType=DATE",
         f"dateFilter={date_filter}",
-        f"startDateTime={target_date.isoformat()}",
-        f"endDateTime={target_date.isoformat()}",
+        f"startDateTime={start_date.isoformat()}",
+        f"endDateTime={end_date.isoformat()}",
     ]
     return f"{BOOKING_LIST_URL.format(booking_id=booking_id)}?{'&'.join(params)}"
+
+
+def _booking_list_url(booking_id: str, target_date: date, date_filter: str, status_codes: list[str]) -> str:
+    return _booking_list_range_url(booking_id, target_date, target_date, date_filter, status_codes)
+
+
+def _month_range(target_date: date) -> tuple[date, date]:
+    last_day = calendar.monthrange(target_date.year, target_date.month)[1]
+    return target_date.replace(day=1), target_date.replace(day=last_day)
+
+
+async def collect_month_used_count(
+    page: Any,
+    place: ReservationPlace,
+    target_date: date,
+    wait_ms: int = 2500,
+) -> int:
+    start_date, end_date = _month_range(target_date)
+    url = _booking_list_range_url(place.booking_id, start_date, end_date, "USEDATE", ["RC03", "RC08"])
+    await page.goto(url, wait_until="load", timeout=30000)
+    await page.wait_for_timeout(wait_ms)
+    text = await page.locator("body").inner_text(timeout=10000)
+    count = parse_booking_list_count(text)
+    if count is None:
+        raise RuntimeError("Could not find monthly used reservation count.")
+    return count
 
 
 async def collect_today_confirmed_reservations(
@@ -131,6 +165,7 @@ async def collect_today_confirmed_reservations(
             raise RuntimeError("Could not find '오늘 확정' count on the booking dashboard.")
         if used_count is None:
             raise RuntimeError("Could not find '오늘 이용' count on the booking dashboard.")
+        month_used_count = await collect_month_used_count(page, place, target_date, wait_ms)
 
         return ReservationSnapshot(
             collected_date=target_date.isoformat(),
@@ -141,6 +176,7 @@ async def collect_today_confirmed_reservations(
             short_name=place.short_name,
             confirmed_reservations=confirmed_count,
             used_reservations=used_count,
+            used_month_to_date=month_used_count,
         )
     except Exception as exc:
         return ReservationSnapshot(
@@ -152,6 +188,7 @@ async def collect_today_confirmed_reservations(
             short_name=place.short_name,
             confirmed_reservations=None,
             used_reservations=None,
+            used_month_to_date=None,
             error=str(exc),
         )
 
@@ -182,6 +219,7 @@ async def collect_historical_reservation_metrics(
         used_count = parse_booking_list_count(used_text)
         if used_count is None:
             raise RuntimeError("Could not find historical used reservation count.")
+        month_used_count = await collect_month_used_count(page, place, target_date, wait_ms)
 
         return ReservationSnapshot(
             collected_date=target_date.isoformat(),
@@ -192,6 +230,7 @@ async def collect_historical_reservation_metrics(
             short_name=place.short_name,
             confirmed_reservations=confirmed_count,
             used_reservations=used_count,
+            used_month_to_date=month_used_count,
         )
     except Exception as exc:
         return ReservationSnapshot(
@@ -203,5 +242,6 @@ async def collect_historical_reservation_metrics(
             short_name=place.short_name,
             confirmed_reservations=None,
             used_reservations=None,
+            used_month_to_date=None,
             error=str(exc),
         )
