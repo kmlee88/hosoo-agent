@@ -284,11 +284,11 @@ select {
 }
 
 .used-reservation-grid {
-  grid-template-columns: minmax(104px, 1fr) 74px 68px 64px;
+  grid-template-columns: minmax(104px, 1fr) 74px 46px 64px;
 }
 
 .competitor-summary-grid {
-  grid-template-columns: minmax(104px, 1fr) 74px 68px 64px;
+  grid-template-columns: minmax(104px, 1fr) 74px 46px 64px;
 }
 
 .our-summary-grid > :nth-child(2) {
@@ -766,7 +766,7 @@ td:has(em.delta) {
   }
 
   .competitor-summary-grid.summary-table-row {
-    grid-template-columns: minmax(0, 1fr) 68px 58px 56px;
+    grid-template-columns: minmax(0, 1fr) 68px 42px 56px;
   }
 
   .reservation-metric-grid.summary-table-row {
@@ -774,7 +774,7 @@ td:has(em.delta) {
   }
 
   .used-reservation-grid.summary-table-row {
-    grid-template-columns: minmax(0, 1fr) 68px 58px 56px;
+    grid-template-columns: minmax(0, 1fr) 68px 42px 56px;
   }
 
   .our-summary-grid.summary-table-row {
