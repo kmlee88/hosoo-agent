@@ -303,6 +303,10 @@ select {
   visibility: hidden;
 }
 
+.reservation-metric-grid > strong {
+  padding-right: 10px;
+}
+
 .summary-table-head {
   color: var(--muted);
   font-size: 11px;
