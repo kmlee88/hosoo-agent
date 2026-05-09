@@ -79,7 +79,7 @@ function formatShortMonthDay(value) {
 
 function formatReservationMetricLabel(label, payload) {
   const updatedAt = formatCollectedAt(payload.reservations.collectedAt);
-  return [label, updatedAt].filter(Boolean).join(" ");
+  return updatedAt ? `${label} (${updatedAt})` : label;
 }
 
 function formatUsedReservationMetricLabel(payload) {
@@ -88,7 +88,7 @@ function formatUsedReservationMetricLabel(payload) {
 
 function formatReviewMetricLabel(label, payload) {
   const dateLabel = formatShortMonthDay(payload.reviewDate || payload.date);
-  return [label, dateLabel].filter(Boolean).join(" ");
+  return dateLabel ? `${label} (${dateLabel} 기준)` : label;
 }
 
 function reviewMarketShare(payload) {
@@ -135,8 +135,8 @@ function renderMetrics(payload) {
   setText("reservationMetricLabel", formatReservationMetricLabel("직영점 예약 확정", payload));
   setText("usedReservationMetricLabel", formatUsedReservationMetricLabel(payload));
   setText("ourReviewsMetricLabel", formatReviewMetricLabel("당사 신규 리뷰", payload));
-  setText("competitorReviewsMetricLabel", formatReviewMetricLabel("경쟁사 신규 리뷰", payload));
-  setText("franchiseReviewsMetricLabel", formatReviewMetricLabel("가맹점 신규 리뷰", payload));
+  setText("competitorReviewsMetricLabel", "경쟁사 신규 리뷰");
+  setText("franchiseReviewsMetricLabel", "가맹점 신규 리뷰");
   setText("reservationTotal", formatNumber(payload.reservations.totalConfirmed));
   setText("usedReservationTotal", formatNumber(payload.reservations.totalUsed));
   setText("ourReviews", formatNumber(payload.reviews.totalsByType["당사"]));
@@ -180,26 +180,33 @@ function renderSummaryReservations(rows) {
 function formatMetricWithPrefix(value, prefixValue) {
   const prefix = prefixValue === null || prefixValue === undefined
     ? ""
-    : `<small>(당월 ${formatNumber(prefixValue)})</small>`;
+    : `<small>(당월 누계 ${formatNumber(prefixValue)})</small>`;
   return `<strong class="${prefix ? "metric-with-prefix" : ""}">${prefix}${formatNumber(value)}</strong>`;
+}
+
+function formatOptionalNumber(value) {
+  return value === null || value === undefined ? "-" : formatNumber(value);
 }
 
 function renderSummaryReservationMetric({ targetId, rows, valueKey, deltaKey, prefixKey, emptyMessage }) {
   const target = document.getElementById(targetId);
   const sortedRows = sortOwnedStores(rows);
+  const hasPrefix = Boolean(prefixKey);
   target.innerHTML = sortedRows.length
     ? `
-        <div class="summary-table-head reservation-metric-grid">
+        <div class="summary-table-head ${hasPrefix ? "used-reservation-grid" : "reservation-metric-grid"}">
           <span>지점</span>
-          <span>건수</span>
+          ${hasPrefix ? "<span>당월 누계</span>" : ""}
+          <span>${hasPrefix ? "오늘 이용" : "건수"}</span>
           <span>전일비</span>
         </div>
         ${sortedRows
           .map(
             (row) => `
-              <div class="summary-table-row reservation-metric-grid">
+              <div class="summary-table-row ${hasPrefix ? "used-reservation-grid" : "reservation-metric-grid"}">
                 <span>${ownedStoreLabel(row.name) || "-"}</span>
-                ${formatMetricWithPrefix(row[valueKey], prefixKey ? row[prefixKey] : undefined)}
+                ${hasPrefix ? `<strong>${formatOptionalNumber(row[prefixKey])}</strong>` : ""}
+                <strong>${formatNumber(row[valueKey])}</strong>
                 <em class="${deltaClass(row[deltaKey])}">${formatDelta(row[deltaKey])}</em>
               </div>
             `
@@ -240,7 +247,8 @@ function renderSummaryCompetitors(rows) {
     ? `
         <div class="summary-table-head competitor-summary-grid">
           <span>플레이스</span>
-          <span>리뷰(영수증)</span>
+          <span>리뷰</span>
+          <span>영수증</span>
           <span>전일비</span>
         </div>
         ${rows
@@ -248,10 +256,8 @@ function renderSummaryCompetitors(rows) {
           (row) => `
             <div class="summary-table-row competitor-summary-grid">
               <span>${row.name}</span>
-              <strong class="review-with-receipt">
-                ${formatNumber(row.dailyReviews)}
-                <small>(${formatNumber(row.receiptReviews)})</small>
-              </strong>
+              <strong>${formatNumber(row.dailyReviews)}</strong>
+              <strong>${formatNumber(row.receiptReviews)}</strong>
               <em class="${deltaClass(row.dailyDelta)}">${formatDelta(row.dailyDelta)}</em>
             </div>
           `
@@ -310,21 +316,33 @@ function renderReservations(payload) {
     : "예약 스냅샷 파일이 아직 없습니다.";
 
   tbody.innerHTML = stores.length
-    ? stores
+    ? `
+        <tr class="total-row">
+          <td>합계</td>
+          <td class="number-cell">${formatNumber(payload.reservations.totalConfirmed)}</td>
+          <td><em class="${deltaClass(payload.reservations.totalDelta)}">${formatDelta(payload.reservations.totalDelta)}</em></td>
+          <td class="number-cell">${formatOptionalNumber(payload.reservations.totalUsedMonthToDate)}</td>
+          <td class="number-cell">${formatNumber(payload.reservations.totalUsed)}</td>
+          <td><em class="${deltaClass(payload.reservations.totalUsedDelta)}">${formatDelta(payload.reservations.totalUsedDelta)}</em></td>
+          <td>-</td>
+        </tr>
+        ${stores
         .map(
           (row) => `
             <tr>
               <td>${ownedStoreLabel(row.name) || "-"}</td>
-              <td>${formatNumber(row.confirmedReservations)}</td>
-              <td>${formatMetricWithPrefix(row.usedReservations, row.usedMonthToDate)}</td>
+              <td class="number-cell">${formatNumber(row.confirmedReservations)}</td>
               <td><em class="${deltaClass(row.dailyDelta)}">${formatDelta(row.dailyDelta)}</em></td>
+              <td class="number-cell">${formatOptionalNumber(row.usedMonthToDate)}</td>
+              <td class="number-cell">${formatNumber(row.usedReservations)}</td>
               <td><em class="${deltaClass(row.usedDelta)}">${formatDelta(row.usedDelta)}</em></td>
               <td class="${row.error ? "status-error" : ""}">${row.error ? "오류" : "정상"}</td>
             </tr>
           `
         )
-        .join("")
-    : `<tr><td colspan="6" class="muted">snapshots/reservations-${payload.date}.json 파일을 추가하면 표시됩니다.</td></tr>`;
+        .join("")}
+      `
+    : `<tr><td colspan="7" class="muted">snapshots/reservations-${payload.date}.json 파일을 추가하면 표시됩니다.</td></tr>`;
 }
 
 function renderComparisonNote(payload) {

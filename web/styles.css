@@ -283,8 +283,12 @@ select {
   grid-template-columns: minmax(112px, 1fr) 104px 64px;
 }
 
+.used-reservation-grid {
+  grid-template-columns: minmax(104px, 1fr) 78px 72px 64px;
+}
+
 .competitor-summary-grid {
-  grid-template-columns: minmax(130px, 1fr) 92px 64px;
+  grid-template-columns: minmax(130px, 1fr) 52px 56px 64px;
 }
 
 .summary-table-head {
@@ -395,6 +399,22 @@ td {
 th {
   color: var(--muted);
   font-size: 12px;
+}
+
+td.number-cell,
+th.number-cell,
+td:has(.delta),
+td:has(em.delta) {
+  text-align: right;
+}
+
+.total-row {
+  background: #f7f8f6;
+  font-weight: 800;
+}
+
+.total-row td {
+  border-bottom-color: #d9ded8;
 }
 
 .review-groups {
@@ -690,11 +710,15 @@ th {
   }
 
   .competitor-summary-grid.summary-table-row {
-    grid-template-columns: minmax(0, 1fr) auto auto;
+    grid-template-columns: minmax(0, 1fr) 48px 52px 56px;
   }
 
   .reservation-metric-grid.summary-table-row {
     grid-template-columns: minmax(0, 1fr) auto auto;
+  }
+
+  .used-reservation-grid.summary-table-row {
+    grid-template-columns: minmax(0, 1fr) 70px 58px 56px;
   }
 
   .summary-table-row span {
