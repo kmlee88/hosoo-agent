@@ -31,13 +31,13 @@ class DashboardHandler(SimpleHTTPRequestHandler):
         super().__init__(*args, directory=str(ROOT_DIR / "web"), **kwargs)
 
     def do_GET(self) -> None:
-        if not self._is_authorized():
-            self._request_auth()
-            return
-
         parsed = urlparse(self.path)
         if parsed.path == "/healthz":
             self._send_json({"ok": True})
+            return
+
+        if not self._is_authorized():
+            self._request_auth()
             return
 
         if parsed.path == "/api/dashboard":
