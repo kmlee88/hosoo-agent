@@ -194,6 +194,10 @@ function formatOptionalNumber(value) {
   return value === null || value === undefined ? "-" : formatNumber(value);
 }
 
+function formatSummaryCumulative(value) {
+  return value === null || value === undefined ? "-" : `(${formatNumber(value)})`;
+}
+
 function renderSummaryReservationMetric({
   targetId,
   rows,
@@ -218,7 +222,7 @@ function renderSummaryReservationMetric({
         </div>
         <div class="summary-table-row summary-total-row ${hasPrefix ? "used-reservation-grid" : "reservation-metric-grid"}">
           <span>합계</span>
-          ${hasPrefix ? `<strong>${formatOptionalNumber(totalPrefixValue)}</strong>` : ""}
+          ${hasPrefix ? `<span class="summary-cumulative">${formatSummaryCumulative(totalPrefixValue)}</span>` : ""}
           <strong>${formatNumber(totalValue)}</strong>
           <em class="${deltaClass(totalDelta)}">${formatDelta(totalDelta)}</em>
         </div>
@@ -227,7 +231,7 @@ function renderSummaryReservationMetric({
             (row) => `
               <div class="summary-table-row ${hasPrefix ? "used-reservation-grid" : "reservation-metric-grid"}">
                 <span>${ownedStoreLabel(row.name) || "-"}</span>
-                ${hasPrefix ? `<strong>${formatOptionalNumber(row[prefixKey])}</strong>` : ""}
+                ${hasPrefix ? `<span class="summary-cumulative">${formatSummaryCumulative(row[prefixKey])}</span>` : ""}
                 <strong>${formatNumber(row[valueKey])}</strong>
                 <em class="${deltaClass(row[deltaKey])}">${formatDelta(row[deltaKey])}</em>
               </div>

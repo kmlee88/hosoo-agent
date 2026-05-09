@@ -299,7 +299,8 @@ select {
 
 .summary-table-head span:not(:first-child),
 .summary-table-row strong,
-.summary-table-row em {
+.summary-table-row em,
+.summary-table-row .summary-cumulative {
   justify-self: end;
 }
 
@@ -310,6 +311,13 @@ select {
 
 .summary-table-row strong {
   font-size: 18px;
+  font-variant-numeric: tabular-nums;
+}
+
+.summary-table-row .summary-cumulative {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 400;
   font-variant-numeric: tabular-nums;
 }
 
