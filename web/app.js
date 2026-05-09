@@ -66,20 +66,29 @@ function formatDateWithWeekday(value, options = {}) {
   return `${value} (${weekday})`;
 }
 
-function formatReservationMetricLabel(payload) {
-  const dateLabel = formatDateWithWeekday(payload.reservationDate || payload.date, { short: true });
+function formatShortMonthDay(value) {
+  if (!value) {
+    return "";
+  }
+  const [year, month, day] = value.split("-").map(Number);
+  if (!year || !month || !day) {
+    return value;
+  }
+  return `${month}/${day}`;
+}
+
+function formatReservationMetricLabel(label, payload) {
   const updatedAt = formatCollectedAt(payload.reservations.collectedAt);
-  return ["직영점 예약 확정", dateLabel, updatedAt].filter(Boolean).join(" · ");
+  return [label, updatedAt].filter(Boolean).join(" ");
 }
 
 function formatUsedReservationMetricLabel(payload) {
-  const dateLabel = formatDateWithWeekday(payload.reservationDate || payload.date, { short: true });
-  return ["직영점 오늘 이용", dateLabel].filter(Boolean).join(" · ");
+  return formatReservationMetricLabel("직영점 오늘 이용", payload);
 }
 
 function formatReviewMetricLabel(label, payload) {
-  const dateLabel = formatDateWithWeekday(payload.reviewDate || payload.date, { short: true });
-  return [label, dateLabel].filter(Boolean).join(" · ");
+  const dateLabel = formatShortMonthDay(payload.reviewDate || payload.date);
+  return [label, dateLabel].filter(Boolean).join(" ");
 }
 
 function reviewMarketShare(payload) {
@@ -123,7 +132,7 @@ function renderDateSelect(payload) {
 }
 
 function renderMetrics(payload) {
-  setText("reservationMetricLabel", formatReservationMetricLabel(payload));
+  setText("reservationMetricLabel", formatReservationMetricLabel("직영점 예약 확정", payload));
   setText("usedReservationMetricLabel", formatUsedReservationMetricLabel(payload));
   setText("ourReviewsMetricLabel", formatReviewMetricLabel("당사 신규 리뷰", payload));
   setText("competitorReviewsMetricLabel", formatReviewMetricLabel("경쟁사 신규 리뷰", payload));
