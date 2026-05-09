@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-title" content="Hosoo 지표" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/icon.svg" />
-    <link rel="stylesheet" href="/styles.css?v=historical-backfill1" />
+    <link rel="stylesheet" href="/styles.css?v=reservation-split1" />
   </head>
   <body>
     <div class="app-shell">
@@ -73,15 +73,25 @@
           </section>
 
           <section class="summary-grid" aria-label="Summary highlights">
-            <article class="summary-panel summary-reservations">
+            <article class="summary-panel summary-reservation-confirmed">
               <div class="section-title">
                 <div>
                   <p class="eyebrow">Reservations</p>
-                  <h3>직영점 예약/이용</h3>
+                  <h3>직영점 예약 확정</h3>
                 </div>
                 <p id="reservationUpdatedAt" class="muted"></p>
               </div>
-              <div id="summaryReservations" class="summary-table"></div>
+              <div id="summaryConfirmedReservations" class="summary-table"></div>
+            </article>
+
+            <article class="summary-panel summary-reservation-used">
+              <div class="section-title">
+                <div>
+                  <p class="eyebrow">Usage</p>
+                  <h3>직영점 오늘 이용</h3>
+                </div>
+              </div>
+              <div id="summaryUsedReservations" class="summary-table"></div>
             </article>
 
             <article class="summary-panel summary-owned">
@@ -241,6 +251,6 @@
         </section>
       </main>
     </div>
-    <script src="/app.js?v=historical-backfill1"></script>
+    <script src="/app.js?v=reservation-split1"></script>
   </body>
 </html>

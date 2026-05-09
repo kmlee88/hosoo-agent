@@ -213,7 +213,8 @@ select {
   padding-bottom: 4px;
 }
 
-.summary-reservations,
+.summary-reservation-confirmed,
+.summary-reservation-used,
 .summary-owned,
 .summary-competitors,
 .summary-franchise {
@@ -278,8 +279,8 @@ select {
   grid-template-columns: minmax(120px, 1fr) 48px 64px;
 }
 
-.reservation-summary-grid {
-  grid-template-columns: minmax(96px, 1fr) 52px 52px 64px;
+.reservation-metric-grid {
+  grid-template-columns: minmax(112px, 1fr) 52px 64px;
 }
 
 .competitor-summary-grid {
@@ -641,8 +642,8 @@ th {
     grid-template-columns: minmax(0, 1fr) auto auto auto;
   }
 
-  .reservation-summary-grid.summary-table-row {
-    grid-template-columns: minmax(0, 1fr) auto auto auto;
+  .reservation-metric-grid.summary-table-row {
+    grid-template-columns: minmax(0, 1fr) auto auto;
   }
 
   .summary-table-row span {

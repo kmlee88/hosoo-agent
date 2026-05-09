@@ -144,30 +144,45 @@ function renderSummary(payload) {
 }
 
 function renderSummaryReservations(rows) {
-  const target = document.getElementById("summaryReservations");
+  renderSummaryReservationMetric({
+    targetId: "summaryConfirmedReservations",
+    rows,
+    valueKey: "confirmedReservations",
+    deltaKey: "dailyDelta",
+    emptyMessage: "예약 확정 데이터가 아직 없습니다.",
+  });
+  renderSummaryReservationMetric({
+    targetId: "summaryUsedReservations",
+    rows,
+    valueKey: "usedReservations",
+    deltaKey: "usedDelta",
+    emptyMessage: "오늘 이용 데이터가 아직 없습니다.",
+  });
+}
+
+function renderSummaryReservationMetric({ targetId, rows, valueKey, deltaKey, emptyMessage }) {
+  const target = document.getElementById(targetId);
   const sortedRows = sortOwnedStores(rows);
   target.innerHTML = sortedRows.length
     ? `
-        <div class="summary-table-head reservation-summary-grid">
+        <div class="summary-table-head reservation-metric-grid">
           <span>지점</span>
-          <span>확정</span>
-          <span>이용</span>
+          <span>건수</span>
           <span>전일비</span>
         </div>
         ${sortedRows
           .map(
             (row) => `
-              <div class="summary-table-row reservation-summary-grid">
+              <div class="summary-table-row reservation-metric-grid">
                 <span>${ownedStoreLabel(row.name) || "-"}</span>
-                <strong>${formatNumber(row.confirmedReservations)}</strong>
-                <strong>${formatNumber(row.usedReservations)}</strong>
-                <em class="${deltaClass(row.dailyDelta)}">${formatDelta(row.dailyDelta)}</em>
+                <strong>${formatNumber(row[valueKey])}</strong>
+                <em class="${deltaClass(row[deltaKey])}">${formatDelta(row[deltaKey])}</em>
               </div>
             `
           )
           .join("")}
       `
-    : `<p class="muted">예약 확정 데이터가 아직 없습니다.</p>`;
+    : `<p class="muted">${emptyMessage}</p>`;
 }
 
 function renderSummaryOurStores(rows) {
