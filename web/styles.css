@@ -280,7 +280,7 @@ select {
 }
 
 .reservation-metric-grid {
-  grid-template-columns: minmax(112px, 1fr) 52px 64px;
+  grid-template-columns: minmax(112px, 1fr) 104px 64px;
 }
 
 .competitor-summary-grid {
@@ -313,6 +313,23 @@ select {
   color: var(--muted);
   font-size: 13px;
   font-weight: 700;
+}
+
+.metric-with-prefix {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  justify-content: flex-end;
+  min-width: max-content;
+  white-space: nowrap;
+}
+
+.metric-with-prefix small {
+  color: var(--muted);
+  flex: 0 0 auto;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 .summary-table-row em {

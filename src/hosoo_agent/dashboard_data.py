@@ -146,6 +146,15 @@ def previous_reservation_date(snapshots_dir: Path, selected_date: str) -> str | 
     return dates[0] if dates else None
 
 
+def load_month_reservation_snapshots(snapshots_dir: Path, selected_date: str) -> list[ReservationSnapshot]:
+    month_prefix = selected_date[:7]
+    snapshots: list[ReservationSnapshot] = []
+    for snapshot_date in list_snapshot_dates(snapshots_dir, "reservations"):
+        if snapshot_date.startswith(month_prefix) and snapshot_date <= selected_date:
+            snapshots.extend(load_reservation_snapshots(snapshots_dir, snapshot_date))
+    return snapshots
+
+
 def save_reservation_snapshots(snapshots: list[ReservationSnapshot], path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     payload = [
@@ -302,6 +311,7 @@ def summarize_reviews(
 def summarize_reservations(
     snapshots: list[ReservationSnapshot],
     previous_snapshots: list[ReservationSnapshot] | None = None,
+    month_snapshots: list[ReservationSnapshot] | None = None,
 ) -> dict[str, Any]:
     previous_by_place = {
         snapshot.place_id: snapshot.confirmed_reservations
@@ -316,12 +326,17 @@ def summarize_reservations(
     total_used = sum(snapshot.used_reservations for snapshot in snapshots)
     previous_total = sum(snapshot.confirmed_reservations for snapshot in previous_snapshots or [])
     previous_total_used = sum(snapshot.used_reservations for snapshot in previous_snapshots or [])
+    month_used_by_place: defaultdict[str, int] = defaultdict(int)
+    month_rows = month_snapshots or snapshots
+    for snapshot in month_rows:
+        month_used_by_place[snapshot.place_id] += snapshot.used_reservations
     rows = [
         {
             "placeId": snapshot.place_id,
             "name": _owned_place_display_name(snapshot.name),
             "confirmedReservations": snapshot.confirmed_reservations,
             "usedReservations": snapshot.used_reservations,
+            "usedMonthToDate": month_used_by_place[snapshot.place_id],
             "dailyDelta": None
             if snapshot.place_id not in previous_by_place
             else snapshot.confirmed_reservations - previous_by_place[snapshot.place_id],
@@ -336,6 +351,7 @@ def summarize_reservations(
     return {
         "totalConfirmed": total,
         "totalUsed": total_used,
+        "totalUsedMonthToDate": sum(snapshot.used_reservations for snapshot in month_rows),
         "totalDelta": None if not has_previous_snapshots else total - previous_total,
         "totalUsedDelta": None if not has_previous_snapshots else total_used - previous_total_used,
         "collectedAt": max(collected_at_values) if collected_at_values else None,
@@ -357,6 +373,7 @@ def build_dashboard_payload(root_dir: Path, target_date: str | None = None) -> d
     previous_reviews = load_review_snapshots(snapshots_dir, previous_review_date) if previous_review_date else None
     reservation_date = target_date or latest_snapshot_date(snapshots_dir, "reservations") or selected_date
     reservations = load_reservation_snapshots(snapshots_dir, reservation_date)
+    month_reservations = load_month_reservation_snapshots(snapshots_dir, reservation_date)
     previous_reservation_snapshot_date = previous_reservation_date(snapshots_dir, reservation_date)
     previous_reservations = (
         load_reservation_snapshots(snapshots_dir, previous_reservation_snapshot_date)
@@ -374,7 +391,7 @@ def build_dashboard_payload(root_dir: Path, target_date: str | None = None) -> d
             reverse=True,
         ),
         "reviews": summarize_reviews(reviews, previous_reviews),
-        "reservations": summarize_reservations(reservations, previous_reservations),
+        "reservations": summarize_reservations(reservations, previous_reservations, month_reservations),
         "dataStatus": {
             "hasReviews": bool(reviews),
             "hasReservations": bool(reservations),

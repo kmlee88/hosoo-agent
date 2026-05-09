@@ -155,11 +155,19 @@ function renderSummaryReservations(rows) {
     rows,
     valueKey: "usedReservations",
     deltaKey: "usedDelta",
+    prefixKey: "usedMonthToDate",
     emptyMessage: "오늘 이용 데이터가 아직 없습니다.",
   });
 }
 
-function renderSummaryReservationMetric({ targetId, rows, valueKey, deltaKey, emptyMessage }) {
+function formatMetricWithPrefix(value, prefixValue) {
+  const prefix = prefixValue === null || prefixValue === undefined
+    ? ""
+    : `<small>(당월 ${formatNumber(prefixValue)})</small>`;
+  return `<strong class="${prefix ? "metric-with-prefix" : ""}">${prefix}${formatNumber(value)}</strong>`;
+}
+
+function renderSummaryReservationMetric({ targetId, rows, valueKey, deltaKey, prefixKey, emptyMessage }) {
   const target = document.getElementById(targetId);
   const sortedRows = sortOwnedStores(rows);
   target.innerHTML = sortedRows.length
@@ -174,7 +182,7 @@ function renderSummaryReservationMetric({ targetId, rows, valueKey, deltaKey, em
             (row) => `
               <div class="summary-table-row reservation-metric-grid">
                 <span>${ownedStoreLabel(row.name) || "-"}</span>
-                <strong>${formatNumber(row[valueKey])}</strong>
+                ${formatMetricWithPrefix(row[valueKey], prefixKey ? row[prefixKey] : undefined)}
                 <em class="${deltaClass(row[deltaKey])}">${formatDelta(row[deltaKey])}</em>
               </div>
             `
@@ -286,7 +294,7 @@ function renderReservations(payload) {
             <tr>
               <td>${ownedStoreLabel(row.name) || "-"}</td>
               <td>${formatNumber(row.confirmedReservations)}</td>
-              <td>${formatNumber(row.usedReservations)}</td>
+              <td>${formatMetricWithPrefix(row.usedReservations, row.usedMonthToDate)}</td>
               <td><em class="${deltaClass(row.dailyDelta)}">${formatDelta(row.dailyDelta)}</em></td>
               <td><em class="${deltaClass(row.usedDelta)}">${formatDelta(row.usedDelta)}</em></td>
               <td class="${row.error ? "status-error" : ""}">${row.error ? "오류" : "정상"}</td>
