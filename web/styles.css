@@ -381,6 +381,15 @@ select {
   margin-bottom: 16px;
 }
 
+.summary-panel .section-title {
+  align-items: center;
+  flex-direction: row;
+}
+
+.summary-panel .section-title h3 {
+  min-width: 0;
+}
+
 .summary-date {
   color: var(--muted);
   flex: 0 0 auto;
@@ -669,6 +678,11 @@ td:has(em.delta) {
   .section-title {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .summary-panel .section-title {
+    align-items: center;
+    flex-direction: row;
   }
 
   .topbar {
