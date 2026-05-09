@@ -118,8 +118,6 @@ function renderDateSelect(payload) {
 }
 
 function renderMetrics(payload) {
-  const reviewErrors = payload.reviews.errorCount || 0;
-  const reservationErrors = payload.reservations.errorCount || 0;
   setText("reservationMetricLabel", formatReservationMetricLabel(payload));
   setText("usedReservationMetricLabel", formatUsedReservationMetricLabel(payload));
   setText("reservationTotal", formatNumber(payload.reservations.totalConfirmed));
@@ -134,7 +132,6 @@ function renderMetrics(payload) {
   renderMetricDelta("reviewMarketShareDelta", payload.reviews.marketShareDelta, formatPointDelta);
   renderMetricDelta("reservationDelta", payload.reservations.totalDelta, formatDelta);
   renderMetricDelta("usedReservationDelta", payload.reservations.totalUsedDelta, formatDelta);
-  setText("errorCount", formatNumber(reviewErrors + reservationErrors));
 }
 
 function renderSummary(payload) {

@@ -597,11 +597,6 @@ th {
     padding: 15px;
   }
 
-  .metric:first-child {
-    grid-column: 1 / -1;
-    min-height: 112px;
-  }
-
   .metric strong {
     margin-top: 12px;
     font-size: 30px;
