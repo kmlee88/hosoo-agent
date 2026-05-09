@@ -47,7 +47,7 @@ function formatCollectedAt(value) {
   if (Number.isNaN(date.getTime())) {
     return "";
   }
-  return `업데이트 ${date.toLocaleTimeString("ko-KR", { hour: "2-digit", minute: "2-digit" })}`;
+  return date.toLocaleTimeString("ko-KR", { hour: "2-digit", minute: "2-digit", hour12: false });
 }
 
 function formatDateWithWeekday(value, options = {}) {
@@ -68,7 +68,7 @@ function formatDateWithWeekday(value, options = {}) {
 
 function formatReservationMetricLabel(payload) {
   const dateLabel = formatDateWithWeekday(payload.reservationDate || payload.date, { short: true });
-  const updatedAt = formatCollectedAt(payload.reservations.collectedAt).replace("업데이트 ", "");
+  const updatedAt = formatCollectedAt(payload.reservations.collectedAt);
   return ["직영점 예약 확정", dateLabel, updatedAt].filter(Boolean).join(" · ");
 }
 
@@ -135,7 +135,6 @@ function renderMetrics(payload) {
 }
 
 function renderSummary(payload) {
-  setText("reservationUpdatedAt", formatCollectedAt(payload.reservations.collectedAt));
   renderSummaryReservations(payload.reservations.stores || []);
   renderSummaryOurStores(payload.reviews.ourPlaces || []);
   renderSummaryCompetitors((payload.reviews.competitorPlaces || []).slice(0, 6));
