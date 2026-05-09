@@ -134,9 +134,9 @@ function renderDateSelect(payload) {
 function renderMetrics(payload) {
   setText("reservationMetricLabel", formatReservationMetricLabel("직영점 예약 확정", payload));
   setText("usedReservationMetricLabel", formatUsedReservationMetricLabel(payload));
-  setText("ourReviewsMetricLabel", formatReviewMetricLabel("당사 신규 리뷰", payload));
-  setText("competitorReviewsMetricLabel", "경쟁사 신규 리뷰");
-  setText("franchiseReviewsMetricLabel", "가맹점 신규 리뷰");
+  setText("ourReviewsMetricLabel", formatReviewMetricLabel("당사 전일 리뷰", payload));
+  setText("competitorReviewsMetricLabel", "경쟁사 전일 리뷰");
+  setText("franchiseReviewsMetricLabel", "가맹점 전일 리뷰");
   setText("reservationTotal", formatNumber(payload.reservations.totalConfirmed));
   setText("usedReservationTotal", formatNumber(payload.reservations.totalUsed));
   setText("ourReviews", formatNumber(payload.reviews.totalsByType["당사"]));
