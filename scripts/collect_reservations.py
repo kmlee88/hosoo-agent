@@ -32,6 +32,17 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--previous-web-file", default=str(ROOT_DIR / "web" / "reservation-previous.json"))
     parser.add_argument("--profile-dir", default=str(ROOT_DIR / ".browser-profile" / "naver"))
     parser.add_argument(
+        "--browser-mode",
+        choices=["persistent", "cdp"],
+        default=os.environ.get("RESERVATION_BROWSER_MODE", "persistent"),
+        help="persistent launches Playwright Chromium; cdp connects to an already-open Chrome debugging session.",
+    )
+    parser.add_argument(
+        "--cdp-url",
+        default=os.environ.get("RESERVATION_CDP_URL", "http://127.0.0.1:9222"),
+        help="Chrome DevTools endpoint used when --browser-mode=cdp.",
+    )
+    parser.add_argument(
         "--mode",
         choices=["today", "historical"],
         default="today",
@@ -60,12 +71,27 @@ async def run() -> None:
 
     print(f"Collecting reservation metrics for {target_date.isoformat()} ({len(places)} places, mode={args.mode})")
     async with async_playwright() as playwright:
-        context = await playwright.chromium.launch_persistent_context(
-            user_data_dir=args.profile_dir,
-            headless=not args.headed,
-            slow_mo=args.slow_mo,
-            viewport={"width": 1440, "height": 1000},
-        )
+        if args.browser_mode == "cdp":
+            try:
+                browser = await playwright.chromium.connect_over_cdp(args.cdp_url)
+            except Exception as exc:
+                raise SystemExit(
+                    "예약 수집용 Chrome에 연결하지 못했습니다. 먼저 "
+                    "`python scripts/start_reservation_chrome.py`를 실행하고 "
+                    "그 Chrome 창에서 네이버 스마트플레이스에 로그인해 주세요."
+                ) from exc
+            context = browser.contexts[0] if browser.contexts else await browser.new_context(
+                viewport={"width": 1440, "height": 1000}
+            )
+            should_close_context = False
+        else:
+            context = await playwright.chromium.launch_persistent_context(
+                user_data_dir=args.profile_dir,
+                headless=not args.headed,
+                slow_mo=args.slow_mo,
+                viewport={"width": 1440, "height": 1000},
+            )
+            should_close_context = True
         page = context.pages[0] if context.pages else await context.new_page()
 
         async def collect_for_date(collection_date: date, mode: str):
@@ -92,7 +118,8 @@ async def run() -> None:
             print(f"Previous reservation snapshot is missing; backfilling {previous_date.isoformat()}")
             previous_snapshots = await collect_for_date(previous_date, "historical")
 
-        await context.close()
+        if should_close_context:
+            await context.close()
 
     append_reservation_history(snapshots, Path(args.history_file))
 

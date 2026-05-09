@@ -72,14 +72,25 @@ DASHBOARD_PASSWORD=공유할_비밀번호
 
 ## 네이버 예약 확정/이용건수 수집
 
-네이버 스마트플레이스 로그인 세션이 필요한 자동화입니다. 최초 1회는 브라우저를 띄워 직접 로그인합니다.
+네이버 스마트플레이스 로그인 세션이 필요한 자동화입니다. 최초 1회는 예약 수집용 Chrome을 띄워 직접 로그인합니다.
 
 ```bash
-python scripts/collect_reservations.py --headed
+python scripts/start_reservation_chrome.py
 ```
 
-로그인 후 같은 프로필(`.browser-profile/naver`)을 재사용하므로 다음 실행부터는 세션이 유지되면 자동으로 수집됩니다.
-수집 대상은 `data/reservation_places.json`의 6개 직영점이며, 각 예약관리 대시보드의 `예약현황 > 오늘 확정`, `오늘 이용` 값을 저장합니다.
+열린 Chrome 창에서 네이버 스마트플레이스에 로그인한 뒤 창을 닫지 않으면, 다음 실행부터는 해당 Chrome에 붙어서 자동으로 수집됩니다.
+PC가 잠자기 상태로 들어가면 자동화도 멈추므로, 화면은 꺼져도 되지만 시스템 잠자기는 막아둬야 합니다.
+만약 Codex 안에서 Chrome 실행이 macOS 권한에 막히면, 일반 터미널에서 아래 명령을 한 번 실행한 뒤 열린 Chrome에 로그인합니다.
+
+```bash
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --remote-debugging-port=9222 --user-data-dir="/Users/sabri/Documents/New project/.browser-profile/naver-chrome" https://new.smartplace.naver.com/bizes
+```
+
+```bash
+python scripts/collect_reservations.py --browser-mode cdp --backfill-previous
+```
+
+수집 대상은 `data/reservation_places.json`의 6개 직영점입니다. 각 예약관리 대시보드의 `예약현황 > 오늘 확정`, `오늘 이용` 값을 저장하고, 당월 이용 누계는 예약 목록에서 `이용일` 기준 해당 월 1일부터 말일까지 `확정` + `이용완료` 상태 건수를 합산합니다.
 
 수집 결과는 두 곳에 저장됩니다.
 
