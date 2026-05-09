@@ -220,13 +220,13 @@ function renderSummaryReservationMetric({
     ? `
         <div class="summary-table-head ${hasPrefix ? "used-reservation-grid" : "reservation-metric-grid"}">
           <span>지점</span>
-          ${hasPrefix ? "<span>당월 누계</span>" : ""}
+          ${hasPrefix ? "<span>당월 누계</span>" : '<span class="summary-spacer"></span>'}
           <span>${hasPrefix ? "오늘 이용" : "건수"}</span>
           <span>전일비</span>
         </div>
         <div class="summary-table-row summary-total-row ${hasPrefix ? "used-reservation-grid" : "reservation-metric-grid"}">
           <span>합계</span>
-          ${hasPrefix ? `<span class="summary-cumulative">${formatSummaryCumulative(totalPrefixValue, { label: "누계" })}</span>` : ""}
+          ${hasPrefix ? `<span class="summary-cumulative">${formatSummaryCumulative(totalPrefixValue, { label: "누계" })}</span>` : '<span class="summary-spacer"></span>'}
           <strong>${formatNumber(totalValue)}</strong>
           <em class="${deltaClass(totalDelta)}">${formatDelta(totalDelta)}</em>
         </div>
@@ -235,7 +235,7 @@ function renderSummaryReservationMetric({
             (row) => `
               <div class="summary-table-row ${hasPrefix ? "used-reservation-grid" : "reservation-metric-grid"}">
                 <span>${ownedStoreLabel(row.name) || "-"}</span>
-                ${hasPrefix ? `<span class="summary-cumulative">${formatSummaryCumulative(row[prefixKey])}</span>` : ""}
+                ${hasPrefix ? `<span class="summary-cumulative">${formatSummaryCumulative(row[prefixKey])}</span>` : '<span class="summary-spacer"></span>'}
                 <strong>${formatNumber(row[valueKey])}</strong>
                 <em class="${deltaClass(row[deltaKey])}">${formatDelta(row[deltaKey])}</em>
               </div>
