@@ -152,19 +152,22 @@ function renderMetrics(payload) {
 }
 
 function renderSummary(payload) {
-  renderSummaryReservations(payload.reservations.stores || []);
+  renderSummaryReservations(payload.reservations);
   renderSummaryOurStores(payload.reviews.ourPlaces || []);
   renderSummaryCompetitors((payload.reviews.competitorPlaces || []).slice(0, 6));
   renderSummaryFranchiseStores(payload.reviews.franchisePlaces || []);
   renderSummaryKeywords(payload.reviews.keywords || []);
 }
 
-function renderSummaryReservations(rows) {
+function renderSummaryReservations(reservations) {
+  const rows = reservations.stores || [];
   renderSummaryReservationMetric({
     targetId: "summaryConfirmedReservations",
     rows,
     valueKey: "confirmedReservations",
     deltaKey: "dailyDelta",
+    totalValue: reservations.totalConfirmed,
+    totalDelta: reservations.totalDelta,
     emptyMessage: "예약 확정 데이터가 아직 없습니다.",
   });
   renderSummaryReservationMetric({
@@ -173,6 +176,9 @@ function renderSummaryReservations(rows) {
     valueKey: "usedReservations",
     deltaKey: "usedDelta",
     prefixKey: "usedMonthToDate",
+    totalValue: reservations.totalUsed,
+    totalPrefixValue: reservations.totalUsedMonthToDate,
+    totalDelta: reservations.totalUsedDelta,
     emptyMessage: "오늘 이용 데이터가 아직 없습니다.",
   });
 }
@@ -188,7 +194,17 @@ function formatOptionalNumber(value) {
   return value === null || value === undefined ? "-" : formatNumber(value);
 }
 
-function renderSummaryReservationMetric({ targetId, rows, valueKey, deltaKey, prefixKey, emptyMessage }) {
+function renderSummaryReservationMetric({
+  targetId,
+  rows,
+  valueKey,
+  deltaKey,
+  prefixKey,
+  totalValue,
+  totalPrefixValue,
+  totalDelta,
+  emptyMessage,
+}) {
   const target = document.getElementById(targetId);
   const sortedRows = sortOwnedStores(rows);
   const hasPrefix = Boolean(prefixKey);
@@ -199,6 +215,12 @@ function renderSummaryReservationMetric({ targetId, rows, valueKey, deltaKey, pr
           ${hasPrefix ? "<span>당월 누계</span>" : ""}
           <span>${hasPrefix ? "오늘 이용" : "건수"}</span>
           <span>전일비</span>
+        </div>
+        <div class="summary-table-row summary-total-row ${hasPrefix ? "used-reservation-grid" : "reservation-metric-grid"}">
+          <span>합계</span>
+          ${hasPrefix ? `<strong>${formatOptionalNumber(totalPrefixValue)}</strong>` : ""}
+          <strong>${formatNumber(totalValue)}</strong>
+          <em class="${deltaClass(totalDelta)}">${formatDelta(totalDelta)}</em>
         </div>
         ${sortedRows
           .map(
