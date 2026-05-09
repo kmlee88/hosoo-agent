@@ -283,7 +283,7 @@ function renderSummaryCompetitors(rows) {
             <div class="summary-table-row competitor-summary-grid">
               <span>${row.name}</span>
               <strong>${formatNumber(row.dailyReviews)}</strong>
-              <strong>${formatNumber(row.receiptReviews)}</strong>
+              <span class="summary-cumulative">${formatSummaryCumulative(row.receiptReviews)}</span>
               <em class="${deltaClass(row.dailyDelta)}">${formatDelta(row.dailyDelta)}</em>
             </div>
           `
