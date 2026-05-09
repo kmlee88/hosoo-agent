@@ -283,6 +283,11 @@ function renderReservations(payload) {
   const tbody = document.getElementById("reservationRows");
   const empty = document.getElementById("reservationEmpty");
   const stores = sortOwnedStores(payload.reservations.stores);
+  setText("reservationDetailConfirmedTotal", formatNumber(payload.reservations.totalConfirmed));
+  document.getElementById("reservationDetailUsedTotal").innerHTML = formatMetricWithPrefix(
+    payload.reservations.totalUsed,
+    payload.reservations.totalUsedMonthToDate
+  );
   empty.textContent = payload.dataStatus.hasReservations
     ? ""
     : "예약 스냅샷 파일이 아직 없습니다.";

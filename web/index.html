@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-title" content="Hosoo 지표" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/icon.svg" />
-    <link rel="stylesheet" href="/styles.css?v=used-monthly2" />
+    <link rel="stylesheet" href="/styles.css?v=reservation-detail-totals1" />
   </head>
   <body>
     <div class="app-shell">
@@ -136,6 +136,16 @@
             </div>
             <p id="reservationEmpty" class="muted"></p>
           </div>
+          <div class="detail-total-grid" aria-label="예약 상세 합계">
+            <div class="detail-total-card">
+              <span>직영점 예약 확정 합계</span>
+              <strong id="reservationDetailConfirmedTotal">-</strong>
+            </div>
+            <div class="detail-total-card">
+              <span>오늘 이용건수 합계</span>
+              <strong id="reservationDetailUsedTotal">-</strong>
+            </div>
+          </div>
           <div class="table-wrap">
             <table>
               <thead>
@@ -241,6 +251,6 @@
         </section>
       </main>
     </div>
-    <script src="/app.js?v=used-monthly2"></script>
+    <script src="/app.js?v=reservation-detail-totals1"></script>
   </body>
 </html>
