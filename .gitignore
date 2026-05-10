@@ -5,3 +5,4 @@ snapshots/*
 !snapshots/*.json
 .browser-profile/
 .playwright-browsers/
+logs/

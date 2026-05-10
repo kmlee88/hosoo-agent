@@ -153,6 +153,8 @@ async def run() -> None:
     print(f"Total monthly used reservations: {total_month_used}")
     if failures:
         print(f"Failures: {len(failures)}")
+    if not successes:
+        raise SystemExit(1)
 
     if previous_snapshots is not None:
         previous_total = sum(snapshot.confirmed_reservations or 0 for snapshot in previous_snapshots)
