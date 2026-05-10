@@ -7,7 +7,7 @@
 
   <key>ProgramArguments</key>
   <array>
-    <string>/Users/sabri/Documents/New project/scripts/auto_collect_reservations.sh</string>
+    <string>/Users/sabri/Library/Application Support/HosooAgent/auto_collect_reservations.sh</string>
   </array>
 
   <key>WorkingDirectory</key>

@@ -5,9 +5,13 @@ ROOT_DIR="/Users/sabri/Documents/New project"
 LABEL="com.hosoo.reservation-collector"
 PLIST_SRC="$ROOT_DIR/launchd/$LABEL.plist"
 PLIST_DEST="$HOME/Library/LaunchAgents/$LABEL.plist"
+SUPPORT_DIR="$HOME/Library/Application Support/HosooAgent"
+RUNNER_DEST="$SUPPORT_DIR/auto_collect_reservations.sh"
 
-mkdir -p "$HOME/Library/LaunchAgents" "$ROOT_DIR/logs"
+mkdir -p "$HOME/Library/LaunchAgents" "$SUPPORT_DIR" "$ROOT_DIR/logs"
 chmod +x "$ROOT_DIR/scripts/auto_collect_reservations.sh"
+cp "$ROOT_DIR/scripts/auto_collect_reservations.sh" "$RUNNER_DEST"
+chmod +x "$RUNNER_DEST"
 cp "$PLIST_SRC" "$PLIST_DEST"
 
 launchctl bootout "gui/$(id -u)" "$PLIST_DEST" 2>/dev/null || true
