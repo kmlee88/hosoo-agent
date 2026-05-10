@@ -7,7 +7,6 @@
 
   <key>ProgramArguments</key>
   <array>
-    <string>/bin/zsh</string>
     <string>/Users/sabri/Documents/New project/scripts/auto_collect_reservations.sh</string>
   </array>
 
