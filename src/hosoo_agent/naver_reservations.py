@@ -160,11 +160,16 @@ async def collect_today_confirmed_reservations(
             raise RuntimeError("Naver login is required in this browser session.")
 
         confirmed_count = parse_today_confirmed_count(body_text)
-        used_count = parse_today_used_count(body_text)
         if confirmed_count is None:
             raise RuntimeError("Could not find '오늘 확정' count on the booking dashboard.")
+
+        used_url = _booking_list_url(place.booking_id, target_date, "USEDATE", ["RC03", "RC08"])
+        await page.goto(used_url, wait_until="load", timeout=30000)
+        await page.wait_for_timeout(wait_ms)
+        used_text = await page.locator("body").inner_text(timeout=10000)
+        used_count = parse_booking_list_count(used_text)
         if used_count is None:
-            raise RuntimeError("Could not find '오늘 이용' count on the booking dashboard.")
+            raise RuntimeError("Could not find today's used reservation count.")
         month_used_count = await collect_month_used_count(page, place, target_date, wait_ms)
 
         return ReservationSnapshot(
