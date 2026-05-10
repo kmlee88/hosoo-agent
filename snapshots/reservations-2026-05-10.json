@@ -1,19 +1,19 @@
 [
   {
     "collected_date": "2026-05-10",
-    "collected_at": "2026-05-10T21:33:18+09:00",
+    "collected_at": "2026-05-10T22:00:04+09:00",
     "place_id": "1638682001",
     "booking_id": "786252",
     "name": "아뜰리에호수 잠실",
     "short_name": "잠실",
-    "confirmed_reservations": 11,
+    "confirmed_reservations": 12,
     "used_reservations": 24,
-    "used_month_to_date": 247,
+    "used_month_to_date": 248,
     "error": null
   },
   {
     "collected_date": "2026-05-10",
-    "collected_at": "2026-05-10T21:33:18+09:00",
+    "collected_at": "2026-05-10T22:00:04+09:00",
     "place_id": "1277453461",
     "booking_id": "977816",
     "name": "아뜰리에호수 홍대",
@@ -25,7 +25,7 @@
   },
   {
     "collected_date": "2026-05-10",
-    "collected_at": "2026-05-10T21:33:18+09:00",
+    "collected_at": "2026-05-10T22:00:04+09:00",
     "place_id": "1477059571",
     "booking_id": "1103452",
     "name": "아뜰리에호수 혜화",
@@ -37,19 +37,19 @@
   },
   {
     "collected_date": "2026-05-10",
-    "collected_at": "2026-05-10T21:33:18+09:00",
+    "collected_at": "2026-05-10T22:00:04+09:00",
     "place_id": "1954256012",
     "booking_id": "1202639",
     "name": "아뜰리에호수 성수",
     "short_name": "성수",
-    "confirmed_reservations": 4,
+    "confirmed_reservations": 5,
     "used_reservations": 16,
-    "used_month_to_date": 156,
+    "used_month_to_date": 157,
     "error": null
   },
   {
     "collected_date": "2026-05-10",
-    "collected_at": "2026-05-10T21:33:18+09:00",
+    "collected_at": "2026-05-10T22:00:04+09:00",
     "place_id": "2009283871",
     "booking_id": "1545610",
     "name": "아뜰리에호수 성수연무장",
@@ -61,7 +61,7 @@
   },
   {
     "collected_date": "2026-05-10",
-    "collected_at": "2026-05-10T21:33:18+09:00",
+    "collected_at": "2026-05-10T22:00:04+09:00",
     "place_id": "2009084766",
     "booking_id": "1493697",
     "name": "아뜰리에호수 제주",
