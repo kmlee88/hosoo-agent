@@ -1,4 +1,4 @@
-const CACHE_NAME = "hosoo-dashboard-v25";
+const CACHE_NAME = "hosoo-dashboard-v27";
 const APP_SHELL = ["/", "/styles.css?v=metric-labels1", "/app.js?v=metric-labels1", "/manifest.webmanifest", "/icon.svg"];
 
 self.addEventListener("install", (event) => {
@@ -17,6 +17,29 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
+  if (event.request.mode === "navigate") {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
+  const isReservationFeed =
+    url.pathname === "/reservation-latest.json" || url.pathname === "/reservation-previous.json";
+
+  if (isReservationFeed) {
+    event.respondWith(
+      fetch(event.request, { cache: "no-store" }).catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
   if (url.pathname.startsWith("/api/")) {
     event.respondWith(fetch(event.request).catch(() => caches.match(event.request)));
     return;

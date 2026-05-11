@@ -4,7 +4,7 @@ set -u
 ROOT_DIR="/Users/sabri/Documents/New project"
 LOG_DIR="$ROOT_DIR/logs"
 LOCK_DIR="/tmp/hosoo-reservation-collector.lock"
-CDP_URL="http://127.0.0.1:9222/json/version"
+CDP_URL="http://127.0.0.1:9333/json/version"
 
 mkdir -p "$LOG_DIR"
 exec >> "$LOG_DIR/reservation-collector.log" 2>&1
@@ -21,7 +21,7 @@ trap 'rmdir "$LOCK_DIR" 2>/dev/null || true' EXIT
 cd "$ROOT_DIR" || exit 1
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export RESERVATION_BROWSER_MODE="cdp"
-export RESERVATION_CDP_URL="http://127.0.0.1:9222"
+export RESERVATION_CDP_URL="http://127.0.0.1:9333"
 
 if ! curl -fsS --max-time 2 "$CDP_URL" >/dev/null; then
   echo "Chrome CDP is not ready. Trying to open reservation Chrome."
